@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Szymon Katra</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Szymon Katra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Mon, 22 Jun 2015 15:26:02 +0200</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>alldatasheetfinder</title>
+      <link>/project/alldatasheetfinder/</link>
+      <pubDate>Mon, 22 Jun 2015 15:26:02 +0200</pubDate>
+      
+      <guid>/project/alldatasheetfinder/</guid>
+      <description>&lt;p&gt;content&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

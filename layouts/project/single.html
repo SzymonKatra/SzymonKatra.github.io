@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<div id="container">
+	{{ partial "nav.html" . }}
+	
+	<div class="page scheme-light">
+		<div class="page-title">{{ .Title }}</div>
+		<hr class="hr-big hr-dark"/>
+		<div class="page-content">
+			{{ .Content }}
+		</div>
+	</div>
+
+</div>
+
+{{ partial "footer.html" . }}

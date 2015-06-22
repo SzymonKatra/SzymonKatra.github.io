@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Szymon Katra</title>
+		<meta name="keywords" content=""/>
+		<link rel="stylesheet" type="text/css" href="/style.css"/>
+		<link rel="stylesheet" href="/fontello/css/fontello.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	</head>
+
+<div id="container">
+	<div class="nav scheme-dark">
+	<a href="/"><div id="title">Szymon<br/>Katra</div></a>
+	<hr class="hr-big hr-white"/>
+	<div class="social-container">
+					
+		<script type="text/javascript">
+			var link = "";
+			var encrypted = [30, 8, 65, 89, 49, 75, 79, 24, 0, 64, 31, 19, 120, 83, 51, 68, 8, 31, 79, 87, 2, 31];
+			var key = [109, 114, 56, 52, 94, 37, 97, 115, 97, 52];
+			var keyIterator = 0;
+		
+			for (var i = 0; i < encrypted.length; i++)
+			{
+				link += String.fromCharCode(encrypted[i] ^ key[keyIterator]);
+				if (++keyIterator >= key.length) keyIterator = 0;
+			}
+							
+			document.write("<a href=\"mailto:" + link +"\">");
+		</script>
+		<div class="social-common mail left"><i class="icon-mail"></i></div></a>
+		<a href="https://github.com/SzymonKatra" target="_blank"><div class="social-common github left"><i class="icon-github-circled"></i></div></a>				
+		<div class="clear"></div>
+	</div>
+				
+	<div class="nav-title">Moje projekty</div>
+	<hr class="hr-normal hr-white"/>
+	
+	
+		<a href="/project/alldatasheetfinder/"><div class="nav-item">alldatasheetfinder</div></a>
+	
+	
+</div>
+</div>
+
+</html>

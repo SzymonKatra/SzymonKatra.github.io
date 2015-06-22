@@ -1,0 +1,175 @@
+body
+{
+	background-color: #EDEDED;
+	margin: 0px;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+hr
+{
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-color: white;
+	border-width: 0px;
+	height: 1px;
+}
+
+a
+{
+    text-decoration: none;
+	color: white;
+}
+
+.hr-normal
+{
+	height: 2px;
+}
+
+.hr-big
+{
+	height: 4px;
+}
+
+.hr-white
+{
+	background-color: white;
+}
+.hr-dark
+{
+	background-color: black;
+}
+
+.scheme-dark
+{
+	background-color: #262626;
+	color: #EDEDED;
+}
+
+.scheme-light
+{
+	background-color: #EDEDED;
+	color: #262626;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.nav
+{
+	width: 350px;
+	display: table-cell;
+}
+
+.nav-title
+{
+	text-align: center;
+	font-size: 28px;
+	padding: 15px;
+	margin-top: 0px;
+}
+
+.nav-item
+{
+	text-align: center;
+	font-size: 24px;
+	padding: 15px;
+	background-color: #393939;
+}
+
+.nav-item:hover
+{
+	background-color: #585858;
+}
+
+.nav-item-selected
+{
+	background-color: #525252;
+}
+
+.social-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+}
+
+.social-common
+{
+	width: 80px;
+	height: 80px;
+	line-height: 80px; /* to center icon */
+	margin: 10px;
+	padding: 5px;
+	border-radius: 60px;
+	font-size: 56px;
+	text-align: center;
+}
+
+.github
+{
+	background-color: #666666;
+}
+
+.github:hover
+{
+	background-color: #999999;
+}
+
+.mail
+{
+	background-color: #393939;
+}
+
+.mail:hover
+{
+	background-color: #585858;
+}
+
+.page
+{
+	padding: 20px;
+	display: table-cell;
+}
+
+.page-title
+{
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.page-content
+{
+	font-size: 24px;
+	margin: 26px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#container
+{
+	display: table;
+	min-height: 100vh;
+}
+
+#title
+{
+	font-size: 48px;
+	padding: 10px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: #131313;
+}
