@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Szymon Katra</title>
-    <link>/</link>
+    <link>http://szymonkatra.github.io/</link>
     <description>Recent content on Szymon Katra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
     <lastBuildDate>Mon, 22 Jun 2015 15:26:02 +0200</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://szymonkatra.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>alldatasheetfinder</title>
-      <link>/project/alldatasheetfinder/</link>
+      <link>http://szymonkatra.github.io/project/alldatasheetfinder/</link>
       <pubDate>Mon, 22 Jun 2015 15:26:02 +0200</pubDate>
       
-      <guid>/project/alldatasheetfinder/</guid>
+      <guid>http://szymonkatra.github.io/project/alldatasheetfinder/</guid>
       <description>&lt;p&gt;content&lt;/p&gt;
 </description>
     </item>
