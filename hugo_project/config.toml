@@ -1,0 +1,4 @@
+baseurl = "http://szymonkatra.github.io"
+languageCode = "pl-pl"
+title = "Szymon Katra"
+MetaDataFormat = "yaml"
