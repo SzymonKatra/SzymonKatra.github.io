@@ -4,10 +4,30 @@
 	{{ partial "nav.html" . }}
 	
 	<div class="page scheme-light">
-		<div class="page-title">{{ .Title }}</div>
+		<div class="page-header">
+			<div class="page-title left">{{ .Title }}</div>
+			{{ if isset .Params "download_link" }}
+				<a href="{{ .Params.download_link }}"><div class="left action-common action-download link-icon"><i class="icon-download"></i></div></a>
+			{{ end }}
+			{{ if isset .Params "repository" }}
+				<a href="{{ .Params.repository }}" target="_blank"><div class="left action-common action-repository link-icon"><i class="icon-github-circled"></i></div></a>
+			{{ end }}
+			<div class="clear"></div>
+		</div>
+		
 		<hr class="hr-big hr-dark"/>
 		<div class="page-content">
 			{{ .Content }}
+			<br/>
+			<a class="download-text" href="{{.Params.download_link }}">Link do pobrania</a><br/><br/>
+			{{ if isset .Params "screenshots" }}
+				<div>
+					{{ range .Params.screenshots }}
+						<img class="left screenshot" src="{{ . }}" size="200px"/>
+					{{ end }}
+					<div class="clear"></div>
+				</div>
+			{{ end }}
 		</div>
 	</div>
 
