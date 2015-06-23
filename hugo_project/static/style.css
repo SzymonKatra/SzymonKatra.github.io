@@ -54,6 +54,7 @@ a
 .clear
 {
 	clear: both;
+	display: block;
 }
 
 .left
@@ -66,9 +67,14 @@ a
 	float: right;
 }
 
+.inline
+{
+	display: inline;
+}
+
 .nav
 {
-	width: 350px;
+	min-width: 350px;
 	display: table-cell;
 }
 
@@ -124,8 +130,10 @@ a
 	width: 45px;
 	height: 45px;
 	line-height: 45px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	padding: 5px;
+	padding-left: 10px;
 	border-radius: 35px;
 	font-size: 32px;
 	text-align: center;
@@ -135,6 +143,7 @@ a
 {
 	background-color: #393939;
 }
+
 .action-download:hover
 {
 	background-color: #585858;
@@ -142,11 +151,12 @@ a
 
 .action-repository
 {
-	background-color: #666666;
+	background-color: #393939;
 }
+
 .action-repository:hover
 {
-	background-color: #999999;
+	background-color: #585858;
 }
 
 
@@ -175,10 +185,21 @@ a
 	color: white;
 }
 
+.icon-text
+{
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 10px;
+	position: relative;
+	top: -6px;
+	text-align: center;
+}
+
 .page
 {
 	padding: 20px;
 	display: table-cell;
+	width: 100%;
 }
 
 .page-header
@@ -204,9 +225,13 @@ a
 .download-text
 {
 	font-size: 30px;
-	color: #262626;
+	color: #EDEDED;
 	font-weight: bold;
 	text-decoration: underline;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #262626;
+	animation: pulse-download 1s infinite;
 }
 .download-text:hover
 {
@@ -234,4 +259,22 @@ a
 	padding-top: 40px;
 	text-align: center;
 	background-color: #131313;
+}
+
+@keyframes pulse-download
+{
+	0%
+	{
+		transform: scale(1);
+	}
+
+	50%
+	{
+		transform: scale(1.1);
+	}
+
+	100% 
+	{
+		transform: scale(1);
+	}
 }

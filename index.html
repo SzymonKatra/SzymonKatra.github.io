@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="/style.css"/>
 		<link rel="stylesheet" href="/fontello/css/fontello.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="/scripts.js"></script>
 	</head>
 
 <div id="container">
@@ -14,23 +15,10 @@
 	<a href="/"><div id="title" class="link-icon">Szymon<br/>Katra</div></a>
 	<hr class="hr-big hr-white"/>
 	<div class="social-container">
-					
-		<script type="text/javascript">
-			var link = "";
-			var encrypted = [30, 8, 65, 89, 49, 75, 79, 24, 0, 64, 31, 19, 120, 83, 51, 68, 8, 31, 79, 87, 2, 31];
-			var key = [109, 114, 56, 52, 94, 37, 97, 115, 97, 52];
-			var keyIterator = 0;
 		
-			for (var i = 0; i < encrypted.length; i++)
-			{
-				link += String.fromCharCode(encrypted[i] ^ key[keyIterator]);
-				if (++keyIterator >= key.length) keyIterator = 0;
-			}
-							
-			document.write("<a href=\"mailto:" + link +"\">");
-		</script>
-		<div class="social-common social-mail left link-icon"><i class="icon-mail"></i></div></a>
-		<a href="https://github.com/SzymonKatra" target="_blank"><div class="social-common social-github left link-icon"><i class="icon-github-circled"></i></div></a>				
+		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left\">");</script>
+		<div class="social-common social-mail link-icon"><i class="icon-mail"></i></div></a>
+		<a href="https://github.com/SzymonKatra" target="_blank" class="left"><div class="social-common social-github link-icon"><i class="icon-github-circled"></i></div></a>		
 		<div class="clear"></div>
 	</div>
 				
@@ -39,6 +27,12 @@
 	
 	
 		<a href="/project/alldatasheetfinder/"><div class="nav-item">AllDataSheetFinder</div></a>
+	
+		<a href="/project/imgurscreenshotdotnet/"><div class="nav-item">ImgurScreenshotDotNet</div></a>
+	
+		<a href="/project/dziennik/"><div class="nav-item">Dziennik</div></a>
+	
+		<a href="/project/robotavr/"><div class="nav-item">RobotAVR</div></a>
 	
 	
 </div>

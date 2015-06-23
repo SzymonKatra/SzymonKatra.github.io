@@ -5,27 +5,38 @@
 	
 	<div class="page scheme-light">
 		<div class="page-header">
-			<div class="page-title left">{{ .Title }}</div>
+			<div class="page-title inline">{{ .Title }}</div>
 			{{ if isset .Params "download_link" }}
-				<a href="{{ .Params.download_link }}"><div class="left action-common action-download link-icon"><i class="icon-download"></i></div></a>
-			{{ end }}
+				<a href="{{ .Params.download_link }}">
+					<div class="action-common action-download link-icon inline">
+						<div class="icon-download inline"></div>
+						<div class="icon-text link-icon inline">Pobierz</div>
+					</div>
+				</a>
+			{{ end }}			
 			{{ if isset .Params "repository" }}
-				<a href="{{ .Params.repository }}" target="_blank"><div class="left action-common action-repository link-icon"><i class="icon-github-circled"></i></div></a>
+				<a href="{{ .Params.repository }}" target="_blank">
+					<div class="action-common action-repository link-icon inline">
+						<div class="icon-file-code inline"></div>
+						<div class="icon-text link-icon inline">Repozytorium</div>
+					</div>
+				</a>
 			{{ end }}
-			<div class="clear"></div>
 		</div>
 		
 		<hr class="hr-big hr-dark"/>
 		<div class="page-content">
 			{{ .Content }}
 			<br/>
-			<a class="download-text" href="{{.Params.download_link }}">Link do pobrania</a><br/><br/>
-			{{ if isset .Params "screenshots" }}
+			{{ if isset .Params "download_link" }}
+				<a class="download-text" href="{{.Params.download_link }}">Link do pobrania</a><br/>
+			{{ end }}
+			<br/>
+			{{ if isset .Params "images" }}
 				<div>
-					{{ range .Params.screenshots }}
-						<img class="left screenshot" src="{{ . }}" size="200px"/>
+					{{ range .Params.images }}
+						<a href="{{ . }}" target="_blank"><img class="screenshot inline" src="{{ . }}" size="200px"/></a>
 					{{ end }}
-					<div class="clear"></div>
 				</div>
 			{{ end }}
 		</div>

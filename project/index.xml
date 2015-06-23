@@ -25,5 +25,78 @@
 </description>
     </item>
     
+    <item>
+      <title>ImgurScreenshotDotNet</title>
+      <link>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</link>
+      <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</guid>
+      <description>&lt;p&gt;Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dziennik</title>
+      <link>http://szymonkatra.github.io/project/dziennik/</link>
+      <pubDate>Tue, 23 Jun 2015 16:40:43 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/dziennik/</guid>
+      <description>&lt;p&gt;Dziennik szkolny offline.&lt;/p&gt;
+
+&lt;p&gt;Wymaga .NET Framework 4.0 do poprawnego działania.&lt;/p&gt;
+
+&lt;p&gt;Pełna instrukcja dostępna w paczce z programem.&lt;/p&gt;
+
+&lt;p&gt;Możliwości:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kalendarze roku szkolnego&lt;/li&gt;
+&lt;li&gt;Godziny dzwonków&lt;/li&gt;
+&lt;li&gt;Podział klas na grupy (przedmioty)&lt;/li&gt;
+&lt;li&gt;Ustalanie tematów na rok szkolny&lt;/li&gt;
+&lt;li&gt;Plan lekcji&lt;/li&gt;
+&lt;li&gt;Dodawanie ocen i uwag pojedynczo lub seryjnie&lt;/li&gt;
+&lt;li&gt;Kolorowanie średniej ocen&lt;/li&gt;
+&lt;li&gt;Oceny śródroczne i końcoworoczne&lt;/li&gt;
+&lt;li&gt;Kategorie ocen&lt;/li&gt;
+&lt;li&gt;Wagi ocen&lt;/li&gt;
+&lt;li&gt;Powiadomienia&lt;/li&gt;
+&lt;li&gt;Statystyki na miesiąc / półrocze / cały rok - średnia frekwencja/ocen/ocen wystawionych, liczba zrealizowanych tematów&lt;/li&gt;
+&lt;li&gt;Liczba zrealizowanych tematów&lt;/li&gt;
+&lt;li&gt;Powiadomienie o niezrealizowaniu tematu&lt;/li&gt;
+&lt;li&gt;Liczba pozostałych lekcji do końca roku&lt;/li&gt;
+&lt;li&gt;Archiwizacja bazy danych&lt;/li&gt;
+&lt;li&gt;Powiadomienie dźwiękowe o końcu lekcji i przerwy&lt;/li&gt;
+&lt;li&gt;Blokada programu na hasło po nieaktywności oraz przy uruchomieniu&lt;/li&gt;
+&lt;li&gt;Automatyczne aktualizacje&lt;/li&gt;
+&lt;li&gt;Zabezpieczenie przed uruchomieniem dwóch instancji programu&lt;/li&gt;
+&lt;li&gt;inne&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RobotAVR</title>
+      <link>http://szymonkatra.github.io/project/robotavr/</link>
+      <pubDate>Tue, 23 Jun 2015 16:09:43 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/robotavr/</guid>
+      <description>&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na ATmega328P-PU.&lt;/p&gt;
+
+&lt;p&gt;Główne części:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ATmega328P-PU&lt;/li&gt;
+&lt;li&gt;HC-05 Bluetooth Module&lt;/li&gt;
+&lt;li&gt;HC-SR04 Ultrasonic ranging module&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.
+Połącz się przez bluetooth i kontroluj robota za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; lub &amp;lsquo;x&amp;rsquo; aby przełączać tryby.&lt;/p&gt;
+
+&lt;p&gt;Więcej informacji w repozytorium GitHub.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

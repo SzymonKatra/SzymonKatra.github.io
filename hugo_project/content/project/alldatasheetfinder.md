@@ -1,19 +1,19 @@
 ---
-date : "2015-06-22T15:26:02+02:00"
-title : "AllDataSheetFinder"
+date : 2015-06-22T15:26:02+02:00
+title : AllDataSheetFinder
 weight: 1
 keywords:
-- "alldatasheet"
-- "alldatasheetfinder"
-- "datasheet"
-- "pdf"
-- "nota"
-- "katalogowa"
-download_link: "https://github.com/SzymonKatra/AllDataSheetFinder/releases"
-repository: "https://github.com/SzymonKatra/AllDataSheetFinder"
-screenshots:
-- "/images/project/alldatasheetfinder/screenshot_1.png"
-- "/images/project/alldatasheetfinder/screenshot_2.png"
+- alldatasheet
+- alldatasheetfinder
+- datasheet
+- pdf
+- nota
+- katalogowa
+download_link: https://github.com/SzymonKatra/AllDataSheetFinder/releases/latest
+repository: https://github.com/SzymonKatra/AllDataSheetFinder
+images:
+- /images/project/alldatasheetfinder/screenshot_1.png
+- /images/project/alldatasheetfinder/screenshot_2.png
 
 ---
 AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com. Aplikacja ma również możliwość organizacji własnych not katalogowych - niepobranych z alldatasheet.com.
