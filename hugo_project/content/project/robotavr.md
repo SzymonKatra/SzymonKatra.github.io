@@ -21,7 +21,7 @@ images:
 
 ---
 
-Robot omijający przeszkody i zdalnie sterowany bazowany na ATmega328P-PU.
+Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.
 
 Główne części:
 

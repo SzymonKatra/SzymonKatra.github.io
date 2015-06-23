@@ -81,7 +81,7 @@
       <pubDate>Tue, 23 Jun 2015 16:09:43 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/project/robotavr/</guid>
-      <description>&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na ATmega328P-PU.&lt;/p&gt;
+      <description>&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.&lt;/p&gt;
 
 &lt;p&gt;Główne części:&lt;/p&gt;
 
