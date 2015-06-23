@@ -29,7 +29,7 @@ Główne części:
 - HC-05 Bluetooth Module
 - HC-SR04 Ultrasonic ranging module
 
-Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.
+Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.  
 Sterowanie przez bluetooth za pomocą komend 'w', 's', 'a', 'd' lub 'x' aby przełączać tryby.
 
 Więcej informacji w repozytorium GitHub.
