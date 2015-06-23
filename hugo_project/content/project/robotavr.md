@@ -30,6 +30,6 @@ Główne części:
 - HC-SR04 Ultrasonic ranging module
 
 Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.
-Połącz się przez bluetooth i kontroluj robota za pomocą komend 'w', 's', 'a', 'd' lub 'x' aby przełączać tryby.
+Sterowanie przez bluetooth za pomocą komend 'w', 's', 'a', 'd' lub 'x' aby przełączać tryby.
 
 Więcej informacji w repozytorium GitHub.
