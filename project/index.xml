@@ -91,7 +91,7 @@
 &lt;li&gt;HC-SR04 Ultrasonic ranging module&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.
+&lt;p&gt;Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.&lt;br /&gt;
 Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; lub &amp;lsquo;x&amp;rsquo; aby przełączać tryby.&lt;/p&gt;
 
 &lt;p&gt;Więcej informacji w repozytorium GitHub.&lt;/p&gt;
