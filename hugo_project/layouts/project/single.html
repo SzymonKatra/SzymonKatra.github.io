@@ -35,7 +35,7 @@
 			{{ if isset .Params "images" }}
 				<div>
 					{{ range .Params.images }}
-						<a href="{{ . }}" target="_blank"><img class="screenshot inline" src="{{ . }}" size="200px"/></a>
+						<a href="{{ . }}" target="_blank"><img class="screenshot inline" alt="Obrazek" src="{{ . }}"/></a>
 					{{ end }}
 				</div>
 			{{ end }}
