@@ -7,17 +7,17 @@
 		<div class="page-header">
 			<div class="page-title inline">{{ .Title }}</div>
 			{{ if isset .Params "download_link" }}
-				<a href="{{ .Params.download_link }}">
-					<div class="action-common action-download link-icon inline">
-						<div class="icon-download inline"></div>
+				<a href="{{ .Params.download_link }}" class="link-icon">
+					<div class="action-common action-download inline">
+						<div class="icon-download link-icon inline"></div>
 						<div class="icon-text link-icon inline">Pobierz</div>
 					</div>
 				</a>
 			{{ end }}			
 			{{ if isset .Params "repository" }}
-				<a href="{{ .Params.repository }}" target="_blank">
-					<div class="action-common action-repository link-icon inline">
-						<div class="icon-file-code inline"></div>
+				<a href="{{ .Params.repository }}" target="_blank" class="link-icon">
+					<div class="action-common action-repository inline">
+						<div class="icon-file-code link-icon inline"></div>
 						<div class="icon-text link-icon inline">Repozytorium</div>
 					</div>
 				</a>
@@ -25,7 +25,7 @@
 		</div>
 		
 		<hr class="hr-big hr-dark"/>
-		<div class="page-content">
+		<div class="page-content page-link">
 			{{ .Content }}
 			<br/>
 			{{ if isset .Params "download_link" }}

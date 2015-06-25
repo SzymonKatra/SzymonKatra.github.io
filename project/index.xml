@@ -98,5 +98,55 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
 </description>
     </item>
     
+    <item>
+      <title>GG4NET</title>
+      <link>http://szymonkatra.github.io/project/gg4net/</link>
+      <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/gg4net/</guid>
+      <description>&lt;p&gt;Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Licencja: MIT&lt;/p&gt;
+
+&lt;p&gt;Możliwości:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;logowanie&lt;/li&gt;
+&lt;li&gt;zmiana statusu&lt;/li&gt;
+&lt;li&gt;wysyłanie wiadomości&lt;/li&gt;
+&lt;li&gt;odbieranie wiadomości&lt;/li&gt;
+&lt;li&gt;powiadomienie o pisaniu&lt;/li&gt;
+&lt;li&gt;informacje o zmianie statusu osobom z listy kontaktów&lt;/li&gt;
+&lt;li&gt;obsługa publicznego katalogu&lt;/li&gt;
+&lt;li&gt;multilogowanie&lt;/li&gt;
+&lt;li&gt;import / eksport listy kontaktów do pliku / na serwer w starym formacie (CSV) i nowym (XML)&lt;/li&gt;
+&lt;li&gt;usługi HTTP (pobieranie obrazkowego tokenu, rejestracja, zmiana hasła, przypomnienie hasła)&lt;/li&gt;
+&lt;li&gt;rozmowy konferencyjne&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;poprawna obsługa obrazków&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SzymonKatra/GG4NET/blob/master/GG4NETExample/Program.cs&#34;&gt;Przykład użycia&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SharpGGBotAPI</title>
+      <link>http://szymonkatra.github.io/project/sharpggbotapi/</link>
+      <pubDate>Thu, 25 Jun 2015 15:09:30 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/sharpggbotapi/</guid>
+      <description>&lt;p&gt;Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP.&lt;/p&gt;
+
+&lt;p&gt;Licencja: MIT&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/SharpGGBotApiExample/Program.cs&#34;&gt;Przykład użycia&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

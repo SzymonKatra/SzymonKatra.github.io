@@ -13,7 +13,7 @@
 	<hr class="hr-normal hr-white"/>
 	{{ $currentRelLink := .Permalink }}
 	{{ range where .Site.Pages "Section" "project"}}
-		<a href="{{ .RelPermalink }}"><div class="nav-item{{ if eq .Permalink $currentRelLink }} nav-item-selected{{ end }}">{{ .LinkTitle }}</div></a>
+		<a class="nav-item-link" href="{{ .RelPermalink }}"><div class="nav-item{{ if eq .Permalink $currentRelLink }} nav-item-selected{{ end }}">{{ .LinkTitle }}</div></a>
 	{{ end }}
 	
 </div>

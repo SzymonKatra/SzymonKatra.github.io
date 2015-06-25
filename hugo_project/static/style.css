@@ -17,7 +17,11 @@ hr
 
 a
 {
-    text-decoration: none;
+    color: #262626;
+}
+a:hover
+{
+	color: #595959;
 }
 
 .hr-normal
@@ -93,6 +97,11 @@ a
 	padding: 15px;
 	background-color: #393939;
 	color: white;
+}
+
+.nav-item-link
+{
+	text-decoration: none;
 }
 
 .nav-item:hover
@@ -183,6 +192,7 @@ a
 .link-icon
 {
 	color: white;
+	text-decoration: none;
 }
 
 .icon-text

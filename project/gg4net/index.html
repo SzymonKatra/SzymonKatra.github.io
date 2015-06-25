@@ -2,8 +2,8 @@
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
-		<title>RobotAVR</title>
-		<meta name="keywords" content="robot obstacle avr atmega atmega328 l293d bluetooth hc-05 hc-sr04 "/>
+		<title>GG4NET</title>
+		<meta name="keywords" content="gg4net gadu gadu-gadu gg .net dotnet c# csharp c-sharp biblioteka "/>
 		<link rel="stylesheet" type="text/css" href="/style.css"/>
 		<link rel="stylesheet" href="/fontello/css/fontello.css"/>
 		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel='stylesheet' type='text/css'>
@@ -32,9 +32,9 @@
 	
 		<a class="nav-item-link" href="/project/dziennik/"><div class="nav-item">Dziennik</div></a>
 	
-		<a class="nav-item-link" href="/project/robotavr/"><div class="nav-item nav-item-selected">RobotAVR</div></a>
+		<a class="nav-item-link" href="/project/robotavr/"><div class="nav-item">RobotAVR</div></a>
 	
-		<a class="nav-item-link" href="/project/gg4net/"><div class="nav-item">GG4NET</div></a>
+		<a class="nav-item-link" href="/project/gg4net/"><div class="nav-item nav-item-selected">GG4NET</div></a>
 	
 		<a class="nav-item-link" href="/project/sharpggbotapi/"><div class="nav-item">SharpGGBotAPI</div></a>
 	
@@ -43,10 +43,17 @@
 	
 	<div class="page scheme-light">
 		<div class="page-header">
-			<div class="page-title inline">RobotAVR</div>
+			<div class="page-title inline">GG4NET</div>
+			
+				<a href="https://github.com/SzymonKatra/GG4NET/releases/latest" class="link-icon">
+					<div class="action-common action-download inline">
+						<div class="icon-download link-icon inline"></div>
+						<div class="icon-text link-icon inline">Pobierz</div>
+					</div>
+				</a>
 						
 			
-				<a href="https://github.com/SzymonKatra/RobotAVR" target="_blank" class="link-icon">
+				<a href="https://github.com/SzymonKatra/GG4NET" target="_blank" class="link-icon">
 					<div class="action-common action-repository inline">
 						<div class="icon-file-code link-icon inline"></div>
 						<div class="icon-text link-icon inline">Repozytorium</div>
@@ -57,34 +64,39 @@
 		
 		<hr class="hr-big hr-dark"/>
 		<div class="page-content page-link">
-			<p>Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.</p>
+			<p>Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (<a href="http://libgadu.net/protocol/">http://libgadu.net/protocol/</a>).</p>
 
-<p>Główne części:</p>
+<p>Licencja: MIT</p>
+
+<p>Możliwości:</p>
 
 <ul>
-<li>ATmega328P-PU</li>
-<li>HC-05 Bluetooth Module</li>
-<li>HC-SR04 Ultrasonic ranging module</li>
+<li>logowanie</li>
+<li>zmiana statusu</li>
+<li>wysyłanie wiadomości</li>
+<li>odbieranie wiadomości</li>
+<li>powiadomienie o pisaniu</li>
+<li>informacje o zmianie statusu osobom z listy kontaktów</li>
+<li>obsługa publicznego katalogu</li>
+<li>multilogowanie</li>
+<li>import / eksport listy kontaktów do pliku / na serwer w starym formacie (CSV) i nowym (XML)</li>
+<li>usługi HTTP (pobieranie obrazkowego tokenu, rejestracja, zmiana hasła, przypomnienie hasła)</li>
+<li>rozmowy konferencyjne</li>
 </ul>
 
-<p>Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.<br />
-Sterowanie przez bluetooth za pomocą komend &lsquo;w&rsquo;, &rsquo;s&rsquo;, &lsquo;a&rsquo;, &rsquo;d&rsquo; lub &lsquo;x&rsquo; aby przełączać tryby.</p>
+<p>TODO:</p>
 
-<p>Więcej informacji w repozytorium GitHub.</p>
+<ul>
+<li>poprawna obsługa obrazków</li>
+</ul>
+
+<p><a href="https://github.com/SzymonKatra/GG4NET/blob/master/GG4NETExample/Program.cs">Przykład użycia</a></p>
 
 			<br/>
 			
-			<br/>
+				<a class="download-text" href="https://github.com/SzymonKatra/GG4NET/releases/latest">Link do pobrania</a><br/>
 			
-				<div>
-					
-						<a href="/images/project/robotavr/photo_1.JPG" target="_blank"><img class="screenshot inline" src="/images/project/robotavr/photo_1.JPG" size="200px"/></a>
-					
-						<a href="/images/project/robotavr/photo_2.JPG" target="_blank"><img class="screenshot inline" src="/images/project/robotavr/photo_2.JPG" size="200px"/></a>
-					
-						<a href="/images/project/robotavr/photo_3.JPG" target="_blank"><img class="screenshot inline" src="/images/project/robotavr/photo_3.JPG" size="200px"/></a>
-					
-				</div>
+			<br/>
 			
 		</div>
 	</div>
