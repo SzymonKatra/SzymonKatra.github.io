@@ -23,6 +23,3 @@ Raz pobrana nota zostaje zachowana i może być usunięta kiedy limit pamięci p
 Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania
 
 Wszystkie dane są domyślnie przechowywane w AppData\Local\AllDataSheetFinder.
-
-	kod
-	ddd
