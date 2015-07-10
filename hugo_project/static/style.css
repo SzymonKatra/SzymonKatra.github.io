@@ -15,14 +15,35 @@ hr
 	height: 1px;
 }
 
-.page-content a
+blockquote
 {
-	text-decoration: none;
+	padding: 20px;
+	background-color: #E0E0E0;
 }
-.page-content a:hover
+
+h1
 {
-	color: #595959;
-	text-decoration: underline;
+	font-size: 42px;
+}
+h2
+{
+	font-size: 36px;
+}
+h3
+{
+	font-size: 30px;
+}
+h4
+{
+	font-size: 24px;
+}
+h5
+{
+	font-size: 18px;
+}
+h6
+{
+	font-size: 12px;
 }
 
 .hr-normal
@@ -37,11 +58,22 @@ hr
 
 .hr-white
 {
-	background-color: white;
+	background-color: #EDEDED;
 }
 .hr-dark
 {
-	background-color: black;
+	background-color: #262626;
+}
+
+.page-content a
+{
+	color: #262626;
+	text-decoration: underline;
+}
+.page-content a:hover
+{
+	color: #585858;
+	text-decoration: underline;
 }
 
 .scheme-dark
@@ -227,9 +259,30 @@ hr
 	text-justify: inter-word;
 }
 
+.page-content hr
+{
+	background-color: #262626;
+	height: 2px;
+}
+.page-content table
+{
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+.page-content th
+{
+	background-color: #E0E0E0;
+}
+
+.page-content th,td
+{
+	border: 1px solid #262626;
+	padding: 5px;
+}
+
 .page-title
 {
-	font-size: 40px;
 	font-weight: bold;
 	margin-right: 20px;
 }

@@ -5,18 +5,18 @@
 	
 	<div class="page scheme-light">
 		<div class="page-header">
-			<div class="page-title inline">{{ .Title }}</div>
+			<h1 class="page-title inline">{{ .Title }}</h1>
 			{{ if isset .Params "download_link" }}
 				<a href="{{ .Params.download_link }}" class="link-icon action-common action-download inline">
-					<div class="icon-download link-icon inline"></div>
-					<div class="icon-text link-icon inline">Pobierz</div>
+					<div class="icon-download inline"></div>
+					<div class="icon-text inline">Pobierz</div>
 				</a>
 			{{ end }}			
 			{{ if isset .Params "repository" }}
 				<span class="link-icon">
 				<a href="{{ .Params.repository }}" target="_blank" class="link-icon action-common action-repository inline">
-					<div class="icon-file-code link-icon inline"></div>
-					<div class="icon-text link-icon inline">Repozytorium</div>
+					<div class="icon-file-code inline"></div>
+					<div class="icon-text inline">Repozytorium</div>
 				</a>
 				</span>
 			{{ end }}
