@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Szymon Katra</title>
+    <link>http://szymonkatra.github.io/en/project/</link>
+    <description>Recent content in Projects on Szymon Katra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 22 Jun 2015 15:26:02 +0200</lastBuildDate>
+    <atom:link href="http://szymonkatra.github.io/en/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AllDataSheetFinder</title>
+      <link>http://szymonkatra.github.io/en/project/alldatasheetfinder/</link>
+      <pubDate>Mon, 22 Jun 2015 15:26:02 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/alldatasheetfinder/</guid>
+      <description>&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com. Application have also ability of organizing own datasheets - not downloaded from alldatasheet.com.&lt;/p&gt;
+
+&lt;p&gt;Once you download datasheet, it is stored in cache and can be deleted when cache limit exceeds. You can add it to favourites to prevent from removing. Manufacturers logos are downloaded only when they are needed and stored locally.&lt;/p&gt;
+
+&lt;p&gt;Need .NET Framework 4.5 and any PDF browser to run properly.&lt;/p&gt;
+
+&lt;p&gt;All data is stored default in AppData\Local\AllDataSheetFinder.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ImgurScreenshotDotNet</title>
+      <link>http://szymonkatra.github.io/en/project/imgurscreenshotdotnet/</link>
+      <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/imgurscreenshotdotnet/</guid>
+      <description>&lt;p&gt;Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RobotAVR</title>
+      <link>http://szymonkatra.github.io/en/project/robotavr/</link>
+      <pubDate>Tue, 23 Jun 2015 16:09:43 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/robotavr/</guid>
+      <description>&lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU&lt;/p&gt;
+
+&lt;p&gt;Main parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ATmega328P-PU&lt;/li&gt;
+&lt;li&gt;HC-05 Bluetooth Module&lt;/li&gt;
+&lt;li&gt;HC-SR04 Ultrasonic ranging module&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This robot has currently two modes - remote controlling and obstacle avoiding. Connect via bluetooth and control robot with &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; commands or &amp;lsquo;x&amp;rsquo; to switch mode.&lt;/p&gt;
+
+&lt;p&gt;More info in GitHub repository&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

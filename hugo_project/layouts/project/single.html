@@ -9,14 +9,14 @@
 			{{ if isset .Params "download_link" }}
 				<a href="{{ .Params.download_link }}" class="link-icon action-common action-download inline">
 					<div class="icon-download inline"></div>
-					<div class="icon-text inline">Pobierz</div>
+					<div class="icon-text inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).download }}</div>
 				</a>
 			{{ end }}			
 			{{ if isset .Params "repository" }}
 				<span class="link-icon">
 				<a href="{{ .Params.repository }}" target="_blank" class="link-icon action-common action-repository inline">
 					<div class="icon-file-code inline"></div>
-					<div class="icon-text inline">Repozytorium</div>
+					<div class="icon-text inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).repository }}</div>
 				</a>
 				</span>
 			{{ end }}
@@ -28,13 +28,13 @@
 			
 			<br/>
 			{{ if isset .Params "download_link" }}
-				<span class="download-text"><a href="{{.Params.download_link }}">Link do pobrania</a></span><br/>
+				<span class="download-text"><a href="{{.Params.download_link }}">{{ ( index $.Site.Data.strings $.Site.LanguageCode).downloadLink }}</a></span><br/>
 			{{ end }}
 			<br/>
 			{{ if isset .Params "images" }}
 				<div>
 					{{ range .Params.images }}
-						<a href="{{ . }}" target="_blank"><img class="screenshot inline" alt="Obrazek" src="{{ . }}"/></a>
+						<a href="{{ . }}" target="_blank"><img class="screenshot inline" alt="{{ ( index $.Site.Data.strings $.Site.LanguageCode).image }}" src="{{ . }}"/></a>
 					{{ end }}
 				</div>
 			{{ end }}

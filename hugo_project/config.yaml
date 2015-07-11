@@ -1,0 +1,6 @@
+baseurl : http://szymonkatra.github.io
+languageCode: pl-PL
+title:  Szymon Katra
+MetaDataFormat: yaml
+contentdir: content/pl
+publishdir: ../

@@ -86,7 +86,6 @@ h6
 .clear
 {
 	clear: both;
-	display: block;
 }
 
 .left
@@ -108,6 +107,7 @@ h6
 {
 	min-width: 350px;
 	display: table-cell;
+	vertical-align: top;
 }
 
 .nav-title
@@ -158,12 +158,37 @@ h6
 	text-decoration: underline;
 }
 
+.flag
+{
+	margin: 10px;
+	width: 16px;
+	height: 11px;
+}
+
+.flag-unselected
+{
+	-webkit-filter: grayscale(100%);
+}
+.flag-unselected:hover
+{
+	-webkit-filter: grayscale(0%);
+}
+
+.flags-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 72px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .social-container
 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 220px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .social-common
@@ -253,6 +278,7 @@ h6
 {
 	padding: 20px;
 	display: table-cell;
+	vertical-align: top;
 	width: 100%;
 	box-shadow: -10px 0px 100px #262626;
 }
