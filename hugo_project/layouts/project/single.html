@@ -7,14 +7,14 @@
 		<div class="page-header">
 			<h1 class="page-title inline">{{ .Title }}</h1>
 			{{ if isset .Params "download_link" }}
-				<a href="{{ .Params.download_link }}" class="link-icon action-common action-download inline">
+				<a href="{{ .Params.download_link }}" class="link-icon action-common inline">
 					<div class="icon-download inline"></div>
 					<div class="icon-text inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).download }}</div>
 				</a>
 			{{ end }}			
 			{{ if isset .Params "repository" }}
 				<span class="link-icon">
-				<a href="{{ .Params.repository }}" target="_blank" class="link-icon action-common action-repository inline">
+				<a href="{{ .Params.repository }}" target="_blank" class="link-icon action-common inline">
 					<div class="icon-file-code inline"></div>
 					<div class="icon-text inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).repository }}</div>
 				</a>

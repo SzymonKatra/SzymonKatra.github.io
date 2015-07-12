@@ -125,6 +125,7 @@ h6
 	padding: 15px;
 	background-color: #393939;
 	color: #EDEDED;
+	transition: 0.5s;
 }
 
 .nav-item-link
@@ -135,6 +136,7 @@ h6
 .nav-item:hover
 {
 	background-color: #585858;
+	transition: 0.5s;
 }
 
 .nav-item-selected
@@ -163,15 +165,25 @@ h6
 	margin: 10px;
 	width: 16px;
 	height: 11px;
+	transition: 0.5s;
+	-webkit-filter: contrast(1.5);
+}
+.flag:hover
+{
+	transform: scale(1.5);
+	transition: 0.5s;
 }
 
 .flag-unselected
 {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(1);
+	transition: 0.5s;
 }
 .flag-unselected:hover
 {
-	-webkit-filter: grayscale(0%);
+	-webkit-filter: grayscale(0);
+	transform: scale(1.5);
+	transition: 0.5s;
 }
 
 .flags-container
@@ -215,47 +227,39 @@ h6
 	border-radius: 35px;
 	font-size: 32px;
 	text-align: center;
-}
-
-.action-download
-{
 	background-color: #393939;
+	transition: 0.5s;
 }
-
-.action-download:hover
+.action-common:hover
 {
-	background-color: #585858;
+	background-color: #777777;
+	transition: 0.5s;
 }
-
-.action-repository
-{
-	background-color: #393939;
-}
-
-.action-repository:hover
-{
-	background-color: #585858;
-}
-
 
 .social-github
 {
 	background-color: #666666;
+	transition: 0.5s;
 }
 
 .social-github:hover
 {
 	background-color: #999999;
+	transform: scale(1.1);
+	transition: 0.5s;
 }
 
 .social-mail
 {
 	background-color: #393939;
+	transition: 0.5s;
 }
 
 .social-mail:hover
 {
-	background-color: #585858;
+	background-color: #777777;
+	transform: scale(1.1);
+	transition: 0.5s;
 }
 
 .link-icon
