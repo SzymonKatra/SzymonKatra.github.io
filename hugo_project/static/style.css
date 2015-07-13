@@ -11,14 +11,6 @@ hr {
   border-width: 0px;
   height: 1px; }
 
-blockquote {
-  padding: 20px;
-  background-color: #E0E0E0; }
-
-pre {
-  background-color: #E0E0E0;
-  padding: 10px; }
-
 h1 {
   font-size: 42px; }
 
@@ -255,6 +247,14 @@ h6 {
 .page-content th, td {
   border: 1px solid #262626;
   padding: 5px; }
+
+.page-content blockquote {
+  padding: 20px;
+  background-color: #E0E0E0; }
+
+.page-content pre {
+  background-color: #E0E0E0;
+  padding: 10px; }
 
 .page-title {
   font-weight: bold;

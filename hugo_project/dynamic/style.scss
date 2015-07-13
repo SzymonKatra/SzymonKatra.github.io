@@ -47,18 +47,6 @@ hr
 	height: 1px;
 }
 
-blockquote
-{
-	padding: 20px;
-	background-color: $pageInnerColor;
-}
-
-pre
-{
-	background-color: $pageInnerColor;
-	padding: 10px;
-}
-
 h1
 {
 	font-size: 42px;
@@ -379,6 +367,18 @@ h6
 {
 	border: 1px solid $pageTextColor;
 	padding: 5px;
+}
+
+.page-content blockquote
+{
+	padding: 20px;
+	background-color: $pageInnerColor;
+}
+
+.page-content pre
+{
+	background-color: $pageInnerColor;
+	padding: 10px;
 }
 
 .page-title
