@@ -1,22 +1,22 @@
-<div class="nav scheme-dark">
-	<a href="/" class="link-icon"><div id="title">Szymon<br/>Katra</div></a>
-	<hr class="hr-big hr-white"/>
+<div class="nav">
+	<a href="/" class="title-link"><div class="title">Szymon<br/>Katra</div></a>
+	<hr class="hr-big"/>
 	<div class="flags-container">
 		<a href="/"><img class="left flag{{ if not (eq .Site.LanguageCode "pl-PL") }} flag-unselected{{ end }}" src="/images/pl.png"/></a>
 		<a href="/en"><img class="left flag{{ if not (eq .Site.LanguageCode "en-US") }} flag-unselected{{ end }}" src="/images/en.png"/></a>
 		<div class="clear"></div>
 	</div>
 	<div class="social-container">	
-		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left link-icon social-common social-mail\">");</script>
+		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left social-link-icon social-common social-mail\">");</script>
 		<i class="icon-mail"></i></a>
-		<a href="https://github.com/SzymonKatra" target="_blank" class="left link-icon social-common social-github"><i class="icon-github-circled"></i></a>
+		<a href="https://github.com/SzymonKatra" target="_blank" class="left social-link-icon social-common social-github"><i class="icon-github-circled"></i></a>
 		<div class="clear"></div>
 	</div>
 				
 	<div class="nav-title">
 		{{ ( index $.Site.Data.strings $.Site.LanguageCode).myprojects }}
 	</div>
-	<hr class="hr-normal hr-white"/>
+	<hr class="hr-normal"/>
 	{{ $currentRelLink := .Permalink }}
 	{{ range where .Site.Pages "Section" "project"}}
 		<a class="nav-item-link" href="{{ .RelPermalink }}"><div class="nav-item{{ if eq .Permalink $currentRelLink }} nav-item-selected{{ end }}">{{ .LinkTitle }}</div></a>
