@@ -57,5 +57,41 @@
 </description>
     </item>
     
+    <item>
+      <title>GG4NET</title>
+      <link>http://szymonkatra.github.io/en/project/gg4net/</link>
+      <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/gg4net/</guid>
+      <description>&lt;p&gt;.NET Gadu-Gadu library based on libgadu specification (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;License: MIT&lt;/p&gt;
+
+&lt;p&gt;Features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;logging in&lt;/li&gt;
+&lt;li&gt;status changing&lt;/li&gt;
+&lt;li&gt;sending messages&lt;/li&gt;
+&lt;li&gt;receiving messages&lt;/li&gt;
+&lt;li&gt;typing notify&lt;/li&gt;
+&lt;li&gt;status change notify of contacts&lt;/li&gt;
+&lt;li&gt;public directory&lt;/li&gt;
+&lt;li&gt;multilogin&lt;/li&gt;
+&lt;li&gt;import / export contacts list to file / server in old format (CSV) and new (XML)&lt;/li&gt;
+&lt;li&gt;HTTP services (downloading image token, registration, password change, password remind)&lt;/li&gt;
+&lt;li&gt;conferences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;working image handling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SzymonKatra/GG4NET/blob/master/GG4NETExample/Program.cs&#34;&gt;Example use&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
