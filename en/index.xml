@@ -31,7 +31,26 @@
       <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/en/project/imgurscreenshotdotnet/</guid>
-      <description>&lt;p&gt;Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration:7f43207cc2ba7be049c0cb0329e9fe87&#34;&gt;Configuration:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create an account on &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; and sign in&lt;/li&gt;
+&lt;li&gt;Browse to &lt;a href=&#34;https://api.imgur.com/oauth2/addclient&#34;&gt;application registration&lt;/a&gt;, fill in the form as follows and then click &amp;ldquo;submit&amp;rdquo; button - &lt;a href=&#34;http://szymonkatra.github.io/en/images/project/imgurscreenshotdotnet/tutorial_1.png&#34;&gt;Example&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Application name: ImgurScreenshotDotNet&lt;/li&gt;
+&lt;li&gt;Authorization type: Anonymous usage without user authorization&lt;/li&gt;
+&lt;li&gt;Email: YOUR_EMAIL&lt;/li&gt;
+&lt;li&gt;Description: ImgurScreenshotDotNet&lt;/li&gt;
+&lt;li&gt;Retype code from image on the bottom&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You will be redirected to the next page where you get your number. Copy &amp;ldquo;Client ID&amp;rdquo; field and paste it to application. Save changes using &amp;ldquo;Save settings&amp;rdquo; button - &lt;a href=&#34;http://szymonkatra.github.io/en/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Take screenshot using &amp;ldquo;Print Screen&amp;rdquo; key or copy any image to clipboard, and press choosen key (&amp;ldquo;Send hotkey&amp;rdquo;). In a few moments image will be uploaded and you get link to it.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

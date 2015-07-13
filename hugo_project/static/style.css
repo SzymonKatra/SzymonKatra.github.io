@@ -52,10 +52,10 @@ h6 {
   display: table-cell;
   vertical-align: top;
   background-color: #262626;
-  color: #EDEDED; }
+  color: #FFFFFF; }
 
 .nav hr {
-  background-color: #EDEDED; }
+  background-color: #FFFFFF; }
 
 .nav-title {
   text-align: center;
@@ -68,7 +68,7 @@ h6 {
   font-size: 24px;
   padding: 15px;
   background-color: #393939;
-  color: #EDEDED;
+  color: #FFFFFF;
   transition: 0.5s; }
 
 .nav-item-link {
@@ -86,7 +86,7 @@ h6 {
   text-align: center; }
 
 .nav-copyright a {
-  color: #EDEDED;
+  color: #FFFFFF;
   text-decoration: underline; }
 
 .nav-copyright a:hover {
@@ -99,11 +99,11 @@ h6 {
   padding-top: 40px;
   text-align: center;
   background-color: #131313;
-  color: #EDEDED;
+  color: #FFFFFF;
   text-decoration: none; }
 
 .title-link {
-  color: #EDEDED;
+  color: #FFFFFF;
   text-decoration: none; }
 
 .flag {
@@ -162,7 +162,7 @@ h6 {
   font-size: 32px;
   text-align: center;
   background-color: #393939;
-  color: #EDEDED;
+  color: #FFFFFF;
   transition: 0.5s; }
 
 .action-common:hover {
@@ -188,11 +188,11 @@ h6 {
   transition: 0.5s; }
 
 .social-link-icon {
-  color: #EDEDED;
+  color: #FFFFFF;
   text-decoration: none; }
 
 .action-link-icon {
-  color: #EDEDED;
+  color: #FFFFFF;
   text-decoration: none; }
 
 .action-icon-text {
@@ -202,7 +202,7 @@ h6 {
   position: relative;
   top: -6px;
   text-align: center;
-  color: #EDEDED; }
+  color: #FFFFFF; }
 
 .page {
   padding: 20px;
@@ -211,10 +211,10 @@ h6 {
   width: 100%;
   box-shadow: -10px 0px 100px #262626;
   background-color: #EDEDED;
-  color: #262626; }
+  color: #000000; }
 
 .page hr {
-  background-color: #262626; }
+  background-color: #000000; }
 
 .page-header {
   margin: 20px; }
@@ -226,7 +226,7 @@ h6 {
   text-justify: inter-word; }
 
 .page-content a {
-  color: #262626;
+  color: #000000;
   text-decoration: underline; }
 
 .page-content a:hover {
@@ -234,18 +234,18 @@ h6 {
   text-decoration: underline; }
 
 .page-content hr {
-  background-color: #262626;
+  background-color: #000000;
   height: 2px; }
 
 .page-content table {
   border-collapse: collapse;
-  border: 2px solid #262626; }
+  border: 2px solid #000000; }
 
 .page-content th {
   background-color: #E0E0E0; }
 
 .page-content th, td {
-  border: 1px solid #262626;
+  border: 1px solid #000000;
   padding: 5px; }
 
 .page-content blockquote {
@@ -262,7 +262,7 @@ h6 {
 
 .download-text {
   font-size: 30px;
-  color: #EDEDED;
+  color: #FFFFFF;
   font-weight: bold;
   text-decoration: underline;
   padding: 10px;
@@ -273,7 +273,7 @@ h6 {
 
 .download-text a {
   text-decoration: underline;
-  color: #EDEDED; }
+  color: #FFFFFF; }
 
 .download-text a:hover {
   text-decoration: none;
