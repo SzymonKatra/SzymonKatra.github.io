@@ -1,6 +1,6 @@
 @echo off
 echo SCSS:
-start sass static/style.scss static/style.css --trace
+start cmd.exe /c sass dynamic/style.scss static/style.css --trace
 echo.
 echo PL:
 hugo
