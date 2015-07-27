@@ -289,6 +289,9 @@ h6 {
   display: table;
   min-height: 100vh; }
 
+#disqus_thread {
+  margin: 20px; }
+
 @keyframes pulse-download {
   0% {
     transform: scale(1); }
