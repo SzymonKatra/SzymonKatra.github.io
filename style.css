@@ -1,3 +1,46 @@
+@media all {
+  .nav {
+    display: block; }
+
+  .page {
+    display: block; }
+
+  .action-outline {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .screenshot {
+    max-width: 60px;
+    max-height: 60px; }
+
+  #container {
+    display: block; } }
+@media (min-width: 400px) {
+  .screenshot {
+    max-width: 300px;
+    max-height: 300px; } }
+@media (min-width: 768px) {
+  .nav {
+    display: table-cell;
+    min-width: 350px; }
+
+  .page {
+    display: table-cell;
+    box-shadow: -10px 0px 100px #262626;
+    width: 100%; }
+
+  .action-outline {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px; }
+
+  .screenshot {
+    max-width: 400px;
+    max-height: 400px; }
+
+  #container {
+    display: table; } }
 body {
   background-color: #EDEDED;
   margin: 0px;
@@ -48,11 +91,10 @@ h6 {
   display: inline; }
 
 .nav {
-  min-width: 350px;
-  display: table-cell;
   vertical-align: top;
   background-color: #262626;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-bottom: 30px; }
 
 .nav hr {
   background-color: #FFFFFF; }
@@ -150,25 +192,6 @@ h6 {
   font-size: 56px;
   text-align: center; }
 
-.action-common {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 5px;
-  padding-left: 10px;
-  border-radius: 35px;
-  font-size: 32px;
-  text-align: center;
-  background-color: #393939;
-  color: #FFFFFF;
-  transition: 0.5s; }
-
-.action-common:hover {
-  background-color: #777777;
-  transition: 0.5s; }
-
 .social-github {
   background-color: #666666;
   transition: 0.5s; }
@@ -191,25 +214,37 @@ h6 {
   color: #FFFFFF;
   text-decoration: none; }
 
-.action-link-icon {
+.action {
+  min-width: 45px;
+  height: 45px;
+  line-height: 45px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 35px;
+  font-size: 32px;
+  text-align: center;
+  background-color: #393939;
+  transition: 0.5s;
   color: #FFFFFF;
   text-decoration: none; }
 
-.action-icon-text {
+.action:hover {
+  background-color: #777777;
+  transition: 0.5s; }
+
+.action-text {
   font-size: 20px;
   margin-left: 5px;
   margin-right: 10px;
   position: relative;
   top: -6px;
   text-align: center;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  display: inline; }
 
 .page {
   padding: 20px;
-  display: table-cell;
   vertical-align: top;
-  width: 100%;
-  box-shadow: -10px 0px 100px #262626;
   background-color: #EDEDED;
   color: #000000; }
 
@@ -223,7 +258,8 @@ h6 {
   font-size: 24px;
   margin: 26px;
   text-align: justify;
-  text-justify: inter-word; }
+  text-justify: inter-word;
+  word-wrap: break-word; }
 
 .page-content a {
   color: #000000;
@@ -258,7 +294,8 @@ h6 {
 
 .page-title {
   font-weight: bold;
-  margin-right: 20px; }
+  margin-right: 20px;
+  word-wrap: break-word; }
 
 .download-text {
   font-size: 30px;
@@ -280,13 +317,10 @@ h6 {
   color: #585858; }
 
 .screenshot {
-  max-width: 400px;
-  max-height: 400px;
   margin-right: 20px;
   margin-bottom: 20px; }
 
 #container {
-  display: table;
   min-height: 100vh; }
 
 #disqus_thread {
