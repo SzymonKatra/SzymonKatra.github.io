@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<div id="container">
+	{{ partial "nav.html" . }}
+	
+	<div class="page">
+		<div class="page-header">
+			<h1 class="page-title inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).pageNotFound }}</h1>
+		</div>
+		
+		<hr class="hr-big"/>
+	</div>
+
+</div>
+
+{{ partial "footer.html" . }}
