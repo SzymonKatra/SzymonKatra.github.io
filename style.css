@@ -3,7 +3,12 @@
     display: block; }
 
   .page {
+    padding: 0px;
     display: block; }
+
+  .page-content {
+    font-size: 16px;
+    margin: 16px; }
 
   .action-outline {
     display: block;
@@ -26,9 +31,14 @@
     min-width: 350px; }
 
   .page {
+    padding: 20px;
     display: table-cell;
     box-shadow: -10px 0px 100px #262626;
     width: 100%; }
+
+  .page-content {
+    font-size: 20px;
+    margin: 26px; }
 
   .action-outline {
     display: inline;
@@ -181,7 +191,7 @@ h6 {
   width: 220px;
   margin-top: 10px; }
 
-.social-common {
+.social {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -190,7 +200,9 @@ h6 {
   padding: 5px;
   border-radius: 60px;
   font-size: 56px;
-  text-align: center; }
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none; }
 
 .social-github {
   background-color: #666666;
@@ -209,10 +221,6 @@ h6 {
   background-color: #777777;
   transform: scale(1.1);
   transition: 0.5s; }
-
-.social-link-icon {
-  color: #FFFFFF;
-  text-decoration: none; }
 
 .action {
   min-width: 45px;
@@ -243,7 +251,6 @@ h6 {
   display: inline; }
 
 .page {
-  padding: 20px;
   vertical-align: top;
   background-color: #EDEDED;
   color: #000000; }
@@ -255,8 +262,6 @@ h6 {
   margin: 20px; }
 
 .page-content {
-  font-size: 20px;
-  margin: 26px;
   text-align: justify;
   text-justify: inter-word;
   word-wrap: break-word; }

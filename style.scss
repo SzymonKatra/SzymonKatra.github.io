@@ -38,7 +38,13 @@ $downloadTextHoverColor: #585858;
 	}
 	.page
 	{
+		padding: 0px;
 		display: block;
+	}
+	.page-content
+	{
+		font-size: 16px;
+		margin: 16px;
 	}
 	.action-outline
 	{
@@ -75,9 +81,15 @@ $downloadTextHoverColor: #585858;
 	}
 	.page
 	{
+		padding: 20px;
 		display: table-cell;
 		box-shadow: -10px 0px 100px #262626;
 		width: 100%;
+	}
+	.page-content
+	{
+		font-size: 20px;
+		margin: 26px;
 	}
 	.action-outline
 	{
@@ -289,7 +301,7 @@ h6
 	margin-top: 10px;
 }
 
-.social-common
+.social
 {
 	width: 80px;
 	height: 80px;
@@ -299,6 +311,8 @@ h6
 	border-radius: 60px;
 	font-size: 56px;
 	text-align: center;
+	color: $socialTextColor;
+	text-decoration: none;
 }
 
 .social-github
@@ -325,12 +339,6 @@ h6
 	background-color: $socialHoverColor;
 	transform: scale(1.1);
 	transition: 0.5s;
-}
-
-.social-link-icon
-{
-	color: $socialTextColor;
-	text-decoration: none;
 }
 
 .action
@@ -368,7 +376,6 @@ h6
 
 .page
 {
-	padding: 20px;
 	vertical-align: top;
 	background-color: $pageColor;
 	color: $pageTextColor;
@@ -386,8 +393,6 @@ h6
 
 .page-content
 {
-	font-size: 20px;
-	margin: 26px;
 	text-align: justify;
 	text-justify: inter-word;
 	word-wrap: break-word;
