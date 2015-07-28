@@ -17,5 +17,4 @@ function getEmail()
 function writeEmail()
 {
 	document.write(getEmail());
-	//document.write("<a href=\"mailto:" + link +"\">");
 }
