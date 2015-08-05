@@ -20,7 +20,8 @@
     max-height: 60px; }
 
   #container {
-    display: block; } }
+    display: block;
+    height: 100vh; } }
 @media (min-width: 400px) {
   .screenshot {
     max-width: 300px;
