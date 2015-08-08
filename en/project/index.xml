@@ -15,9 +15,11 @@
       <pubDate>Mon, 22 Jun 2015 15:26:02 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/en/project/alldatasheetfinder/</guid>
-      <description>&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;##Features:&lt;/p&gt;
+&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
+
+&lt;h2 id=&#34;features:9c04b578707acf47f78dfc7acc917358&#34;&gt;Features:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;quick finding and downloading datasheets from alldatasheet.com site&lt;/li&gt;
@@ -68,9 +70,11 @@
       <pubDate>Tue, 23 Jun 2015 16:09:43 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/en/project/robotavr/</guid>
-      <description>&lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU&lt;/p&gt;
+      <description>
 
-&lt;p&gt;##Main parts:&lt;/p&gt;
+&lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU&lt;/p&gt;
+
+&lt;h2 id=&#34;main-parts:a37a351c30b81444073d1f1254811147&#34;&gt;Main parts:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
@@ -90,11 +94,13 @@
       <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/en/project/gg4net/</guid>
-      <description>&lt;p&gt;.NET Gadu-Gadu library based on libgadu specification (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
+      <description>
+
+&lt;p&gt;.NET Gadu-Gadu library based on libgadu specification (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;License: MIT&lt;/p&gt;
 
-&lt;p&gt;##Features:&lt;/p&gt;
+&lt;h2 id=&#34;features:cd81314a932bacf5bc1724e325747da2&#34;&gt;Features:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;logging in&lt;/li&gt;

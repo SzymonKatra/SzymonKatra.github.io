@@ -18,7 +18,7 @@ images:
 ---
 AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.
 
-##Możliwości:
+## Możliwości:
 
 - szybkie wyszukiwanie oraz pobieranie not katalogowych ze strony alldatasheet.com
 - przechowywanie ostatnio pobranych

@@ -15,9 +15,11 @@
       <pubDate>Mon, 22 Jun 2015 15:26:02 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/project/alldatasheetfinder/</guid>
-      <description>&lt;p&gt;AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;##Możliwości:&lt;/p&gt;
+&lt;p&gt;AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.&lt;/p&gt;
+
+&lt;h2 id=&#34;możliwości:9c04b578707acf47f78dfc7acc917358&#34;&gt;Możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;szybkie wyszukiwanie oraz pobieranie not katalogowych ze strony alldatasheet.com&lt;/li&gt;
@@ -72,13 +74,15 @@
       <pubDate>Tue, 23 Jun 2015 16:40:43 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/project/dziennik/</guid>
-      <description>&lt;p&gt;Dziennik szkolny offline.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Dziennik szkolny offline.&lt;/p&gt;
 
 &lt;p&gt;Wymaga .NET Framework 4.0 do poprawnego działania.&lt;/p&gt;
 
 &lt;p&gt;Pełna instrukcja dostępna w paczce z programem.&lt;/p&gt;
 
-&lt;p&gt;##Możliwości:&lt;/p&gt;
+&lt;h2 id=&#34;możliwości:dfe7f5907ad770ac9947cab352db7e4d&#34;&gt;Możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Kalendarze roku szkolnego&lt;/li&gt;
@@ -112,9 +116,11 @@
       <pubDate>Tue, 23 Jun 2015 16:09:43 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/project/robotavr/</guid>
-      <description>&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;##Główne części:&lt;/p&gt;
+&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.&lt;/p&gt;
+
+&lt;h2 id=&#34;główne-części:a37a351c30b81444073d1f1254811147&#34;&gt;Główne części:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
@@ -135,11 +141,13 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
       <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/project/gg4net/</guid>
-      <description>&lt;p&gt;Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Licencja: MIT&lt;/p&gt;
 
-&lt;p&gt;##Możliwości:&lt;/p&gt;
+&lt;h2 id=&#34;możliwości:cd81314a932bacf5bc1724e325747da2&#34;&gt;Możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;logowanie&lt;/li&gt;

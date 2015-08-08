@@ -23,7 +23,7 @@ images:
 
 Obstacle avoiding and remote controlled robot based on ATmega328P-PU
 
-##Main parts:
+## Main parts:
 
 - ATmega328P-PU
 - HC-05 Bluetooth Module

@@ -18,7 +18,7 @@ Wymaga .NET Framework 4.0 do poprawnego działania.
 
 Pełna instrukcja dostępna w paczce z programem.
 
-##Możliwości:
+## Możliwości:
 
 - Kalendarze roku szkolnego
 - Godziny dzwonków

@@ -23,7 +23,7 @@ images:
 
 Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.
 
-##Główne części:
+## Główne części:
 
 - ATmega328P-PU
 - Moduł Bluetooth HC-05

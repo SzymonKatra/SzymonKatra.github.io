@@ -21,7 +21,7 @@ Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (http
 
 Licencja: MIT
 
-##Możliwości:
+## Możliwości:
 
 - logowanie
 - zmiana statusu
