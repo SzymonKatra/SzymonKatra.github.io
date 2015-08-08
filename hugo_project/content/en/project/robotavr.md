@@ -14,7 +14,7 @@ keywords:
 repository: https://github.com/SzymonKatra/RobotAVR
 title: RobotAVR
 weight: 4
-images
+images:
 - /images/project/robotavr/photo_1.JPG
 - /images/project/robotavr/photo_2.JPG
 - /images/project/robotavr/photo_3.JPG

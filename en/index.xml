@@ -17,7 +17,7 @@
       <guid>http://szymonkatra.github.io/en/project/alldatasheetfinder/</guid>
       <description>&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
 
-&lt;p&gt;Features:&lt;/p&gt;
+&lt;p&gt;##Features:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;quick finding and downloading datasheets from alldatasheet.com site&lt;/li&gt;
@@ -70,7 +70,7 @@
       <guid>http://szymonkatra.github.io/en/project/robotavr/</guid>
       <description>&lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU&lt;/p&gt;
 
-&lt;p&gt;Main parts:&lt;/p&gt;
+&lt;p&gt;##Main parts:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
@@ -80,7 +80,7 @@
 
 &lt;p&gt;This robot has currently two modes - remote controlling and obstacle avoiding. Connect via bluetooth and control robot with &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; commands or &amp;lsquo;x&amp;rsquo; to switch mode.&lt;/p&gt;
 
-&lt;p&gt;More info in GitHub repository&lt;/p&gt;
+&lt;p&gt;More info in &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -94,7 +94,7 @@
 
 &lt;p&gt;License: MIT&lt;/p&gt;
 
-&lt;p&gt;Features:&lt;/p&gt;
+&lt;p&gt;##Features:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;logging in&lt;/li&gt;
