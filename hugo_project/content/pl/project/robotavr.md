@@ -23,13 +23,13 @@ images:
 
 Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.
 
-Główne części:
+##Główne części:
 
 - ATmega328P-PU
-- HC-05 Bluetooth Module
-- HC-SR04 Ultrasonic ranging module
+- Moduł Bluetooth HC-05
+- Moduł ultradźwiękowago pomiaru odległości HC-SR04
 
 Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.  
 Sterowanie przez bluetooth za pomocą komend 'w', 's', 'a', 'd' lub 'x' aby przełączać tryby.
 
-Więcej informacji w repozytorium GitHub.
+Więcej informacji w [repozytorium GitHub](https://github.com/SzymonKatra/RobotAVR).

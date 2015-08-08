@@ -17,7 +17,7 @@
       <guid>http://szymonkatra.github.io/project/alldatasheetfinder/</guid>
       <description>&lt;p&gt;AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.&lt;/p&gt;
 
-&lt;p&gt;Możliwości:&lt;/p&gt;
+&lt;p&gt;##Możliwości:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;szybkie wyszukiwanie oraz pobieranie not katalogowych ze strony alldatasheet.com&lt;/li&gt;
@@ -78,7 +78,7 @@
 
 &lt;p&gt;Pełna instrukcja dostępna w paczce z programem.&lt;/p&gt;
 
-&lt;p&gt;Możliwości:&lt;/p&gt;
+&lt;p&gt;##Możliwości:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Kalendarze roku szkolnego&lt;/li&gt;
@@ -114,18 +114,18 @@
       <guid>http://szymonkatra.github.io/project/robotavr/</guid>
       <description>&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.&lt;/p&gt;
 
-&lt;p&gt;Główne części:&lt;/p&gt;
+&lt;p&gt;##Główne części:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
-&lt;li&gt;HC-05 Bluetooth Module&lt;/li&gt;
-&lt;li&gt;HC-SR04 Ultrasonic ranging module&lt;/li&gt;
+&lt;li&gt;Moduł Bluetooth HC-05&lt;/li&gt;
+&lt;li&gt;Moduł ultradźwiękowago pomiaru odległości HC-SR04&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.&lt;br /&gt;
 Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; lub &amp;lsquo;x&amp;rsquo; aby przełączać tryby.&lt;/p&gt;
 
-&lt;p&gt;Więcej informacji w repozytorium GitHub.&lt;/p&gt;
+&lt;p&gt;Więcej informacji w &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR&#34;&gt;repozytorium GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -139,7 +139,7 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
 
 &lt;p&gt;Licencja: MIT&lt;/p&gt;
 
-&lt;p&gt;Możliwości:&lt;/p&gt;
+&lt;p&gt;##Możliwości:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;logowanie&lt;/li&gt;

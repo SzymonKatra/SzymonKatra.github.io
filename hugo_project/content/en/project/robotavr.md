@@ -14,7 +14,7 @@ keywords:
 repository: https://github.com/SzymonKatra/RobotAVR
 title: RobotAVR
 weight: 4
-images:
+images
 - /images/project/robotavr/photo_1.JPG
 - /images/project/robotavr/photo_2.JPG
 - /images/project/robotavr/photo_3.JPG
@@ -23,7 +23,7 @@ images:
 
 Obstacle avoiding and remote controlled robot based on ATmega328P-PU
 
-Main parts:
+##Main parts:
 
 - ATmega328P-PU
 - HC-05 Bluetooth Module
@@ -31,4 +31,4 @@ Main parts:
 
 This robot has currently two modes - remote controlling and obstacle avoiding. Connect via bluetooth and control robot with 'w', 's', 'a', 'd' commands or 'x' to switch mode.
 
-More info in GitHub repository
+More info in [GitHub repository](https://github.com/SzymonKatra/RobotAVR).

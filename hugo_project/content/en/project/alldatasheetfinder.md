@@ -16,7 +16,7 @@ images:
 ---
 AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.
 
-Features:
+##Features:
 
 - quick finding and downloading datasheets from alldatasheet.com site
 - storing last downloads
