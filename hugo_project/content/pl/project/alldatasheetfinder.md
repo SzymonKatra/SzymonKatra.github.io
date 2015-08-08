@@ -16,10 +16,20 @@ images:
 - /images/project/alldatasheetfinder/screenshot_2.png
 
 ---
-AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com. Aplikacja ma również możliwość organizacji własnych not katalogowych - niepobranych z alldatasheet.com.
+AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.
 
-Raz pobrana nota zostaje zachowana i może być usunięta kiedy limit pamięci podręcznej zostanie przekroczony. Można ją dodać do ulubionych aby zapobiec usunięciu. Loga producentów są pobierane tylko wtedy kiedy zajdzie taka potrzeba i są przechowywane lokalnie.
+Możliwości:
+
+- szybkie wyszukiwanie oraz pobieranie not katalogowych ze strony alldatasheet.com
+- przechowywanie ostatnio pobranych
+- dodawanie do ulubionych (wtedy nigdy nie zostaną usunięte)
+- tagowanie
+- przechowywanie loga producentów
+- automatyczne aktualizacje
+- schludny i prosty w obsłudze interfejs w języku polskim lub angielskim
 
 Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania
 
 Wszystkie dane są domyślnie przechowywane w AppData\Local\AllDataSheetFinder.
+
+Licencja: GNU GPL v3

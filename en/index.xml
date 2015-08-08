@@ -15,13 +15,21 @@
       <pubDate>Mon, 22 Jun 2015 15:26:02 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/en/project/alldatasheetfinder/</guid>
-      <description>&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com. Application have also ability of organizing own datasheets - not downloaded from alldatasheet.com.&lt;/p&gt;
+      <description>&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
 
-&lt;p&gt;Once you download datasheet, it is stored in cache and can be deleted when cache limit exceeds. You can add it to favourites to prevent from removing. Manufacturers logos are downloaded only when they are needed and stored locally.&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
 
-&lt;p&gt;Need .NET Framework 4.5 and any PDF browser to run properly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;quick finding and downloading datasheets from alldatasheet.com site&lt;/li&gt;
+&lt;li&gt;storing last downloads&lt;/li&gt;
+&lt;li&gt;adding to favourites (then it won&amp;rsquo;t be removed)&lt;/li&gt;
+&lt;li&gt;tagging&lt;/li&gt;
+&lt;li&gt;storing manufacturer logos&lt;/li&gt;
+&lt;li&gt;automatic updates&lt;/li&gt;
+&lt;li&gt;neat and simple interface in English or Polish&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;All data is stored default in AppData\Local\AllDataSheetFinder.&lt;/p&gt;
+&lt;p&gt;License: GNU GPL v3&lt;/p&gt;
 </description>
     </item>
     
