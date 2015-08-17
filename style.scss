@@ -109,6 +109,15 @@ $downloadTextHoverColor: #585858;
 	}
 }
 
+:focus
+{
+	outline: none;
+}
+::-moz-focus-inner
+{
+	border: 0;
+}
+
 body
 {
 	background-color: $pageColor;
