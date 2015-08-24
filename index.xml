@@ -118,7 +118,7 @@
       <guid>http://szymonkatra.github.io/project/robotavr/</guid>
       <description>
 
-&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU.&lt;/p&gt;
+&lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU. Układ został zbudowany na prototypowych płytkach PCB.&lt;/p&gt;
 
 &lt;h2 id=&#34;główne-części:a37a351c30b81444073d1f1254811147&#34;&gt;Główne części:&lt;/h2&gt;
 
@@ -126,6 +126,9 @@
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
 &lt;li&gt;Moduł Bluetooth HC-05&lt;/li&gt;
 &lt;li&gt;Moduł ultradźwiękowago pomiaru odległości HC-SR04&lt;/li&gt;
+&lt;li&gt;Mostek H L293D&lt;/li&gt;
+&lt;li&gt;Silniki 5V z przekładnią 1:48&lt;/li&gt;
+&lt;li&gt;Koła o średnicy 65mm&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.&lt;br /&gt;

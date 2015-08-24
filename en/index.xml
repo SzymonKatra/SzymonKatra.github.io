@@ -72,7 +72,7 @@
       <guid>http://szymonkatra.github.io/en/project/robotavr/</guid>
       <description>
 
-&lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU&lt;/p&gt;
+&lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU. Circuit is built on prototype PCB boards.&lt;/p&gt;
 
 &lt;h2 id=&#34;main-parts:a37a351c30b81444073d1f1254811147&#34;&gt;Main parts:&lt;/h2&gt;
 
@@ -80,6 +80,9 @@
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
 &lt;li&gt;HC-05 Bluetooth Module&lt;/li&gt;
 &lt;li&gt;HC-SR04 Ultrasonic ranging module&lt;/li&gt;
+&lt;li&gt;H-driver L293D&lt;/li&gt;
+&lt;li&gt;5V motors with 1:48 gear&lt;/li&gt;
+&lt;li&gt;65mm diameter wheels&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This robot has currently two modes - remote controlling and obstacle avoiding. Connect via bluetooth and control robot with &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; commands or &amp;lsquo;x&amp;rsquo; to switch mode.&lt;/p&gt;
