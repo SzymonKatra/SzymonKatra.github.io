@@ -196,10 +196,41 @@ h6
 	background-color: $navColor;
 	color: $navTextColor;
 	padding-bottom: 30px;
-}
-.nav hr
-{
-	background-color: $navTextColor;
+	
+	hr
+	{
+		background-color: $navTextColor;
+	}
+	
+	ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+		li a
+		{
+			display: block;
+			text-align: center;
+			font-size: 24px;
+			padding: 15px;
+			background-color: $navItemColor;
+			color: $navTextColor;
+			transition: 0.5s;
+			text-decoration: none;
+		}
+		
+		li a:hover
+		{
+			background-color: $navItemHoverColor;
+			transition: 0.5s;
+		}
+		
+		li a.nav-selected
+		{
+			background-color: $navItemSelectedColor;
+		}
+	}
 }
 
 .nav-category
@@ -210,46 +241,22 @@ h6
 	margin-top: 0px;
 }
 
-.nav-item
-{
-	text-align: center;
-	font-size: 24px;
-	padding: 15px;
-	background-color: $navItemColor;
-	color: $navTextColor;
-	transition: 0.5s;
-}
-
-.nav-item-link
-{
-	text-decoration: none;
-}
-
-.nav-item:hover
-{
-	background-color: $navItemHoverColor;
-	transition: 0.5s;
-}
-
-.nav-item-selected
-{
-	background-color: $navItemSelectedColor;
-}
-
 .nav-copyright
 {
 	margin-top: 30px;
 	text-align: center;
-}
-.nav-copyright a
-{
-	color: $navLinkColor;
-	text-decoration: underline;
-}
-.nav-copyright a:hover
-{
-	color: $navLinkHoverColor;
-	text-decoration: underline;
+	
+	a
+	{
+		color: $navLinkColor;
+		text-decoration: underline;
+	}
+	
+	a:hover
+	{
+		color: $navLinkHoverColor;
+		text-decoration: underline;
+	}
 }
 
 .title
@@ -404,11 +411,11 @@ h6
 	vertical-align: top;
 	background-color: $pageColor;
 	color: $pageTextColor;
-}
-
-.page hr
-{
-	background-color: $pageTextColor;
+	
+	hr
+	{
+		background-color: $pageTextColor;
+	}
 }
 
 .page-header
@@ -421,52 +428,54 @@ h6
 	text-align: justify;
 	text-justify: inter-word;
 	word-wrap: break-word;
-}
-
-.page-content a
-{
-	color: $pageLinkColor;
-	text-decoration: underline;
-}
-.page-content a:hover
-{
-	color: $pageLinkHoverColor;
-	text-decoration: underline;
-}
-
-.page-content hr
-{
-	background-color: $pageTextColor;
-	height: 2px;
-}
-.page-content table
-{
-	border-collapse: collapse;
-	border: 2px solid $pageTextColor;
-}
-
-.page-content th
-{
-	background-color: $pageInnerColor;
-}
-
-.page-content th,td
-{
-	border: 1px solid $pageTextColor;
-	padding: 5px;
-}
-
-.page-content blockquote
-{
-	padding: 20px;
-	background-color: $pageInnerColor;
-}
-
-.page-content pre
-{
-	background-color: $pageInnerColor;
-	padding: 10px;
-}
+	
+	a
+	{
+		color: $pageLinkColor;
+		text-decoration: underline;
+	}
+	
+	a:hover
+	{
+		color: $pageLinkHoverColor;
+		text-decoration: underline;
+	}
+	
+	hr
+	{
+		background-color: $pageTextColor;
+		height: 2px;
+	}
+	
+	table
+	{
+		border-collapse: collapse;
+		border: 2px solid $pageTextColor;
+	}
+	
+	th
+	{
+		background-color: $pageInnerColor;
+	}
+	
+	th,td
+	{
+		border: 1px solid $pageTextColor;
+		padding: 5px;
+	}
+	
+	blockquote
+	{
+		padding: 20px;
+		background-color: $pageInnerColor;
+	}
+	
+	pre
+	{
+		background-color: $pageInnerColor;
+		padding: 10px;
+	}
+} 
 
 .page-title
 {

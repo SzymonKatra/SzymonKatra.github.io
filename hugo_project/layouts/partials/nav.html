@@ -17,10 +17,12 @@
 		{{ ( index $.Site.Data.strings $.Site.LanguageCode).myprojects }}
 	</div>
 	<hr class="hr-normal"/>
-	{{ $currentRelLink := .Permalink }}
-	{{ range where .Site.Pages "Section" "project"}}
-		<a class="nav-item-link" href="{{ .RelPermalink }}"><div class="nav-item{{ if eq .Permalink $currentRelLink }} nav-item-selected{{ end }}">{{ .LinkTitle }}</div></a>
-	{{ end }}
+	<ul>
+		{{ $currentRelLink := .Permalink }}
+		{{ range where .Site.Pages "Section" "project"}}
+			<li><a href="{{ .RelPermalink }}" class="{{ if eq .Permalink $currentRelLink }}nav-selected{{ end }}">{{ .LinkTitle }}</a></li>
+		{{ end }}
+	</ul>
 	<div class="nav-copyright">
 		&copy; Szymon Katra<br/>
 		Powered by <a href="http://gohugo.io">Hugo</a>
