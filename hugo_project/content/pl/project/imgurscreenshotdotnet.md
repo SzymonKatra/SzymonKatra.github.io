@@ -12,6 +12,7 @@ images:
 - /images/project/imgurscreenshotdotnet/screenshot_1.png
 repository: https://github.com/SzymonKatra/ImgurScreenshotDotNet
 title: ImgurScreenshotDotNet
+description: Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com
 weight: 2
 ---
 

@@ -13,11 +13,12 @@ keywords:
 - "c-sharp"
 - "biblioteka"
 repository: https://github.com/SzymonKatra/GG4NET
-title: "GG4NET"
+title: GG4NET
+description: Biblioteka do obsługi protokołu Gadu-Gadu w .NET.
 weight: 5
 ---
 
-Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (http://libgadu.net/protocol/).
+Biblioteka do obsługi protokołu Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (http://libgadu.net/protocol/).
 
 Licencja: MIT
 

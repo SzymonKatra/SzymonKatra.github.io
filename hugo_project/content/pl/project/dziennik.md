@@ -9,6 +9,7 @@ repository: https://github.com/SzymonKatra/Dziennik
 images:
 - /images/project/dziennik/screenshot_1.png
 title: Dziennik
+description: Dziennik szkolny offline
 weight: 3
 ---
 

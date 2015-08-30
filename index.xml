@@ -146,7 +146,7 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
       <guid>http://szymonkatra.github.io/project/gg4net/</guid>
       <description>
 
-&lt;p&gt;Biblioteka do obsługi Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Biblioteka do obsługi protokołu Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Licencja: MIT&lt;/p&gt;
 

@@ -13,6 +13,7 @@ keywords:
 
 repository: https://github.com/SzymonKatra/RobotAVR
 title: RobotAVR
+description: Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU
 weight: 4
 images:
 - /images/project/robotavr/photo_1.JPG

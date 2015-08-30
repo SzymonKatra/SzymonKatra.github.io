@@ -6,7 +6,7 @@
     padding: 0px;
     display: block; }
 
-  .page-content {
+  .page-content, .page-header {
     font-size: 16px;
     margin: 16px; }
 
@@ -37,7 +37,7 @@
     box-shadow: -10px 0px 100px #262626;
     width: 100%; }
 
-  .page-content {
+  .page-content, .page-header {
     font-size: 20px;
     margin: 26px; }
 
@@ -269,45 +269,45 @@ h6 {
 .page {
   vertical-align: top;
   background-color: #EDEDED;
-  color: #000000; }
-  .page hr {
-    background-color: #000000; }
-
-.page-header {
-  margin: 20px; }
-
-.page-content {
+  color: #000000;
+  margin: 20px;
   text-align: justify;
   text-justify: inter-word;
   word-wrap: break-word; }
-  .page-content a {
+  .page hr {
+    background-color: #000000; }
+  .page a {
     color: #000000;
     text-decoration: underline; }
-  .page-content a:hover {
+  .page a:hover {
     color: #585858;
     text-decoration: underline; }
-  .page-content hr {
-    background-color: #000000;
-    height: 2px; }
-  .page-content table {
+  .page table {
     border-collapse: collapse;
     border: 2px solid #000000; }
-  .page-content th {
+  .page th {
     background-color: #E0E0E0; }
-  .page-content th, .page-content td {
+  .page th, .page td {
     border: 1px solid #000000;
     padding: 5px; }
-  .page-content blockquote {
+  .page blockquote {
     padding: 20px;
     background-color: #E0E0E0; }
-  .page-content pre {
+  .page pre {
     background-color: #E0E0E0;
     padding: 10px; }
 
-.page-title {
+.page-header {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.page-header-title {
   font-weight: bold;
   margin-right: 20px;
   word-wrap: break-word; }
+
+.page-link-main {
+  font-weight: bold; }
 
 .download-text {
   font-size: 30px;

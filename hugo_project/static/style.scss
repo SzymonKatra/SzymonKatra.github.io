@@ -41,7 +41,7 @@ $downloadTextHoverColor: #585858;
 		padding: 0px;
 		display: block;
 	}
-	.page-content
+	.page-content, .page-header
 	{
 		font-size: 16px;
 		margin: 16px;
@@ -87,7 +87,7 @@ $downloadTextHoverColor: #585858;
 		box-shadow: -10px 0px 100px #262626;
 		width: 100%;
 	}
-	.page-content
+	.page-content, .page-header
 	{
 		font-size: 20px;
 		margin: 26px;
@@ -411,23 +411,15 @@ h6
 	vertical-align: top;
 	background-color: $pageColor;
 	color: $pageTextColor;
+	margin: 20px;
+	text-align: justify;
+	text-justify: inter-word;
+	word-wrap: break-word;
 	
 	hr
 	{
 		background-color: $pageTextColor;
 	}
-}
-
-.page-header
-{
-	margin: 20px;
-}
-
-.page-content
-{
-	text-align: justify;
-	text-justify: inter-word;
-	word-wrap: break-word;
 	
 	a
 	{
@@ -439,12 +431,6 @@ h6
 	{
 		color: $pageLinkHoverColor;
 		text-decoration: underline;
-	}
-	
-	hr
-	{
-		background-color: $pageTextColor;
-		height: 2px;
 	}
 	
 	table
@@ -475,13 +461,24 @@ h6
 		background-color: $pageInnerColor;
 		padding: 10px;
 	}
-} 
+}
 
-.page-title
+.page-header
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.page-header-title
 {
 	font-weight: bold;
 	margin-right: 20px;
 	word-wrap: break-word;
+}
+
+.page-link-main
+{
+	font-weight: bold;
 }
 
 .download-text
