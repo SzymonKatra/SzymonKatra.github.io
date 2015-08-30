@@ -10,6 +10,7 @@ images:
 - /images/project/imgurscreenshotdotnet/screenshot_1.png
 repository: https://github.com/SzymonKatra/ImgurScreenshotDotNet
 title: ImgurScreenshotDotNet
+description: Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com
 weight: 2
 ---
 

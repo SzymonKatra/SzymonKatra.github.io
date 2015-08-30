@@ -1,6 +1,7 @@
 ---
-date : 2015-06-22T15:26:02+02:00
-title : AllDataSheetFinder
+date: 2015-06-22T15:26:02+02:00
+title: AllDataSheetFinder
+description: AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com
 weight: 1
 keywords:
 - alldatasheet

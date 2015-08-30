@@ -15,7 +15,8 @@ keywords:
 - "instant"
 - "messenger"
 repository: https://github.com/SzymonKatra/GG4NET
-title: "GG4NET"
+title: GG4NET
+description: .NET Gadu-Gadu library
 weight: 5
 ---
 
