@@ -270,36 +270,39 @@ h6 {
   vertical-align: top;
   background-color: #EDEDED;
   color: #000000;
-  margin: 20px;
-  text-align: justify;
-  text-justify: inter-word;
-  word-wrap: break-word; }
+  margin: 20px; }
   .page hr {
     background-color: #000000; }
-  .page a {
-    color: #000000;
-    text-decoration: underline; }
-  .page a:hover {
-    color: #585858;
-    text-decoration: underline; }
-  .page table {
-    border-collapse: collapse;
-    border: 2px solid #000000; }
-  .page th {
-    background-color: #E0E0E0; }
-  .page th, .page td {
-    border: 1px solid #000000;
-    padding: 5px; }
-  .page blockquote {
-    padding: 20px;
-    background-color: #E0E0E0; }
-  .page pre {
-    background-color: #E0E0E0;
-    padding: 10px; }
 
 .page-header {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  min-height: 60px; }
+
+.page-content {
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word; }
+  .page-content a {
+    color: #000000;
+    text-decoration: underline; }
+  .page-content a:hover {
+    color: #585858;
+    text-decoration: underline; }
+  .page-content table {
+    border-collapse: collapse;
+    border: 2px solid #000000; }
+  .page-content th {
+    background-color: #E0E0E0; }
+  .page-content th, .page-content td {
+    border: 1px solid #000000;
+    padding: 5px; }
+  .page-content blockquote {
+    padding: 20px;
+    background-color: #E0E0E0; }
+  .page-content pre {
+    background-color: #E0E0E0;
+    padding: 10px; }
 
 .page-header-title {
   font-weight: bold;

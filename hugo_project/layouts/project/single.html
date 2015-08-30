@@ -13,7 +13,7 @@
 						<span class="action-text">{{ ( index $.Site.Data.strings $.Site.LanguageCode).download }}</span>
 					</a>
 				</div>
-			{{ end }}			
+			{{ end }}
 			{{ if isset .Params "repository" }}
 				<div class="action-outline">
 					<a href="{{ .Params.repository }}" target="_blank" class="action">
