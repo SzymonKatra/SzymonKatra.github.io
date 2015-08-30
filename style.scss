@@ -84,7 +84,7 @@ $downloadTextHoverColor: #585858;
 	{
 		padding: 20px;
 		display: table-cell;
-		box-shadow: -10px 0px 100px #262626;
+		box-shadow: -10px 0px 100px $navColor;
 		width: 100%;
 	}
 	.page-content, .page-header
