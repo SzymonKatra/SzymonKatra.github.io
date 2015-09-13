@@ -59,7 +59,7 @@
   border: 0; }
 
 body {
-  background-color: #E9ECF5;
+  background-color: #F5F6FA;
   margin: 0px;
   font-family: 'Roboto Slab', sans-serif; }
 
@@ -268,7 +268,7 @@ h6 {
 
 .page {
   vertical-align: top;
-  background-color: #E9ECF5;
+  background-color: #F5F6FA;
   color: #000000;
   margin: 20px; }
   .page hr {
