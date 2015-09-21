@@ -87,6 +87,8 @@
 
 &lt;p&gt;This robot has currently two modes - remote controlling and obstacle avoiding. Connect via bluetooth and control robot with &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; commands or &amp;lsquo;x&amp;rsquo; to switch mode.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JX7HjqfKiEM&#34;&gt;Video showing the operation of robot&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;More info in &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

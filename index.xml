@@ -134,6 +134,8 @@
 &lt;p&gt;Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.&lt;br /&gt;
 Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo;s&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;d&amp;rsquo; lub &amp;lsquo;x&amp;rsquo; aby przełączać tryby.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JX7HjqfKiEM&#34;&gt;Film przedstawiający działanie robota&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Więcej informacji w &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR&#34;&gt;repozytorium GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

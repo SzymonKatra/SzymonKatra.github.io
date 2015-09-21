@@ -36,4 +36,6 @@ Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATm
 Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.  
 Sterowanie przez bluetooth za pomocą komend 'w', 's', 'a', 'd' lub 'x' aby przełączać tryby.
 
+[Film przedstawiający działanie robota](https://www.youtube.com/watch?v=JX7HjqfKiEM)
+
 Więcej informacji w [repozytorium GitHub](https://github.com/SzymonKatra/RobotAVR).
