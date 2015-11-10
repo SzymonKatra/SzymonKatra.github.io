@@ -141,6 +141,40 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
     </item>
     
     <item>
+      <title>Dzwonek II LO Kielce</title>
+      <link>http://szymonkatra.github.io/project/dzwonekiilokielce/</link>
+      <pubDate>Tue, 10 Nov 2015 17:43:13 +0100</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/dzwonekiilokielce/</guid>
+      <description>
+
+&lt;p&gt;Układ dzwonka automatycznego do II Liceum Ogólnokształcącego im. Jana Śniadeckiego w Kielcach.&lt;/p&gt;
+
+&lt;p&gt;W projekcie został użyty mikrokontroler AVR ATmega328P-PU. Schemat oraz płytka PCB zostały wykonane w programach ExpressSCH oraz ExpressPCB.&lt;/p&gt;
+
+&lt;h2 id=&#34;funkcjonalność:cc0f80b2a4f5b8faa557a0fc7dab3ed4&#34;&gt;Funkcjonalność:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sterowanie instalacją dzwonka w szkole poprzez przekaźnik 6A/250VAC lub 6A/28VDC&lt;/li&gt;
+&lt;li&gt;Programowanie bezpośrednio na urządzeniu lub poprzez załadowanie konfiguracji z karty microSD (dołączona aplikacja do konfiguracji)&lt;/li&gt;
+&lt;li&gt;Prosty i intuicyjny interfejs w języku polskim&lt;/li&gt;
+&lt;li&gt;Automatyczna zmiana czasu (letni / zimowy)&lt;/li&gt;
+&lt;li&gt;4 profile (Normalne, Skrócone, Inne 1, Inne 2), w każdym możliwość ustawienia maksymalnie 40 dzwonków&lt;/li&gt;
+&lt;li&gt;Ustawienie kalendarza na cały rok szkolny&lt;/li&gt;
+&lt;li&gt;Różne czasy trwania dzwonka na przerwę i lekcję&lt;/li&gt;
+&lt;li&gt;Synchronizacja z wzorcem czasu DCF77&lt;/li&gt;
+&lt;li&gt;Akumulator podtrzymujący odmierzanie czasu w przypadku braku zasilania&lt;/li&gt;
+&lt;li&gt;Bezobsługowy, wymaga jedynie ustawienia kalendarza na początku każdego roku szkolnego&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dokumentacja techniczna oraz instrukcja użytkowa dostępna w repozytorium w &lt;a href=&#34;https://github.com/SzymonKatra/DzwonekIILOKielce/tree/master/doc&#34;&gt;katalogu &lt;em&gt;doc&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Projekt został udostępniony tylko i wyłącznie w celach poglądowych lub do użytku prywatnego.&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Zakaz wykorzystywania w celach komercyjnych oraz rozpowszechniania bez zgody autora.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>GG4NET</title>
       <link>http://szymonkatra.github.io/project/gg4net/</link>
       <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>

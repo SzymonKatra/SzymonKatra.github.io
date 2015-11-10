@@ -36,8 +36,9 @@
 			{{ if isset .Params "images" }}
 				<div>
 					{{ range .Params.images }}
-						<a href="{{ . }}" target="_blank"><img class="screenshot inline" alt="{{ ( index $.Site.Data.strings $.Site.LanguageCode).image }}" src="{{ . }}"/></a>
+						<a href="{{ . }}" target="_blank"><img class="screenshot left" alt="{{ ( index $.Site.Data.strings $.Site.LanguageCode).image }}" src="{{ . }}"/></a>
 					{{ end }}
+					<div class="clear"></div>
 				</div>
 			{{ end }}
 		</div>
