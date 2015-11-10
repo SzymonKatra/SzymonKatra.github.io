@@ -14,9 +14,11 @@
 		<link rel="stylesheet" type="text/css" href="/fontello/css/fontello-embedded.css"/>
 		<link href='//fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="/scripts.js"></script>
+		<script type="text/javascript" src="/jquery-1.11.3.min.js"></script>
 	</head>
-	
+
 	<body>
+
 
 <div id="container">
 	<div class="nav">
@@ -27,18 +29,18 @@
 		<a href="/en"><img class="left flag flag-unselected" src="/images/en.png" alt="en"/></a>
 		<div class="clear"></div>
 	</div>
-	<div class="social-container">	
+	<div class="social-container">
 		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left social social-mail\">");</script>
 		<i class="icon-mail"></i></a>
 		<a href="https://github.com/SzymonKatra" target="_blank" class="left social social-github"><i class="icon-github-circled"></i></a>
 		<div class="clear"></div>
 	</div>
-				
-	<div class="nav-category">
+
+	<div id="nav-id-category-project" class="nav-category nav-category-hidable">
 		Moje projekty
 	</div>
 	<hr class="hr-normal"/>
-	<ul>
+	<ul id="nav-id-category-project-list">
 		
 		
 			<li><a href="/project/alldatasheetfinder/" class="nav-selected">AllDataSheetFinder</a></li>
@@ -61,6 +63,16 @@
 		Powered by <a href="http://gohugo.io">Hugo</a>
 	</div>
 </div>
+
+<script type="text/javascript">
+	$(".nav-category-hidable").click(function()
+	{
+		var id = $(this).attr("id");
+		var listId = "#" + id + "-list";
+		$(listId).slideToggle(500);
+	});
+</script>
+
 	
 	<div class="page">
 		<div class="page-header">
