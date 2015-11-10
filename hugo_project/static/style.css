@@ -121,8 +121,8 @@ h6 {
     .nav ul li a {
       display: block;
       text-align: center;
-      font-size: 24px;
-      padding: 15px;
+      font-size: 22px;
+      padding: 10px 15px 10px 15px;
       background-color: #253259;
       color: #FFFFFF;
       transition: 0.5s;
@@ -136,7 +136,7 @@ h6 {
 .nav-category {
   text-align: center;
   font-size: 28px;
-  padding: 15px;
+  padding: 10px 15px 10px 15px;
   margin-top: 0px; }
 
 .nav-copyright {
@@ -163,7 +163,7 @@ h6 {
   text-decoration: none; }
 
 .flag {
-  margin: 10px;
+  margin: 0px 10px 0px 10px;
   width: 30px;
   height: 20px;
   transition: 0.5s;
@@ -198,21 +198,22 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   width: 100px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px; }
 
 .social-container {
   margin-left: auto;
   margin-right: auto;
   width: 220px;
-  margin-top: 10px; }
+  margin-top: 15px;
+  margin-bottom: 5px; }
 
 .social {
   width: 80px;
   height: 80px;
   line-height: 80px;
   /* to center icon */
-  margin: 10px;
+  margin: 0px 10px 0px 10px;
   padding: 5px;
   border-radius: 60px;
   font-size: 56px;
