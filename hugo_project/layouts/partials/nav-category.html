@@ -1,0 +1,11 @@
+<div id="nav-id-category-{{ $.Scratch.Get "currentCategory" }}" class="nav-category">
+    {{ $stringsCategoryName := print "category_" ($.Scratch.Get "currentCategory") }}
+    {{ index (index $.Site.Data.strings $.Site.LanguageCode) $stringsCategoryName }}
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-{{ $.Scratch.Get "currentCategory" }}-list" class="nav-category-list" {{ if not (or (eq .Section ($.Scratch.Get "currentCategory")) (and (eq .Section "") (eq ($.Scratch.Get "currentCategory") ($.Scratch.Get "openedCategory")))) }}style="display: none;"{{ end }}>
+    {{ $currentRelLink := .Permalink }}
+    {{ range where .Site.Pages "Section" ($.Scratch.Get "currentCategory") }}
+        <li><a href="{{ .RelPermalink }}" class="{{ if eq .Permalink $currentRelLink }}nav-selected{{ end }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+</ul>

@@ -196,18 +196,18 @@ h6
 	background-color: $navColor;
 	color: $navTextColor;
 	padding-bottom: 30px;
-	
+
 	hr
 	{
 		background-color: $navTextColor;
 	}
-	
+
 	ul
 	{
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		
+
 		li a
 		{
 			display: block;
@@ -219,13 +219,13 @@ h6
 			transition: 0.5s;
 			text-decoration: none;
 		}
-		
-		li a:hover
+
+		li a:hover, li a.nav-selected:hover
 		{
 			background-color: $navItemHoverColor;
 			transition: 0.5s;
 		}
-		
+
 		li a.nav-selected
 		{
 			background-color: $navItemSelectedColor;
@@ -239,19 +239,26 @@ h6
 	font-size: 28px;
 	padding: 10px 15px 10px 15px;
 	margin-top: 0px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.nav-category:hover, .nav-category-selected:hover
+{
+	background-color: $navItemHoverColor;
+	transition: 0.5s;
 }
 
 .nav-copyright
 {
 	margin-top: 30px;
 	text-align: center;
-	
+
 	a
 	{
 		color: $navLinkColor;
 		text-decoration: underline;
 	}
-	
+
 	a:hover
 	{
 		color: $navLinkHoverColor;
@@ -413,7 +420,7 @@ h6
 	background-color: $pageColor;
 	color: $pageTextColor;
 	margin: 20px;
-	
+
 	hr
 	{
 		background-color: $pageTextColor;
@@ -438,36 +445,36 @@ h6
 		color: $pageLinkColor;
 		text-decoration: underline;
 	}
-	
+
 	a:hover
 	{
 		color: $pageLinkHoverColor;
 		text-decoration: underline;
 	}
-	
+
 	table
 	{
 		border-collapse: collapse;
 		border: 2px solid $pageTextColor;
 	}
-	
+
 	th
 	{
 		background-color: $pageInnerColor;
 	}
-	
+
 	th,td
 	{
 		border: 1px solid $pageTextColor;
 		padding: 5px;
 	}
-	
+
 	blockquote
 	{
 		padding: 20px;
 		background-color: $pageInnerColor;
 	}
-	
+
 	pre
 	{
 		background-color: $pageInnerColor;
@@ -539,7 +546,7 @@ h6
 		transform: scale(1.1);
 	}
 
-	100% 
+	100%
 	{
 		transform: scale(1);
 	}

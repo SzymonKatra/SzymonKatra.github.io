@@ -2,14 +2,14 @@
 
 <div id="container">
 	{{ partial "nav.html" . }}
-	
+
 	<div class="page">
 		<div class="page-header">
-			<h1 class="page-header-title inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).myprojects }}</h1>
+			<h1 class="page-header-title inline">{{ ( index $.Site.Data.strings $.Site.LanguageCode).category_project }}</h1>
 		</div>
-		
+
 		<hr class="hr-big"/>
-		
+
 		<div class="page-content">
 			{{ range where .Site.Pages "Section" "project"}}
 				<p>

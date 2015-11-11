@@ -36,24 +36,31 @@
 		<div class="clear"></div>
 	</div>
 
-	<div id="nav-id-category-project" class="nav-category nav-category-hidable">
-		My projects
-	</div>
-	<hr class="hr-normal"/>
-	<ul id="nav-id-category-project-list">
-		
-		
-			<li><a href="/en/project/alldatasheetfinder/" class="">AllDataSheetFinder</a></li>
-		
-			<li><a href="/en/project/imgurscreenshotdotnet/" class="">ImgurScreenshotDotNet</a></li>
-		
-			<li><a href="/en/project/robotavr/" class="">RobotAVR</a></li>
-		
-			<li><a href="/en/project/dzwonekiilokielce/" class="">Dzwonek II LO Kielce</a></li>
-		
-			<li><a href="/en/project/gg4net/" class="">GG4NET</a></li>
-		
-	</ul>
+	
+	
+
+	
+	<div id="nav-id-category-project" class="nav-category">
+    
+    My projects
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-project-list" class="nav-category-list" >
+    
+    
+        <li><a href="/en/project/alldatasheetfinder/" class="">AllDataSheetFinder</a></li>
+    
+        <li><a href="/en/project/imgurscreenshotdotnet/" class="">ImgurScreenshotDotNet</a></li>
+    
+        <li><a href="/en/project/robotavr/" class="">RobotAVR</a></li>
+    
+        <li><a href="/en/project/dzwonekiilokielce/" class="">Dzwonek II LO Kielce</a></li>
+    
+        <li><a href="/en/project/gg4net/" class="">GG4NET</a></li>
+    
+</ul>
+
+
 	<div class="nav-copyright">
 		&copy; Szymon Katra<br/>
 		Powered by <a href="http://gohugo.io">Hugo</a>
@@ -61,22 +68,24 @@
 </div>
 
 <script type="text/javascript">
-	$(".nav-category-hidable").click(function()
+	$(".nav-category").click(function()
 	{
 		var id = $(this).attr("id");
 		var listId = "#" + id + "-list";
-		$(listId).slideToggle(500);
+		if ($(listId).css("display") != "none") return;
+		$(".nav-category-list").slideUp(500);
+		if ($(listId).length) $(listId).slideDown(500);
 	});
 </script>
 
-	
+
 	<div class="page">
 		<div class="page-header">
 			<h1 class="page-header-title inline">My projects</h1>
 		</div>
-		
+
 		<hr class="hr-big"/>
-		
+
 		<div class="page-content">
 			
 				<p>

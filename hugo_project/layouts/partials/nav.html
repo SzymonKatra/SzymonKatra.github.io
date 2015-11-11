@@ -13,16 +13,12 @@
 		<div class="clear"></div>
 	</div>
 
-	<div id="nav-id-category-project" class="nav-category nav-category-hidable">
-		{{ ( index $.Site.Data.strings $.Site.LanguageCode).myprojects }}
-	</div>
-	<hr class="hr-normal"/>
-	<ul id="nav-id-category-project-list">
-		{{ $currentRelLink := .Permalink }}
-		{{ range where .Site.Pages "Section" "project"}}
-			<li><a href="{{ .RelPermalink }}" class="{{ if eq .Permalink $currentRelLink }}nav-selected{{ end }}">{{ .LinkTitle }}</a></li>
-		{{ end }}
-	</ul>
+	{{ $.Scratch.Add "currentCategory" ""}}
+	{{ $.Scratch.Add "openedCategory" "project"}}
+
+	{{ $.Scratch.Set "currentCategory" "project" }}
+	{{ partial "nav-category.html" . }}
+
 	<div class="nav-copyright">
 		&copy; Szymon Katra<br/>
 		Powered by <a href="http://gohugo.io">Hugo</a>
@@ -30,10 +26,12 @@
 </div>
 
 <script type="text/javascript">
-	$(".nav-category-hidable").click(function()
+	$(".nav-category").click(function()
 	{
 		var id = $(this).attr("id");
 		var listId = "#" + id + "-list";
-		$(listId).slideToggle(500);
+		if ($(listId).css("display") != "none") return;
+		$(".nav-category-list").slideUp(500);
+		if ($(listId).length) $(listId).slideDown(500);
 	});
 </script>
