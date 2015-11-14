@@ -20,6 +20,8 @@ images:
 - /images/project/dzwonekiilokielce/photo_2.JPG
 - /images/project/dzwonekiilokielce/photo_3.JPG
 - /images/project/dzwonekiilokielce/photo_4.JPG
+- /images/project/dzwonekiilokielce/schematic.png
+- /images/project/dzwonekiilokielce/pcb.png
 title: Dzwonek II LO Kielce
 weight: 5
 ---
