@@ -141,10 +141,6 @@ h6 {
   cursor: pointer;
   transition: 0.5s; }
 
-.nav-category:hover, .nav-category-selected:hover {
-  background-color: #31447D;
-  transition: 0.5s; }
-
 .nav-copyright {
   margin-top: 30px;
   text-align: center; }
