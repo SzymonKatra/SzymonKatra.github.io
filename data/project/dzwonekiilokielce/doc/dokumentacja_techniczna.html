@@ -1,0 +1,372 @@
+<html>
+	<head>
+		<title>Dokumentacja techniczna - Dzwonek Automatyczny II LO Kielce</title>
+		<meta charset="utf-8">
+		<style>
+		body
+		{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 50px;
+			text-align: justify;
+		}
+		.tableMemory
+		{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		.table-data
+		{
+			border: 1px solid black;
+			padding: 5px;
+		}
+		.table-data-address
+		{
+			background: #EEEEEE;
+		}
+		.table-data-struct
+		{
+			font-weight: bold;
+			background: #CCCCCC;
+		}
+		.field
+		{
+			font-family: monospace;
+		}
+		.highlight
+		{
+			font-weight: bold;
+		}
+		.code
+		{
+			font-family: monospace;
+			padding: 10px;
+			background-color: #e0e0e0;
+			border: 1px solid black;
+		}
+		.footer
+		{
+			margin: 15px;
+			text-align: center;
+		}
+		.text-left
+		{
+			text-align: left;
+		}
+		.text-center
+		{
+			text-align: center;
+		}
+		.text-right
+		{
+			text-align: right;
+		}
+		.header
+		{
+			text-align: center;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div class="header">
+			<h1>Dzwonek Automatyczny II LO Kielce</h1>
+			<h1>Dokumentacja techniczna</h1>
+			<h2>&copy 2015 Szymon Katra</h2>
+		</div>
+		<hr/>
+		<h1>Spis treści</h1>
+		<ul>
+			<li><a href="#ogolne">Ogólne</a></li>
+			<li><a href="#demontaz">Demontaż urządzenia</a></li>
+			<li>
+				<a href="#firmware">Oprogramowanie (firmware)</a>
+				<ul>
+					<li><a href="#firmware_struktura">Struktura</a></li>
+					<li><a href="#firmware_kompilacja">Kompilacja</a></li>
+					<li><a href="#firmware_fusebity">Fuse bity</a></li>
+					<li><a href="#firmware_aktualizacja">Aktualizacja</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#struktura_eeprom">Struktura pamięci EEPROM</a>
+				<ul>
+					<li><a href="#ogolne">Ogólne</a></li>
+					<li>
+						<a href="#opisy_struktur">Opisy struktur</a>
+						<ul>
+							<li><a href="#metadata_t">metadata_t</a></li>
+							<li><a href="#settings_t">settings_t</a></li>
+							<li><a href="#profile_t">profile_t</a></li>
+							<li><a href="#month_t">month_t</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#przenoszenie_konfiguracji">Przenoszenie pliku konfiguracyjnego na urządzenie</a>
+						<ul>
+							<li><a href="#przez_sd">Poprzez kartę microSD</a></li>
+							<li><a href="#przez_isp">Poprzez programator ISP</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<hr/>
+		
+		<h1 id="ogolne">Ogólne</h1>
+		<p>
+			<p>Schemat oraz płytka drukowana układu zostały zaprojektowane w programach <a href="http://www.expresspcb.com/">ExpressSCH i ExpressPCB</a>.</p>
+			<p>Główne elementy:</p>
+			<ul>
+				<li><span class="highlight">Mikrokontroler AVR ATmega328P-PU</span> taktowany rezonatorem kwarcowym 3.2768 MHz</li>
+				<li><span class="highlight">Moduł RTC DS3231</span> do precyzyjnego odmierzania czasu. Jest umieszczony na nim akumulator LIR2032 podtrzymujący odmierzanie czasu w razie zaniku zasilania.</li>
+				<li><span class="highlight">Wyświetlacz LCD 16x2</span> zgodny ze sterownikiem HD44780</li>
+				<li><span class="highlight">Odbiornik DCF77</span> oparty na układzie MAS6180B wraz z anteną ferrytową</li>
+				<li><span class="highlight">Moduł kart microSD</span> z buforem LVC125A oraz stabilizatorem 3.3V</li>
+				<li><span class="highlight">Przekaźnik 5V typu NT73</span> do sterowania instalacją dzwonka w szkole</li>
+			</ul>
+			<p>Układ jest zasilany napięciem 5V poprzez gniazdo USB (linie transmisyjne D+ i D- nie są nigdzie podłączone). Cały układ pobiera maksymalnie 100 mA prądu, przy wyłączonym przekaźniku około 50 mA.</p>
+		</p>
+		
+		<h1 id="demontaz">Demontaż urządzenia</h1>
+		<p>
+			<ol>
+				<li>Odkręcić 4 wkręty trzymających oba panele ze sobą. Znajdują się one w nóżkach na tylnim panelu w rogach obudowy.</li>
+				<li>Podnieść lekko przedni panel do góry, a następnie usunąć prawy panel.</li>
+				<li>Odłączyć wtyczkę diody (2 pin) oraz wyświetlacza (16 pin).</li>
+				<li>Odkręcić nakrętki na przyciskach na przednim panelu a następnie wypchnąć je do środka.</li>
+				<li>W tej chwili przedni panel wraz ze wszystkimi peryferiami jest oddzielony od tylnego.</li>
+				<li>Aby wyjąć antenę, płytkę z układem lub wyświetlacz należy odkręcić odpowiednie śruby mocujące.</li>
+			</ol>
+		</p>
+		
+		<h1 id="firmware">Oprogramowanie (firmware)</h1>
+		<h2 id="firmware_struktura">Struktura</h1>
+		<p>
+			Kod jest podzielony na oddzielne moduły które są odpowiedzialne za poszczególne funkcje dzwonka:
+			<ul>
+				<li>
+					<span class="highlight">device</span> - obsługa urządzeń
+					<ul>
+						<li>
+							<span class="highlight">sdcard</span> - obsługa karty pamięci
+							<ul>
+								<li><span class="highlight">hardwareConfig.h / asmfunc.S</span> - programowa obsługa interfejsu <a href="http://pl.wikipedia.org/wiki/Serial_Peripheral_Interface" target="_blank">SPI</a> do komunikacji z kartą pamięci</li>
+								<li><span class="highlight">diskio.h / mmc.c</span> - inicjalizacja, odczyt oraz zapis karty pamięci</li>
+								<li><span class="highlight">pff.h / pff.c / pffconf.h / integer.h</span> - biblioteka <a href="http://elm-chan.org/fsw/ff/00index_p.html">Petit FatFs</a> do obsługi systemu plików</li>
+							</ul>
+						</li>
+						<li><span class="highlight">dcf77.h / dcf77.c</span> - obsługa odbiornika DCF77 oraz dekodowanie danych</li>
+						<li><span class="highlight">ds3231.h / ds3231.c</span> - obsługa modułu RTC DS3231</li>
+						<li><span class="highlight">hd44780.h / hd44780.c</span> - obsługa wyświetlacza LCD HD44780</li>
+						<li><span class="highlight">i2c.h / i2c.c</span> - sprzętowa obsługa protokołu I2C</li>
+					</ul>
+				</li>
+				<li><span class="highlight">menu</span> - katalog zawiera implementację poszczególnych menu</li>
+				<li><span class="highlight">clock.h / clock.c</span> - odczytywanie czasu z modułu RTC DS3231, automatyczna zmiana czasu oraz synchronizacja z DCF77</li>
+				<li><span class="highlight">common.h / common.c</span> - funkcje, które nie należą do żadnego modułu</li>
+				<li><span class="highlight">controller.h / controller.c</span> - kontrolowanie przekaźnika dzwonka oraz pobieranie i zapisywanie ustawień głównych (<span class="field">settings_t</span>)</li>
+				<li><span class="highlight">customChars.h / customChars.c</span> - niestandardowe znaki wyświetlacza</li>
+				<li><span class="highlight">interface.h / interface.c</span> - zarządzanie interfejsem użytkownika oraz obsługa menu</li>
+				<li><span class="highlight">internalStorage.h / internalStorage.c</span> - odczyt i zapis do pamięci EEPROM, przywracanie domyślnych ustawień</li>
+				<li><span class="highlight">strings.c / strings.h</span> - teksty</li>
+				<li><span class="highlight">main.c</span> - inicjalizacja układu, pętla główna, główny licznik</li>
+			</ul>
+		</p>
+		<h2 id="firmware_kompilacja">Kompilacja</h2>
+		<p>
+			Wymagania:
+			<ul>
+				<li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx" target="_blank">AVR Toolchain</a></li>
+				<li><a href="http://www.mingw.org/wiki/msys" target="_blank">Narzędzia MSYS</a></li>
+				<li><a href="http://www.eclipse.org" target="_blank">Eclipse</a></li>
+				<li><a href="http://avr-eclipse.sourceforge.net" target="_blank">AVR Plugin for Eclipse</a></li>
+			</ul>
+			
+			Należy upewnić się, że wtyczka AVR plugin ma poprawnie skonfigurowane ścieżki, a następnie otworzyć workspace (z katalogu firmware) i zbudować projekt.
+		</p>
+		<h2 id="firmware_fusebity">Fuse bity</h2>
+		<p>
+			<ul>
+				<li>Low: <span class="highlight">0xF7</span></li>
+				<li>High: <span class="highlight">0xD1</span></li>
+				<li>Extended: <span class="highlight">0x07</span></li>
+			</ul>
+		</p>
+		<h2 id="firmware_aktualizacja">Aktualizacja</h2>
+		<p>
+			Aktualizację oprogramowania można dokonać używając programu <span class="highlight">avrdude</span> oraz dowolnego programatora ISP (np. <span class="highlight">USBasp</span>) poprzez gniazdo znajdujące się na płytce w środku obudowy.
+			W sekcji <a href="#demontaz">demontaż</a> przedstawione jest w jaki sposób się do niego dostać.
+		</p>
+		
+		<h1 id="struktura_eeprom">Struktura pamięci EEPROM</h1>
+		
+		<h2 id="ogolne">Ogólne</h2>
+		<p>Pamięć ma wielkość 1024 bajtów i jest w niej zawarta konfiguracja urządzenia. Wszystkie zmienne zajmujące więcej niż 1 bajt przechowywane są w formacie <a href="http://pl.wikipedia.org/wiki/Kolejno%C5%9B%C4%87_bajt%C3%B3w#Little_endian"  target="_blank">little-endian</a>.</p>
+		<p>W opisie wykorzystane są definicje struktur w języku C oraz standardowe typy danych z nagłówka <span class="field"><a href="http://www.cplusplus.com/reference/cstdint/" target="_blank">stdint.h</a></span>. Jeżeli liczba jest poprzedzona przez <span class="highlight">0x</span> to oznacza, że jest zapisana w systemie heksadecymalnym.</p>
+		<p>
+			Pamięć jest podzielona na następujące struktury:
+			<ul>
+				<li><span class="field">metadata_t</span> - rozmiar 0x8 bajtów</li>
+				<li><span class="field">settings_t</span> - rozmiar 0x40 bajtów</li>
+				<li><span class="field">profile_t</span> - rozmiar 0x70 bajtów</li>
+				<li><span class="field">month_t</span> - rozmiar 0x28 bajtów</li>
+			</ul>
+		</p>
+		<p>
+			Rozmieszczenie struktur w pamięci:
+			<table class="tableMemory">
+				<tr>
+					<td class="table-data table-data-address">Adres</td>
+					<td class="table-data table-data-address">0x0</td>
+					<td class="table-data table-data-address">0x8</td>
+					<td class="table-data table-data-address">0x48</td>
+					<td class="table-data table-data-address">0x48 + n * 0x70</td>
+					<td class="table-data table-data-address">0x198</td>
+					<td class="table-data table-data-address">0x208</td>
+					<td class="table-data table-data-address">0x208 + n * 0x28</td>
+					<td class="table-data table-data-address">0x3C0</td>
+					<td class="table-data table-data-address">0x3E8</td>
+					<td class="table-data table-data-address">0x400</td>
+				</tr>
+				<tr>
+					<td class="table-data table-data-struct">Struktura</td>
+					<td class="table-data table-data-struct">metadata_t</td>
+					<td class="table-data table-data-struct">settings_t</td>
+					<td class="table-data table-data-struct">profile_t (0)</td>
+					<td class="table-data table-data-struct">profile_t (n)</td>
+					<td class="table-data table-data-struct">profle_t (3)</td>
+					<td class="table-data table-data-struct">month_t (0)</td>
+					<td class="table-data table-data-struct">month_t (n)</td>
+					<td class="table-data table-data-struct">month_t (11)</td>
+					<td class="table-data table-data-struct">nieużywane - pozostawić 0xFF (0x18 bajtów)</td>
+				</tr>
+			</table>
+		</p>
+		<p>Wpisanie nieprawidłowych wartości do jakiejkolwiek struktury może spowodować niezdefiniowane zachowanie układu dzwonka. System po otrzymaniu pliku z konfiguracją nie sprawdza jej i traktuje wszystkie dane jako poprawne.</p>
+		<p>W polach nieużywanych lub zarezerwowanych (<span class="field">reserved</span>) należy pozostawić wartość 0xFF.</p>
+		<p>
+			Lista profili:
+			<ul>
+				<li><span class="field">profile_t (0)</span> - Normalne</li>
+				<li><span class="field">profile_t (1)</span> - Skrócone</li>
+				<li><span class="field">profile_t (2)</span> - Inne 1</li>
+				<li><span class="field">profile_t (3)</span> - Inne 2</li>
+			</ul>
+		</p>
+		<p>
+			Lista miesięcy:
+			<ul>
+				<li><span class="field">month_t (0)</span> - Styczeń</li>
+				<li><span class="field">month_t (1)</span> - Luty</li>
+				<li><span class="field">month_t (2)</span> - Marzec</li>
+				<li><span class="field">month_t (3)</span> - Kwiecień</li>
+				<li><span class="field">month_t (4)</span> - Maj</li>
+				<li><span class="field">month_t (5)</span> - Czerwiec</li>
+				<li><span class="field">month_t (6)</span> - Lipiec</li>
+				<li><span class="field">month_t (7)</span> - Sierpień</li>
+				<li><span class="field">month_t (8)</span> - Wrzesień</li>
+				<li><span class="field">month_t (9)</span> - Październik</li>
+				<li><span class="field">month_t (10)</span> - Listopad</li>
+				<li><span class="field">month_t (11)</span> - Grudzień</li>
+			</ul>
+		</p>
+		
+		<h2 id="opisy_struktur">Opisy struktur</h2>
+		
+		<h3 id="metadata_t">metadata_t</h3>
+		<p>
+			<div class="code">
+				<pre>typedef struct
+{
+	uint16_t checksum;
+	uint8_t reserved[0x6]; // = 0xFF
+} metadata_t;</pre>
+			</div>
+			<ul>
+				<li><span class="field">checksum</span> - musi być równe 0x14D4 (wartość losowa), jeśli inne to urządzenie przywraca ustawienia fabryczne, a następnie ustawia tą wartość</li>
+			</ul>
+		</p>
+
+		<h3 id="settings_t">settings_t</h3>
+		<p>
+			<div class="code">
+				<pre>typedef struct
+{
+	uint8_t bellLengthForLesson;
+	uint8_t bellLengthForBreak;
+	uint8_t schoolYear;
+	uint8_t autoTimeTransition;
+	uint16_t dcf77SynchronizationTime;
+	uint16_t dcf77SynchronizationMaxLength;
+	uint8_t reserved[0x38]; // = 0xFF
+} settings_t;</pre>
+			</div>
+			<ul>
+				<li><span class="field">bellLengthForLesson</span> - długość dzwonka na lekcję w sekundach</li>
+				<li><span class="field">bellLengthForBreak</span> - długość dzwonka na przerwę w sekundach</li>
+				<li><span class="field">schoolYear</span> - obecny rok szkolny, należy dodać 1900 aby otrzymać prawidłowy wynik. Np. dla roku szkolnego 2015/2016 wartość <span class="field">schoolYear</span> powinna wynosić 115</li>
+				<li><span class="field">autoTimeTransition</span> - automatyczna zmiana czasu z letniego na zimowy i na odwrót. 1 - włączone, 0 - wyłączone</li>
+				<li><span class="field">dcf77SynchronizationTime</span> - <span class="highlight">&lt;0; 1440)</span> minuta doby w której rozpocząć synchronizację. 0xFFFF oznacza wyłączenie synchronizacji</li>
+				<li><span class="field">dcf77SynchronizationMaxLength</span> - <span class="highlight">&lt;1; 1440></span> maksymalna długość prób synchronizacji w minutach</li>
+			</ul>
+		</p>
+			
+		<h3 id="profile_t">profile_t</h3>
+		<p>
+			<div class="code">
+				<pre>#define PROFILE_BELLS_COUNT 40
+				
+typedef struct
+{
+	uint8_t count;
+	uint16_t bells[PROFILE_BELLS_COUNT];
+	uint64_t bellTypes; // bit mask, 0 - for lesson, 1 - for break
+	uint8_t reserved[0x17]; // = 0xFF
+} profile_t;</pre>
+			</div>
+			<ul>
+				<li><span class="field">count</span> - liczba aktywnych godzin dzwonienia</li>
+				<li><span class="field">bells[n]</span> - <span class="highlight">0 &le; n &lt; <span class="field highlight">count</span></span> oraz <span class="highlight">0 &le; bells[n] &lt; 1440</span> - n-ta godzina dzwonienia. Wartość wskazuje na minutę doby w której powinien zadzwonić dzwonek (godzina * 60 + minuta). Wartości w tablicy muszą być uporządkowane rosnąco i nie mogą się powtarzać ani przekroczyć 1439 (23:59)</li>
+				<li><span class="field">bellTypes</span> - maska bitowa dla rodzaju dzwonka dla poszczególnych godzin dzwonienia. n-ty bit oznacza rodzaj dzwonka dla n-tej godziny dzwonienia. 0 - dzwonek na lekcję, 1 - dzwonek na przerwę</li>
+			</ul>
+		</p>
+			
+		<h3 id="month_t">month_t</h3>
+		<p>
+			<div class="code">
+				<pre>typedef struct
+{
+	uint8_t days[32];
+	uint8_t reserved[0x8]; // = 0xFF
+} month_t;</pre>
+			</div>
+			<ul>
+				<li><span class="field">days[n]</span> - <span class="highlight">n = dzień miesiąca</span> - profil aktywny w n-ty dzień miesiąca. Wartość wskazuje który profil powinien być aktywny lub 0xFF jeżeli dzwonki mają być w ten dzień nieaktywne. Pierwszy element (0) nigdy nie jest używany (nie ma dnia numer 0, pozostawione w celu uproszczenia kodu oprogramowania dzwonka)</li>
+			</ul>
+		</p>
+		
+		<h2 id="przenoszenie_konfiguracji">Przenoszenie pliku konfiguracyjnego na urządzenie</h2>
+		<h3 id="przez_sd">Poprzez kartę microSD</h3>
+		<p>
+			<ol>
+				<li>Sformatuj kartę pamięci używając systemu plików FAT32 jeśli jest inny.</li>
+				<li>Skopiuj plik konfiguracyjny do głównego katalogu na karcie pamięci i zmień jego nazwę i rozszerzenie na <span class="field">dzwonek.2lo</span>.</li>
+				<li>Włóż kartę pamięci do urządzenia i z menu głównego wybierz opcję <span class="highlight">"Zarządzaj ustawieniami"</span> a następnie <span class="highlight">"Odczytaj z karty SD"</span>. Układ odczyta i zweryfikuje integralność danych, a następnie gdy wyświetli komunikat o pomyślnym załadowaniu konfiguracji wciśnij dowolny klawisz, aby go uruchomić ponownie.</li>
+			</ol>
+		</p>
+		<h3 id="przez_isp">Poprzez programator ISP</h3>
+		<p>
+			<ol>
+				<li>Podłącz programator do komputera oraz układu za pomocą gniazda ISP znajdującego się na płytce.</li>
+				<li>Za pomocą programu <span class="highlight">avrdude</span> wgraj plik pamięci EEPROM następującym poleceniem (w miejsce <span class="field">programator</span> wstaw swój model programatora, a w miejsce <span class="field">dane</span> nazwę pliku z konfiguracją):</li>
+				<div class="code">avrdude -p m328p -c programator -U eeprom:w:dane:r</div>
+				<p>np. dla programatora <span class="field">USBasp</span> i pliku z danymi o nazwie <span class="field">dzwonek.2lo</span> polecenie będzie wyglądało tak:</p>
+				<div class="code">avrdude -p m328p -c usbasp -U eeprom:w:dzwonek.2lo:r</div>
+			</ol>
+		</p>
+		
+		<hr/>
+	</body>
+</html>

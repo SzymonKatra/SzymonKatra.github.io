@@ -15,7 +15,7 @@ keywords:
 - microsd
 - sd
 repository: https://github.com/SzymonKatra/DzwonekIILOKielce
-images: 
+images:
 - /images/project/dzwonekiilokielce/photo_1.JPG
 - /images/project/dzwonekiilokielce/photo_2.JPG
 - /images/project/dzwonekiilokielce/photo_3.JPG
@@ -43,7 +43,8 @@ W projekcie został użyty mikrokontroler AVR ATmega328P-PU. Schemat oraz płytk
 - Akumulator podtrzymujący odmierzanie czasu w przypadku braku zasilania
 - Bezobsługowy, wymaga jedynie ustawienia kalendarza na początku każdego roku szkolnego
 
-Dokumentacja techniczna oraz instrukcja użytkowa dostępna w repozytorium w [katalogu *doc*](https://github.com/SzymonKatra/DzwonekIILOKielce/tree/master/doc).
+[Instrukcja użytkowa](/data/project/dzwonekiilokielce/doc/instrukcja_uzytkowa.html)  
+[Dokumentacja techniczna](/data/project/dzwonekiilokielce/doc/dokumentacja_techniczna.html)
 
 **Projekt został udostępniony tylko i wyłącznie w celach poglądowych lub do użytku prywatnego.**  
 **Zakaz wykorzystywania w celach komercyjnych oraz rozpowszechniania bez zgody autora.**

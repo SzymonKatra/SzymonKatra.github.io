@@ -1,0 +1,411 @@
+<html>
+	<head>
+		<title>Instrukcja użytkowa - Dzwonek Automatyczny II LO Kielce</title>
+		<meta charset="utf-8">
+		<style>
+		body
+		{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 50px;
+			text-align: justify;
+		}
+		#schemat_menu_z ul li
+		{
+			font-weight: bold;
+		}
+		.highlight
+		{
+			font-weight: bold;
+		}
+		.no-highlight
+		{
+			font-weight: normal;
+		}
+		.footer
+		{
+			margin: 15px;
+			text-align: center;
+		}
+		.text-left
+		{
+			text-align: left;
+		}
+		.text-center
+		{
+			text-align: center;
+		}
+		.text-right
+		{
+			text-align: right;
+		}
+		.header
+		{
+			text-align: center;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div class="header">
+			<h1>Dzwonek Automatyczny II LO Kielce</h1>
+			<h1>Instrukcja użytkowa</h1>
+			<h2>&copy 2015 Szymon Katra</h2>
+		</div>
+		<hr/>
+		<h1>Spis treści</h1>
+		<ul>
+			<li><a href="#informacje">Informacje</a></li>	
+			<li><a href="#interfejs">Interfejs</a></li>
+			<li>
+				<a href="#konfiguracja">Konfiguracja</a>
+				<ul>
+					<li><a href="#konfiguracja_domyslna">Domyślna konfiguracja</a></li>
+				</ul>
+			</li>
+			<li><a href="#schemat_menu">Schemat menu</a></li>
+			<li><a href="#kalendarz">Kalendarz</a></li>
+			<li>
+				<a href="#opisy_ekranow">Opisy ekranów</a>
+				<ul>
+					<li><a href="#ekran_statusu">Ekran statusu</a></li>
+					<li><a href="#ekran_ostatnia_synchronizacja">Ekran z informacją o ostatniej udanej synchronizacji</a></li>
+					<li><a href="#ekran_edycji_miesiaca">Ekran edycji miesiąca</a></li>
+					<li><a href="#ekran_potwierdzenia">Ekran potwierdzenia</a></li>
+				</ul>
+			</li>
+			<li><a href="#dcf77">Synchronizacja z wzorcem czasu DCF77</a></li>
+			<li><a href="#akumulator_podtrzymujacy">Akumulator podtrzymujący zasilanie</a></li>
+		</ul>
+		<hr/>
+		
+		<h1 id="informacje">Informacje</h1>
+		<p>
+			<ul>
+				<li>Zasilanie poprzez gniazdo USB <span class="highlight">5V</span> (min. 4.5V, max. 5.5V)</li>
+				<li>Pobór prądu <span class="highlight">50 mA</span> (maksymalnie <span class="highlight">100mA</span> przy załączonym przekaźniku)</li>
+				<li>Obciążalność styków przekaźnika <span class="highlight">6A/250VAC</span> lub <span class="highlight">6A/28VDC</span></li>
+				<li><span class="highlight">Gniazdo na bezpiecznik</span> 5x20mm do styków przekaźnika</li>
+				<li>Zalecana temperatura pracy od <span class="highlight">0 °C</span> do <span class="highlight">45 °C</span> </li>
+				<li>Wyświetlacz <span class="highlight">LCD 16x2</span></li>
+				<li>Synchronizacja z wzorcem czasu <span class="highlight">DCF77</span></li>
+				<li><span class="highlight">Akumulator LIR2032</span> podtrzymujący odmierzanie czasu w przypadku braku zasilania</li>
+				<li>Gniazdo kart <span class="highlight">microSD</span> do przenoszenia konfiguracji</li>
+				<li><span class="highlight">Klawiatura 3-przyciskowa</span> do nawigacji po menu</li>
+				<li><span class="highlight">Potencjometr</span> do ustawienia kontrastu wyświetlacza</li>
+			</ul>
+		</p>
+		
+		<h1 id="interfejs">Interfejs</h1>
+		<p>
+			<p><b>UWAGA!</b> Jeśli tekst na wyświetlaczu jest słabo widoczny lub wcale, należy ustawić kontrast potencjometrem znajdującym się na lewym panelu obudowy.</p>
+		
+			Interfejs składa się z wyświetlacza LCD o rozmiarze 16x2 znaków oraz trzech przycisków służących do nawigacji:
+			<ul>
+				<li><span class="highlight">&#x25B2;</span> - w górę / lewo</li>
+				<li><span class="highlight">&#x25CF;</span> - wybierz</li>
+				<li><span class="highlight">&#x25BC;</span> - w dół / prawo</li>
+			</ul>
+			
+			<p>Podczas pobytu na ekranie startowym lub w menu głównym, wyświetlacz zostanie automatycznie wyłączony po 30 sekundach nieaktywności. Aby go włączyć, należy wcisnąć dowolny przycisk.</p>
+			<p>Zmiana jakiejkolwiek wartości jest sygnalizowana poprzez mruganie. Przyciski &#x25B2; oraz &#x25BC; służą do jej ustawienia, a &#x25CF; do zatwierdzenia lub przejścia do następnej. W niektórych przypadkach może być zastosowany inny sposób wprowadzania/zmiany danych.</p>
+		</p>
+		
+		<h1 id="konfiguracja">Konfiguracja</h1>
+		<p>
+			<p>
+				Dzwonek można skonfigurować na dwa sposoby - poprzez menu urządzenia lub za pomocą dołączonej aplikacji KonfiguracjaDzwonekIILOKielce.
+				Zdecydowanie wygodniejsza jest opcja druga, która pozwala na skonfigurowanie dzownków oraz dni w których mają dzwonić.
+				Program powinien znajdować się na karcie pamięci dołączonej do układu. Powinien być uruchamiany bezpośrednio z karty, aby mógł poprawnie zapisać konfigurację (plik <span class="highlight">dzwonek.2lo</span> w głównym katalogu).
+			</p>
+			<p>
+				Aby załadować konfigurację do układu należy włożyć do niego kartę pamięci na której znajduje się plik z konfiguracją (<span class="highlight">dzwonek.2lo</span>) a następnie z menu głównego wybrać opcję <span class="highlight">Zarządzaj ustawieniami</span>, później <span class="highlight">Odczytaj z karty pamięci</span>, a następnie zatwierdzić wybór.
+				Układ odczyta i zweryfikuje integralność danych, a następnie gdy wyświetli komunikat o pomyślnym załadowaniu konfiguracji należy wcisnąć dowolny klawisz, aby go uruchomić ponownie.
+				Możliwe jest również przeniesienie konfiguracji z urządzenia na kartę pamięci przy pomocy opcji <span class="highlight">Zapisz na kartę pamięci</span>.
+			</p>
+			<p>
+				Wymagania karty pamięci:
+				<ul>
+					<li><span class="highlight">System plików FAT32</span></li>
+					<li><span class="highlight">Plik dzwonek.2lo o rozmiarze 1024 bajtów umieszczony w głównym katalogu</span></li>
+				</ul>
+			</p>
+			<p>
+				Wymagania systemowe programu KonfiguracjaDzwonekIILOKielce:
+				<ul>
+					<li><span class="highlight">Windows 7 Service Pack 1</span> lub wyższy</li>
+					<li><span class="highlight">.NET Framework 4.6</span></li>
+				</ul>
+			</p>
+			<p>
+				Poniższy zrzut ekranu przedstawia wygląd programu:<br/>
+				<img src="img/konfiguracjadzwonekiilokielce.png" alt="KonfiguracjaDzwonekIILOKielce"/>
+			</p>
+		</p>
+		<h2 id="konfiguracja_domyslna">Domyślna konfiguracja</h2>
+		<p>
+			Jest to konfiguracja domyślna, przywracana za pomocą opcji <span class="highlight">Zarządzaj ustawieniami > Przywróć fabryczne</span>. Przywróceniu ulegają tylko ustawienia. Data i godzina pozostaje bez zmian i jest zapisana w oddzielnym układzie zliczającym czas.
+			<ul>
+				<li><span class="highlight">Dzwonek na lekcję:</span> 10 sekund</li>
+				<li><span class="highlight">Dzwonek na przerwę:</span> 5 sekund</li>
+				<li><span class="highlight">Rok szkolny:</span> 1900 / 1901</li>
+				<li><span class="highlight">Automatyczna zmiana czasu:</span> Tak</li>
+				<li><span class="highlight">Godzina synchronizacji z DCF77:</span> 22 : 00</li>
+				<li><span class="highlight">Maksymalna długość prób synchronizacji z DCF77:</span> 420 minut (7 godzin)</li>
+				<li><span class="highlight">Dzwonki:</span> Brak</li>
+				<li><span class="highlight">Miesiące:</span> Profil normalny we wszystkie dni roku</li>
+			</ul>
+		</p>
+		
+		<h1 id="schemat_menu">Schemat menu</h1>
+		<span id="schemat_menu_z"><p>
+			Schemat całego menu można przedstawić w następujący sposób:
+			<ul>
+				<li><a href="#ekran_statusu">### Ekran statusu ###</a></li>
+				<li>
+					Ustaw datę
+					<ul>
+						<li>### Ekran edycji daty (rrrr-mm-dd) ###</li>
+					</ul>
+				</li>
+				<li>
+					Ustaw godzinę
+					<ul>
+						<li>### Ekran edycji godziny (gg : mm) ###</li>
+					</ul>
+				</li>
+				<li>
+					Automatyczna zmiana czasu
+					<ul>
+						<li>Tak</li>
+						<li>Nie</li>
+					</ul>
+				</li>
+				<li>
+					Synchronizacja z wzorcem czasu DCF77
+					<ul>
+						<li>Włącz</li>
+						<li>O godz gg : mm</li>
+						<li>Przez  *** min</li>
+						<li>
+							Ostatnia synchronizacja
+							<ul>
+								<li>### Ekran z informacją o ostatniej udanej synchronizacji ###</li>
+							</ul>
+						</li>
+						<li>Wyłącz</li>
+						<li>Zapisz</li>
+					</ul>
+				</li>
+				<li>
+					Długość dzwonka
+					<ul>
+						<li>Na lekcję  ** s</li>
+						<li>Na przerwę ** s</li>
+						<li>Zapisz</li>
+						<li>Anuluj</li>
+					</ul>
+				</li>
+				<li>
+					Profile (godziny dzwonków)
+					<ul>
+						<li>Normalne (N)</li>
+						<li>Skrócone (S)</li>
+						<li>Inne 1 (1)</li>
+						<li>Inne 2 (2)</li>
+						<li>
+							^^^ Dla każdego z powyższych ^^^
+							<ul>
+								<li> id - gg : mm T<span class="no-highlight">- id - numer dzwonka, T - rodzaj dzwonka (L - na lekcję, P - na przerwę), maksymalnie 40 elementów</span></li>
+								<li>Dodaj dzwonek</li>
+								<li>Wyczyść</li>
+								<li>Zapisz</li>
+								<li>Anuluj</li>
+							</ul>
+						</li>
+						<li>Powrót</li>
+					</ul>
+				</li>
+				<li>
+					Zmień profil
+					<ul>
+						<li>Dzisiaj (*)</li>
+						<li>Jutro (*)</li>
+						<li>
+							^^^ Dla każdego z powyższych ^^^
+							<ul>
+								<li>Normalne (N)</li>
+								<li>Skrócone (S)</li>
+								<li>Inne 1 (1)</li>
+								<li>Inne 2 (2)</li>
+								<li>Brak (&#183;)</li>
+								<li>Anuluj</li>
+							</ul>
+						</li>
+						<li>Powrót</li>
+					</ul>
+				</li>
+				<li>
+					Kalendarz
+					<ul>
+						<li>Wrzesień ****</li>
+						<li>Październik ****</li>
+						<li>Listopad ****</li>
+						<li>Grudzień ****</li>
+						<li>Styczeń ****</li>
+						<li>Luty ****</li>
+						<li>Marzec ****</li>
+						<li>Kwiecieć ****</li>
+						<li>Maj ****</li>
+						<li>Czerwiec ****</li>
+						<li>Lipiec ****</li>
+						<li>Sierpień ****</li>
+						<li>
+							^^^ Dla każdego z powyższych ^^^
+							<ul>
+								<li><a href="#ekran_edycji_miesiaca">### Ekran edycji miesiąca ###</a></li>
+							</ul>
+						</li>
+						<li>Nowy kalendarz</li>
+						<li>Powrót</li>
+					</ul>
+				</li>
+				<li>
+					Zarządzaj ustawieniami
+					<ul>
+						<li>Odczytaj z karty pamięci</li>
+						<li>Zapisz na kartę pamięci</li>
+						<li>Przywróć fabryczne</li>
+						<li>
+							^^^ Dla każdego z powyższych ^^^
+							<ul>
+								<li><a href="#ekran_potwierdzenia">### Ekran potwierdzenia ###</a></li>
+							</ul>
+						</li>
+						<li>Powrót</li>
+					</ul>
+				</li>
+			</ul>
+		</p></span>
+		
+		<h1 id="kalendarz">Kalendarz</h1>
+		<p>
+			Aby dzwonek mógł działać poprawnie należy skonfigurować kalendarz. W tym celu należy udać się z menu głównego do <span class="highlight">Kalendarz</span> a następnie wybrać opcję <span class="highlight">Nowy kalendarz</span> i zatwierdzić wybór.
+			W tym momencie rok szkolny zostanie ustawiony na obecny, a konfiguracja dni w miesiącach zostanie ustawiona na standardową (Normalne od poniedziałku do piątku, Brak w soboty i niedziele).
+		</p>
+		
+		<h1 id="opisy_ekranow">Opisy ekranów</h1>
+		<h2 id="ekran_statusu">Ekran statusu</h1>
+		<p>
+			<p>
+				Wygląd ekranu statusu przedstawia poniższy obrazek:<br/>
+				<img src="img/ekran_statusu.png" alt="Ekran statusu"/><br/>
+			</p>
+			<p>
+				<span class="highlight">Wiersz 1</span><br/>
+				<ul>
+					<li><span class="highlight">Znaki od 1 do 8</span> - aktualny czas w formacie <span class="highlight">gg:mm:ss<span></li>
+					<li><span class="highlight">Znak 9</span> - powiadomienie o zmianie czasu; <span class="highlight">+</span> jeżeli godzinę do przodu; <span class="highlight">-</span> jeżeli godzinę do tyłu, puste jeżeli nie wykryto potrzeby zmiany czasu</li>
+					<li><span class="highlight">Znak 12</span> - obecny profil (godziny dzwonków); <span class="highlight">N</span> - Normalne; <span class="highlight">S</span> - Skrócone; <span class="highlight">1</span> - Inne 1; <span class="highlight">2</span> - Inne 2; <span class="highlight">Symbol kropki (&#183;)</span> jeżeli w aktualny dzień dzwonki są wyłączone</li>
+					<li><span class="highlight">Znaki od 15 do 16</span> - numer następnego dzwonka; <span class="highlight">--</span> jeżeli na aktualny dzień już nie ma dzwonków; w trakcie dzwonienia wyświetlana jest ikona dzwonka</li>
+				</ul>
+				<span class="highlight">Wiersz 2</span><br/>
+				<ul>
+					<li><span class="highlight">Znaki od 1 do 10</span> - aktualna data w formacie <span class="highlight">dd:mm:rrrr<span></li>
+					<li><span class="highlight">Znaki 13 do 13</span> - aktualny dzień tygodnia (Pn, Wt, Śr, Cz, Pt, So, Nd)</li>
+					<li><span class="highlight">Znak 15</span> - stan synchronizacji ze wzorcem czasu DCF77; przesuwająca się w górę i w dół kropka oznacza poszukiwanie bitu synchronizacji; w trakcie odbierania pokazywany jest aktualny postęp</li>
+					<li><span class="highlight">Znak 16</span> - symbol aktywnej próby synchronizacji z wzorcem czasu DCF77. Chwilowa zmiana na symbol z dłuższymi bokami sygnalizuje odebranie impulsu.</li>
+				</ul>
+			</p>
+		</p>
+		
+		<h2 id="ekran_ostatnia_synchronizacja">Ekran z informacją o ostatniej udanej synchronizacji</h1>
+		<p>
+			<p>
+				Wygląd ekranu z informacją o ostatniej udanej synchronizacji przedstawia poniższy obrazek:<br/>
+				<img src="img/ekran_ostatnia_synchronizacja.png" alt="Ekran z informacją o ostatniej udanej synchronizacji"/>
+			</p>
+			<p>
+				Ekran przedstawia datę oraz godzinę ostatniej synchronizacji od włączenia urządzenia. Jeżeli synchronizacja nie odbyła się, zostanie wyświetlony napis <span class="highlight">"nigdy"</span>
+			</p>
+		</p>
+		
+		<h2 id="ekran_edycji_miesiaca">Ekran edycji miesiąca</h1>
+		<p>
+			<p>
+				Wygląd ekranu edycji miesiąca przedstawia poniższy obrazek (październik 2015):<br/>
+				<img src="img/ekran_edycji_miesiaca.png" alt="Ekran edycji miesiąca"/><br/>
+			</p>
+			<p>
+				W górym wierszu oznaczone są kolejno dni miesiąca, zaś w dolnym przypisane do nich profile. Symbol kropki (&#183;) oznacza brak wybranego profilu na ten dzień (dzwonki będą nieaktywne).
+				Pionowe kreski służą do oddzielenia tygodni. Dzięki temu, możemy wywnioskować, że 12 to poniedziałek, 11 - niedziela, 10 - sobota, itd.
+			</p>
+			<p>
+				Aktualnie wybrany dzień jest oznaczony poprzez miganie profilu. Aby nawigować pomiędzy dniami należy użyć przycisków &#x25B2; oraz &#x25BC;. Zmiana profilu jest wykonywana przyciskiem &#x25CF;.
+			</p>
+			<p>
+				Aby wykonać więcej niż jedną zmianę na raz, należy wejść w tryb zaznaczania poprzez jednoczesne wciśnięcie przycisków &#x25B2; oraz &#x25BC;. Zaznaczenie będzie symbolizowane miganiem wypełnionego pola. Od teraz można nawigować pomiędzy kolejnymi dniami, aby wybrać zakres. Zmiana profilu zaznaczonych dni jest wykonywana przyciskiem &#x25CF;.
+				Kiedy zaznaczone dni mają różne profile, po pierwszym wciśnięciu przycisku &#x25CF; nastąpi ustawienie zaznaczonych dni na najczęściej występujący profil w tym zaznaczeniu. Aby wyjść z trybu zaznaczania, należy ponownie wcisnąć jednoczeście przyciski &#x25B2; oraz &#x25BC;.
+			</p>
+			<p>
+				Wygląd ekranu edycji miesiąca w trybie zaznaczania:<br/>
+				<img src="img/ekran_edycji_miesiaca_zaznaczenie.png" alt="Ekran edycji miesiąca (tryb zaznaczania)"/><br/>
+			</p>
+			<p>
+				Aby wyjść z ekranu edycji miesiąca należy nawigować przyciskami &#x25B2; oraz &#x25BC; aby przejść za początek lub koniec miesiąca. Wtedy ukaże się menu w którym można zapisać lub anulować zmiany.
+			</p>
+			<p>
+				Wygląd menu wyjścia w ekranie edycji miesiąca:<br/>
+				<img src="img/ekran_edycji_miesiaca_wyjscie.png" alt="Ekran edycji miesiąca (wyjście)"/><br/>
+			</p>
+		</p>
+		
+		<h2 id="ekran_potwierdzenia">Ekran potwierdzenia</h1>
+		<p>
+			<p>
+				Wygląd ekranu potwierdzenia przedstawia poniższy obrazek:<br/>
+				<img src="img/ekran_potwierdzenia.png" alt="Ekran potwierdzenia"/>
+			</p>
+			<p>
+				Ekran potwierdzenia składa się z tekstu w górym wierszu (który może się przesuwać jeśli nie mieści się na wyświetlaczu) oraz wyboru <span class="highlight">Tak</span> lub <span class="highlight">Nie</span>.
+				Zmiany wyboru dokonuje się przyciskami &#x25B2; oraz &#x25BC;, a zatwierdza się &#x25CF;.
+			</p>
+		</p>
+		
+		<h1 id="dcf77">Synchronizacja z wzorcem czasu DCF77</h1>
+		<p>
+			<p>
+				Czas trwania ramki danych to 59 sekund, a jej nadawanie rozpoczyna się w każdej nowej minucie.
+			</p>
+			<p>
+				Aby zapewnić poprawny odbiór antena musi być ustawiona poziomo do ziemi (polaryzacja sygnału DCF77) oraz prostopadle do kierunku nadajnika który znajduje się w Niemczech w miejscowości Mainflingen koło Frankfurtu nad Menem (50°01' N 09°00' E).
+				Ze względu na propagację fal długich najsilnieszy sygnał można odebrać w godzinach nocnych. Więcej informacji na temat poprawnego ustawienia anteny można znaleźć w <a href="http://www.mas-oy.com/uploads/Data%20sheets/DAEV6180B1COB_004.pdf" target="_blank">nocie katalogowej odbiornika</a>.
+			</p>
+			<p>
+				Antena znajduje się w środku urządzenia i fabrycznie jest ułożona wzdłuż krótszej krawędzi obudowy. Aby zmienić jej położenie, należy <a href="dokumentacja_techniczna.html#demontaz">zdemontować urządzenie</a> i przyczepić w odpowiednim kierunku dowolną metodą.
+			</p>
+			<p>
+				<span class="highlight">UWAGA! </span>Nie wolno mocować anteny za pomocą metalowych uchwytów, ponieważ pogorszy to jej działanie i odbiór będzie utrudniony lub niemożliwy.
+			</p>
+			<p>
+				Poniższy rysunek przedstawia poprawne ułożenie anteny:<br/>
+				<img src="img/ulozenie_anteny.png"/>
+			</p>
+		</p>
+		
+		<h1 id="akumulator_podtrzymujacy">Akumulator podtrzymujący zasilanie</h1>
+		<p>
+			Urządzenie wyposażone jest w akumulator pastylkowy LIR2032 służacy do podtrzymania zasilania modułu odliczającego czas.
+			<p>
+				Jeżeli po ponownym uruchomieniu dzwonka data i godzina nie zostaną zapamiętane lub czas przestał być odliczany, oznacza to uszkodzenie lub zużycie akumulatora.
+				Aby go wymienić należy <a href="dokumentacja_techniczna.html#demontaz">zdemontować urządzenie</a>, wyjąć stary a następnie zamontować nowy.
+			</p>
+			<p>
+				<span class="highlight">UWAGA!</span> Nie wolno używać baterii CR2032, gdyż grozi to jej uszkodzeniem ze względu na to, że nie jest przeznaczona do ładowania.
+			</p>
+		</p>
+		
+		<hr/>
+	</body>
+</html>

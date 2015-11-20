@@ -16,7 +16,7 @@ keywords:
 - microsd
 - sd
 repository: https://github.com/SzymonKatra/DzwonekIILOKielce
-images: 
+images:
 - /images/project/dzwonekiilokielce/photo_1.JPG
 - /images/project/dzwonekiilokielce/photo_2.JPG
 - /images/project/dzwonekiilokielce/photo_3.JPG
@@ -44,7 +44,8 @@ AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB wa
 - Backup battery for timing in case of power failure
 - Maintenance-free, requires only setting the calendar on the begin of each school year.
 
-Technical documentation and instructions of use available in the repository in [*doc* catalog](https://github.com/SzymonKatra/DzwonekIILOKielce/tree/master/doc)
+[Instructions of use (PL)](/data/project/dzwonekiilokielce/doc/instrukcja_uzytkowa.html)  
+[Technical documentation (PL)](/data/project/dzwonekiilokielce/doc/dokumentacja_techniczna.html)
 
 **Project is available only for illustrative purposes or to private use.**  
 **Commercial usage and redistribution without permission of the author is forbidden**
