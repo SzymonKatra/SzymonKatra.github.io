@@ -39,7 +39,7 @@ AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB wa
 - Automatic time transition (summer / winter)
 - 4 profiles (Normal, Shortened, Other 1, Other 2), in each ability to set 40 bells
 - Setting the calendar for whole school year
-- Diffrent duration of bells on break and lesson
+- Diffrent duration of the bell for a break and lesson
 - Synchronization with DCF77 pattern
 - Backup battery for timing in case of power failure
 - Maintenance-free, requires only setting the calendar on the begin of each school year.

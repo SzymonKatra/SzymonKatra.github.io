@@ -38,7 +38,7 @@ W projekcie został użyty mikrokontroler AVR ATmega328P-PU. Schemat oraz płytk
 - Automatyczna zmiana czasu (letni / zimowy)
 - 4 profile (Normalne, Skrócone, Inne 1, Inne 2), w każdym możliwość ustawienia maksymalnie 40 dzwonków
 - Ustawienie kalendarza na cały rok szkolny
-- Różne czasy trwania dzwonka na przerwę i lekcję
+- Różny czas trwania dzwonka na przerwę i lekcję
 - Synchronizacja z wzorcem czasu DCF77
 - Akumulator podtrzymujący odmierzanie czasu w przypadku braku zasilania
 - Bezobsługowy, wymaga jedynie ustawienia kalendarza na początku każdego roku szkolnego
