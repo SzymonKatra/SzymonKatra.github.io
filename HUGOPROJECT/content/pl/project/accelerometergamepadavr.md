@@ -1,8 +1,8 @@
 ---
 date: 2015-12-30T22:04:53+01:00
 images:
-- /images/accelerometergamepadavr/schematic.png
-- /images/accelerometergamepadavr/screenshot_1.png
+- /images/project/accelerometergamepadavr/schematic.png
+- /images/project/accelerometergamepadavr/screenshot_1.png
 keywords:
 - accelerometergamepadavr
 - accelerometer
