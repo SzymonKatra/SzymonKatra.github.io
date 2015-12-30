@@ -27,7 +27,7 @@ weight: 6
 ---
 AccelerometerGamePadAVR is built from scratch USB gamepad with integrated accelerometer.
 Additional drivers are not required because it is compatible with HID interface.
-An configuration application is included to configure sensitivity of analog sticks, accelerometer and assign them to any axis.
+A configuration application is included to configure sensitivity of analog sticks, accelerometer and assign them to any axis.
 Gamepad can store 16 diffrent configurations (profiles) and its fast change while work.
 
 USB handling is provided by [V-USB](https://www.obdev.at/products/vusb/index.html) library which is software implementation of USB 1.1.
