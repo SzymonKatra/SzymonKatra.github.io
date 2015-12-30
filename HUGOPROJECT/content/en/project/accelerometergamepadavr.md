@@ -38,7 +38,7 @@ Configuration application requires .NET Framework 4.0.
 - Two analog sticks and 2-axis accelerometer to handle 6 output axes (X Axis, Y Axis, Z Axis, X Rotation, Y Rotation, Z Rotation)
 - Assignment of any output axis to any analog sticks or accelerometer axis.
 - Changing sensitivity of analog sticks and accelerometer
-- 16 diffrent configuration (each button and D-Pad keys has assigned diffrent configuration)
+- 16 diffrent configurations (each button and D-Pad keys has assigned diffrent configuration)
 - 8-directional D-Pad
 - 12 independent buttons (4 on the right, 4 side, SELECT, START, under left and right analog stick)
 - One additional button for choosing configuration (profile)
