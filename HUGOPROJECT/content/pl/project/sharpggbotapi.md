@@ -20,11 +20,11 @@ keywords:
 repository: https://github.com/SzymonKatra/SharpGGBotAPI
 title: SharpGGBotAPI
 description: Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP
-weight: 7
+weight: 8
 ---
 
 Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP.
 
-Licencja: MIT
+Licencja: [MIT](https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/license.txt)
 
 [Przykład użycia](https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/SharpGGBotApiExample/Program.cs)

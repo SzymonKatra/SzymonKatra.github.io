@@ -2,8 +2,8 @@
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
-		<title>AllDataSheetFinder</title>
-		<meta name="keywords" content="alldatasheet alldatasheetfinder datasheet pdf "/>
+		<title>AccelerometerGamePadAVR</title>
+		<meta name="keywords" content="accelerometergamepadavr accelerometer gamepad game pad game games avr atmega atmega328 atmega328p adxl335 vusb v-usb hid device "/>
 		<meta name="author" content="Szymon Katra"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="icon" type="image/png" href="/favicon.png"/>
@@ -48,7 +48,7 @@
 <ul id="nav-id-category-project-list" class="nav-category-list" >
     
     
-        <li><a href="/en/project/alldatasheetfinder/" class="nav-selected">AllDataSheetFinder</a></li>
+        <li><a href="/en/project/alldatasheetfinder/" class="">AllDataSheetFinder</a></li>
     
         <li><a href="/en/project/imgurscreenshotdotnet/" class="">ImgurScreenshotDotNet</a></li>
     
@@ -56,7 +56,7 @@
     
         <li><a href="/en/project/dzwonekiilokielce/" class="">Dzwonek II LO Kielce</a></li>
     
-        <li><a href="/en/project/accelerometergamepadavr/" class="">AccelerometerGamePadAVR</a></li>
+        <li><a href="/en/project/accelerometergamepadavr/" class="nav-selected">AccelerometerGamePadAVR</a></li>
     
         <li><a href="/en/project/gg4net/" class="">GG4NET</a></li>
     
@@ -83,10 +83,10 @@
 	
 	<div class="page">
 		<div class="page-header">
-			<h1 class="page-header-title inline">AllDataSheetFinder</h1>
+			<h1 class="page-header-title inline">AccelerometerGamePadAVR</h1>
 			
 				<div class="action-outline">
-					<a href="https://github.com/SzymonKatra/AllDataSheetFinder/releases/latest" class="action">
+					<a href="" class="action">
 						<span class="action-text icon-download"></span>
 						<span class="action-text">Download</span>
 					</a>
@@ -94,7 +94,7 @@
 			
 			
 				<div class="action-outline">
-					<a href="https://github.com/SzymonKatra/AllDataSheetFinder" target="_blank" class="action">
+					<a href="https://github.com/SzymonKatra/AccelerometerGamePadAVR" target="_blank" class="action">
 						<span class="action-text icon-file-code"></span>
 						<span class="action-text">Repository</span>
 					</a>
@@ -106,36 +106,54 @@
 		<div class="page-content">
 			
 
-<p>AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.</p>
+<p>AccelerometerGamePadAVR is built from scratch USB gamepad with integrated accelerometer.
+Additional drivers are not required because it is compatible with HID interface.
+An configuration application is included to configure sensitivity of analog sticks, accelerometer and assign them to any axis.
+Gamepad can store 16 diffrent configurations (profiles) and its fast change while work.</p>
 
-<h2 id="features:9c04b578707acf47f78dfc7acc917358">Features:</h2>
+<p>USB handling is provided by <a href="https://www.obdev.at/products/vusb/index.html">V-USB</a> library which is software implementation of USB 1.1.
+Configuration application requires .NET Framework 4.0.</p>
+
+<h2 id="features:7189afe6fb44e207dbe1d20d5fad0805">Features:</h2>
 
 <ul>
-<li>quick finding and downloading datasheets from alldatasheet.com site</li>
-<li>storing last downloads</li>
-<li>adding to favourites (then it won&rsquo;t be removed)</li>
-<li>tagging</li>
-<li>storing manufacturer logos</li>
-<li>automatic updates</li>
-<li>neat and simple interface in English or Polish</li>
+<li>Two analog sticks and 2-axis accelerometer to handle 6 output axes (X Axis, Y Axis, Z Axis, X Rotation, Y Rotation, Z Rotation)</li>
+<li>Assignment of any output axis to any analog sticks or accelerometer axis.</li>
+<li>Changing sensitivity of analog sticks and accelerometer</li>
+<li>16 diffrent configuration (each button and D-Pad keys has assigned diffrent configuration)</li>
+<li>8-directional D-Pad</li>
+<li>12 independent buttons (4 on the right, 4 side, SELECT, START, under left and right analog stick)</li>
+<li>One additional button for choosing configuration (profile)</li>
 </ul>
 
-<p>Requires .NET Framework 4.5 i PDF viewer to work properly.</p>
+<p>To select another configuration press and hold additional button and next press the key on the pad with your configuration. After selecting, you can release additional button.
+When addition button is pressed and hold, diode will turn off. After selection will signal which configuration is choosen by blinking.</p>
 
-<p>License: <a href="https://github.com/SzymonKatra/AllDataSheetFinder/blob/master/LICENSE.txt">GNU GPL v3</a></p>
+<p>To build my prototype I&rsquo;ve used a standard gamepad from which I removed electronics and replaced with my own circuit.
+I kept only construction and mechanic elements (buttons, sticks, case, USB cable)</p>
+
+<h2 id="main-parts:7189afe6fb44e207dbe1d20d5fad0805">Main parts:</h2>
+
+<ul>
+<li>ATmega328P-PU microcontroller</li>
+<li>ADXL335 accelerometer module</li>
+<li>MCP23017 I/O expander</li>
+</ul>
+
+<p>License: <a href="https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt">GNU GPL v2</a></p>
 
 			
 			<br/>
 			
-				<span class="download-text"><a href="https://github.com/SzymonKatra/AllDataSheetFinder/releases/latest">Link to download</a></span><br/>
+				<span class="download-text"><a href="">Link to download</a></span><br/>
 			
 			<br/>
 			
 				<div>
 					
-						<a href="/images/project/alldatasheetfinder/screenshot_1.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/alldatasheetfinder/screenshot_1.png"/></a>
+						<a href="/images/accelerometergamepadavr/schematic.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/accelerometergamepadavr/schematic.png"/></a>
 					
-						<a href="/images/project/alldatasheetfinder/screenshot_2.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/alldatasheetfinder/screenshot_2.png"/></a>
+						<a href="/images/accelerometergamepadavr/screenshot_1.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/accelerometergamepadavr/screenshot_1.png"/></a>
 					
 					<div class="clear"></div>
 				</div>

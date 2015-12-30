@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>AccelerometerGamePadAVR</title>
+		<meta name="keywords" content="accelerometergamepadavr accelerometer gamepad game pad gra gry akcelerometr avr atmega atmega328 atmega328p adxl335 vusb v-usb hid urządzenie "/>
+		<meta name="author" content="Szymon Katra"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="icon" type="image/png" href="/favicon.png"/>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+		<link rel="stylesheet" type="text/css" href="/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/fontello/css/fontello.css"/>
+		<link rel="stylesheet" type="text/css" href="/fontello/css/fontello-embedded.css"/>
+		<link href='//fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="/scripts.js"></script>
+		<script type="text/javascript" src="/jquery-1.11.3.min.js"></script>
+	</head>
+
+	<body>
+
+
+<div id="container">
+	<div class="nav">
+	<a href="/" class="title-link"><div class="title">Szymon<br/>Katra</div></a>
+	<hr class="hr-big"/>
+	<div class="flag-container">
+		<a href="/"><img class="left flag" src="/images/pl.png" alt="pl"/></a>
+		<a href="/en"><img class="left flag flag-unselected" src="/images/en.png" alt="en"/></a>
+		<div class="clear"></div>
+	</div>
+	<div class="social-container">
+		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left social social-mail\">");</script>
+		<i class="icon-mail"></i></a>
+		<a href="https://github.com/SzymonKatra" target="_blank" class="left social social-github"><i class="icon-github-circled"></i></a>
+		<div class="clear"></div>
+	</div>
+
+	
+	
+
+	
+	<div id="nav-id-category-project" class="nav-category">
+    
+    Moje projekty
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-project-list" class="nav-category-list" >
+    
+    
+        <li><a href="/project/alldatasheetfinder/" class="">AllDataSheetFinder</a></li>
+    
+        <li><a href="/project/imgurscreenshotdotnet/" class="">ImgurScreenshotDotNet</a></li>
+    
+        <li><a href="/project/dziennik/" class="">Dziennik</a></li>
+    
+        <li><a href="/project/robotavr/" class="">RobotAVR</a></li>
+    
+        <li><a href="/project/dzwonekiilokielce/" class="">Dzwonek II LO Kielce</a></li>
+    
+        <li><a href="/project/accelerometergamepadavr/" class="nav-selected">AccelerometerGamePadAVR</a></li>
+    
+        <li><a href="/project/gg4net/" class="">GG4NET</a></li>
+    
+        <li><a href="/project/sharpggbotapi/" class="">SharpGGBotAPI</a></li>
+    
+</ul>
+
+
+	<div class="nav-copyright">
+		&copy; Szymon Katra<br/>
+		Powered by <a href="http://gohugo.io">Hugo</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(".nav-category").click(function()
+	{
+		var id = $(this).attr("id");
+		var listId = "#" + id + "-list";
+		if ($(listId).css("display") != "none") return;
+		$(".nav-category-list").slideUp(500);
+		if ($(listId).length) $(listId).slideDown(500);
+	});
+</script>
+
+	
+	<div class="page">
+		<div class="page-header">
+			<h1 class="page-header-title inline">AccelerometerGamePadAVR</h1>
+			
+				<div class="action-outline">
+					<a href="" class="action">
+						<span class="action-text icon-download"></span>
+						<span class="action-text">Pobierz</span>
+					</a>
+				</div>
+			
+			
+				<div class="action-outline">
+					<a href="https://github.com/SzymonKatra/AccelerometerGamePadAVR" target="_blank" class="action">
+						<span class="action-text icon-file-code"></span>
+						<span class="action-text">Repozytorium</span>
+					</a>
+				</div>
+			
+		</div>
+		
+		<hr class="hr-big"/>
+		<div class="page-content">
+			
+
+<p>AccelerometerGamePadAVR jest zbudowanym od podstaw GamePadem USB z wbudowanym akcelerometrem.
+Do obsługi nie są wymagane żadne dodatkowe sterowniki dzięki temu, że jest kompatybilny z interfejsem HID.
+Do urządzenia dołączony jest program który pozwala skonfigurować czułość gałek analogowych oraz akcelerometru i przyporządkować je do dowolnych osi.
+Gamepad pozwala na zapisanie 16 różnych konfiguracji (profili) i ich szybką zmianę podczas pracy.</p>
+
+<p>Obsługa USB w mikrokontrolerze AVR jest zapewniona przez bibliotekę <a href="https://www.obdev.at/products/vusb/index.html">V-USB</a> która jest programową implementacją USB 1.1.
+Aplikacja do konfiguracji wymaga .NET Framework 4.0.</p>
+
+<h2 id="funkcjonalność:7189afe6fb44e207dbe1d20d5fad0805">Funkcjonalność:</h2>
+
+<ul>
+<li>Dwie gałki analogowe oraz dwuosiowy akcelerometr do obsługi 6 osi wyjściowych (Oś X, Oś Y, Oś Z, Obrót X, Obrót Y, Obrót Z)</li>
+<li>Możliwość przypisania dowolnej osi wyjściowej do dowolnej osi gałki analogowej lub akcelerometru</li>
+<li>Zmiana czułości gałek analogowych i akcelerometru</li>
+<li>Obsługa 16 róznych konfiguracji (pod każdym przyciskiem oraz klawiszami krzyżaka znajduje się inna konfiguracja)</li>
+<li>Ośmiokierunkowy krzyżak (D-Pad)</li>
+<li>12 niezależnych przycisków (4 po prawej, 4 boczne, SELECT, START, pod lewą oraz prawą gałką)</li>
+<li>Jeden dodatkowy przycisk służący do wyboru konfiguracji (profilu)</li>
+</ul>
+
+<p>Wybranie konfiguracji polega na przytrzymaniu dodatkowego przycisku, a następnie wciśnięciu klawisza na padzie pod którym zapisana jest nasza konfiguracja. Po wybraniu konfiguracji można puścić dodatkowy przycisk.
+Po wciśnięciu i przytrzymaniu dodatkowego przycisku, dioda na padzie zgaśnie. Po wybraniu konfiguracji zasygnalizyje która konfiguracja została wybrana poprzez mruganie.</p>
+
+<p>Do zbudowania mojego prototypu użyłem standardowego pada z którego wyciągnąłem elektronikę i zastąpiłem swoim układem.
+Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obudowa, przewód USB).</p>
+
+<h2 id="główne-części:7189afe6fb44e207dbe1d20d5fad0805">Główne części:</h2>
+
+<ul>
+<li>Mikrokontroler ATmega328P-PU</li>
+<li>Moduł akcelerometru ADXL335</li>
+<li>Ekspander we/wy MCP23017</li>
+</ul>
+
+<p>Licencja: <a href="https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt">GNU GPL v2</a></p>
+
+			
+			<br/>
+			
+				<span class="download-text"><a href="">Link do pobrania</a></span><br/>
+			
+			<br/>
+			
+				<div>
+					
+						<a href="/images/accelerometergamepadavr/schematic.png" target="_blank"><img class="screenshot left" alt="Obrazek" src="/images/accelerometergamepadavr/schematic.png"/></a>
+					
+						<a href="/images/accelerometergamepadavr/screenshot_1.png" target="_blank"><img class="screenshot left" alt="Obrazek" src="/images/accelerometergamepadavr/screenshot_1.png"/></a>
+					
+					<div class="clear"></div>
+				</div>
+			
+		</div>
+	</div>
+
+</div>
+
+	</body>
+</html>

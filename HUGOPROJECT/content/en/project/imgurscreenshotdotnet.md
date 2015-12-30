@@ -26,3 +26,5 @@ Tiny application that quickly sends images from the clipboard(e.g. screenshot) t
 	- Retype code from image on the bottom
 3. You will be redirected to the next page where you get your number. Copy "Client ID" field and paste it to application. Save changes using "Save settings" button - [Example](/images/project/imgurscreenshotdotnet/tutorial_2.png)
 4. Take screenshot using "Print Screen" key or copy any image to clipboard, and press choosen key ("Send hotkey"). In a few moments image will be uploaded and you get link to it.
+
+Licencja: [MIT](https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE)

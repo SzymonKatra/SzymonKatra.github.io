@@ -29,8 +29,6 @@ AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowan
 - automatyczne aktualizacje
 - schludny i prosty w obsłudze interfejs w języku polskim lub angielskim
 
-Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania
+Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania.
 
-Wszystkie dane są domyślnie przechowywane w AppData\Local\AllDataSheetFinder.
-
-Licencja: GNU GPL v3
+Licencja: [GNU GPL v3](https://github.com/SzymonKatra/AllDataSheetFinder/blob/master/LICENSE.txt)

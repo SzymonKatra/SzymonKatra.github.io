@@ -31,7 +31,9 @@
 &lt;li&gt;neat and simple interface in English or Polish&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;License: GNU GPL v3&lt;/p&gt;
+&lt;p&gt;Requires .NET Framework 4.5 i PDF viewer to work properly.&lt;/p&gt;
+
+&lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/AllDataSheetFinder/blob/master/LICENSE.txt&#34;&gt;GNU GPL v3&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -61,6 +63,8 @@
 &lt;li&gt;You will be redirected to the next page where you get your number. Copy &amp;ldquo;Client ID&amp;rdquo; field and paste it to application. Save changes using &amp;ldquo;Save settings&amp;rdquo; button - &lt;a href=&#34;http://szymonkatra.github.io/en/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Take screenshot using &amp;ldquo;Print Screen&amp;rdquo; key or copy any image to clipboard, and press choosen key (&amp;ldquo;Send hotkey&amp;rdquo;). In a few moments image will be uploaded and you get link to it.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -90,6 +94,8 @@
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JX7HjqfKiEM&#34;&gt;Video showing the operation of robot&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;More info in &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR/blob/master/LICENSE&#34;&gt;GNU GPL v3&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -129,6 +135,52 @@
     </item>
     
     <item>
+      <title>AccelerometerGamePadAVR</title>
+      <link>http://szymonkatra.github.io/en/project/accelerometergamepadavr/</link>
+      <pubDate>Wed, 30 Dec 2015 22:04:53 +0100</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/accelerometergamepadavr/</guid>
+      <description>
+
+&lt;p&gt;AccelerometerGamePadAVR is built from scratch USB gamepad with integrated accelerometer.
+Additional drivers are not required because it is compatible with HID interface.
+An configuration application is included to configure sensitivity of analog sticks, accelerometer and assign them to any axis.
+Gamepad can store 16 diffrent configurations (profiles) and its fast change while work.&lt;/p&gt;
+
+&lt;p&gt;USB handling is provided by &lt;a href=&#34;https://www.obdev.at/products/vusb/index.html&#34;&gt;V-USB&lt;/a&gt; library which is software implementation of USB 1.1.
+Configuration application requires .NET Framework 4.0.&lt;/p&gt;
+
+&lt;h2 id=&#34;features:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Features:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two analog sticks and 2-axis accelerometer to handle 6 output axes (X Axis, Y Axis, Z Axis, X Rotation, Y Rotation, Z Rotation)&lt;/li&gt;
+&lt;li&gt;Assignment of any output axis to any analog sticks or accelerometer axis.&lt;/li&gt;
+&lt;li&gt;Changing sensitivity of analog sticks and accelerometer&lt;/li&gt;
+&lt;li&gt;16 diffrent configuration (each button and D-Pad keys has assigned diffrent configuration)&lt;/li&gt;
+&lt;li&gt;8-directional D-Pad&lt;/li&gt;
+&lt;li&gt;12 independent buttons (4 on the right, 4 side, SELECT, START, under left and right analog stick)&lt;/li&gt;
+&lt;li&gt;One additional button for choosing configuration (profile)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To select another configuration press and hold additional button and next press the key on the pad with your configuration. After selecting, you can release additional button.
+When addition button is pressed and hold, diode will turn off. After selection will signal which configuration is choosen by blinking.&lt;/p&gt;
+
+&lt;p&gt;To build my prototype I&amp;rsquo;ve used a standard gamepad from which I removed electronics and replaced with my own circuit.
+I kept only construction and mechanic elements (buttons, sticks, case, USB cable)&lt;/p&gt;
+
+&lt;h2 id=&#34;main-parts:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Main parts:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ATmega328P-PU microcontroller&lt;/li&gt;
+&lt;li&gt;ADXL335 accelerometer module&lt;/li&gt;
+&lt;li&gt;MCP23017 I/O expander&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt&#34;&gt;GNU GPL v2&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>GG4NET</title>
       <link>http://szymonkatra.github.io/en/project/gg4net/</link>
       <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>
@@ -138,7 +190,7 @@
 
 &lt;p&gt;.NET Gadu-Gadu library based on libgadu specification (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;License: MIT&lt;/p&gt;
+&lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/GG4NET/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;features:cd81314a932bacf5bc1724e325747da2&#34;&gt;Features:&lt;/h2&gt;
 

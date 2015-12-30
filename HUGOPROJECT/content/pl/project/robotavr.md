@@ -39,3 +39,5 @@ Sterowanie przez bluetooth za pomocą komend 'w', 's', 'a', 'd' lub 'x' aby prze
 [Film przedstawiający działanie robota](https://www.youtube.com/watch?v=JX7HjqfKiEM)
 
 Więcej informacji w [repozytorium GitHub](https://github.com/SzymonKatra/RobotAVR).
+
+Licencja: [GNU GPL v3](https://github.com/SzymonKatra/RobotAVR/blob/master/LICENSE)

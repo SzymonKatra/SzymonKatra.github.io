@@ -31,11 +31,9 @@
 &lt;li&gt;schludny i prosty w obsłudze interfejs w języku polskim lub angielskim&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania&lt;/p&gt;
+&lt;p&gt;Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania.&lt;/p&gt;
 
-&lt;p&gt;Wszystkie dane są domyślnie przechowywane w AppData\Local\AllDataSheetFinder.&lt;/p&gt;
-
-&lt;p&gt;Licencja: GNU GPL v3&lt;/p&gt;
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/AllDataSheetFinder/blob/master/LICENSE.txt&#34;&gt;GNU GPL v3&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -65,6 +63,8 @@
 &lt;li&gt;Zostaniesz przekierowany na kolejną stronę gdzie otrzymasz swój numer. Skopiuj pole &amp;ldquo;Client ID&amp;rdquo; i wklej je w do aplikacji, a następnie zapisz używając przyciku &amp;ldquo;Save settings&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Przykład&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Zrób zrzut ekranu używając klawisza Print Screen lub skopiuj dowolny obrazek do schowka, a następnie wciśnij ustawiony klawisz (&amp;ldquo;Send hotkey&amp;rdquo;). Po chwili obrazek zostanie wysłany i otrzymasz do niego link.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -137,6 +137,8 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JX7HjqfKiEM&#34;&gt;Film przedstawiający działanie robota&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Więcej informacji w &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR&#34;&gt;repozytorium GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/RobotAVR/blob/master/LICENSE&#34;&gt;GNU GPL v3&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -176,6 +178,52 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
     </item>
     
     <item>
+      <title>AccelerometerGamePadAVR</title>
+      <link>http://szymonkatra.github.io/project/accelerometergamepadavr/</link>
+      <pubDate>Wed, 30 Dec 2015 22:04:53 +0100</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/accelerometergamepadavr/</guid>
+      <description>
+
+&lt;p&gt;AccelerometerGamePadAVR jest zbudowanym od podstaw GamePadem USB z wbudowanym akcelerometrem.
+Do obsługi nie są wymagane żadne dodatkowe sterowniki dzięki temu, że jest kompatybilny z interfejsem HID.
+Do urządzenia dołączony jest program który pozwala skonfigurować czułość gałek analogowych oraz akcelerometru i przyporządkować je do dowolnych osi.
+Gamepad pozwala na zapisanie 16 różnych konfiguracji (profili) i ich szybką zmianę podczas pracy.&lt;/p&gt;
+
+&lt;p&gt;Obsługa USB w mikrokontrolerze AVR jest zapewniona przez bibliotekę &lt;a href=&#34;https://www.obdev.at/products/vusb/index.html&#34;&gt;V-USB&lt;/a&gt; która jest programową implementacją USB 1.1.
+Aplikacja do konfiguracji wymaga .NET Framework 4.0.&lt;/p&gt;
+
+&lt;h2 id=&#34;funkcjonalność:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Funkcjonalność:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dwie gałki analogowe oraz dwuosiowy akcelerometr do obsługi 6 osi wyjściowych (Oś X, Oś Y, Oś Z, Obrót X, Obrót Y, Obrót Z)&lt;/li&gt;
+&lt;li&gt;Możliwość przypisania dowolnej osi wyjściowej do dowolnej osi gałki analogowej lub akcelerometru&lt;/li&gt;
+&lt;li&gt;Zmiana czułości gałek analogowych i akcelerometru&lt;/li&gt;
+&lt;li&gt;Obsługa 16 róznych konfiguracji (pod każdym przyciskiem oraz klawiszami krzyżaka znajduje się inna konfiguracja)&lt;/li&gt;
+&lt;li&gt;Ośmiokierunkowy krzyżak (D-Pad)&lt;/li&gt;
+&lt;li&gt;12 niezależnych przycisków (4 po prawej, 4 boczne, SELECT, START, pod lewą oraz prawą gałką)&lt;/li&gt;
+&lt;li&gt;Jeden dodatkowy przycisk służący do wyboru konfiguracji (profilu)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wybranie konfiguracji polega na przytrzymaniu dodatkowego przycisku, a następnie wciśnięciu klawisza na padzie pod którym zapisana jest nasza konfiguracja. Po wybraniu konfiguracji można puścić dodatkowy przycisk.
+Po wciśnięciu i przytrzymaniu dodatkowego przycisku, dioda na padzie zgaśnie. Po wybraniu konfiguracji zasygnalizyje która konfiguracja została wybrana poprzez mruganie.&lt;/p&gt;
+
+&lt;p&gt;Do zbudowania mojego prototypu użyłem standardowego pada z którego wyciągnąłem elektronikę i zastąpiłem swoim układem.
+Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obudowa, przewód USB).&lt;/p&gt;
+
+&lt;h2 id=&#34;główne-części:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Główne części:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mikrokontroler ATmega328P-PU&lt;/li&gt;
+&lt;li&gt;Moduł akcelerometru ADXL335&lt;/li&gt;
+&lt;li&gt;Ekspander we/wy MCP23017&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt&#34;&gt;GNU GPL v2&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>GG4NET</title>
       <link>http://szymonkatra.github.io/project/gg4net/</link>
       <pubDate>Thu, 25 Jun 2015 14:06:51 +0200</pubDate>
@@ -185,7 +233,7 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
 
 &lt;p&gt;Biblioteka do obsługi protokołu Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (&lt;a href=&#34;http://libgadu.net/protocol/&#34;&gt;http://libgadu.net/protocol/&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;Licencja: MIT&lt;/p&gt;
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/GG4NET/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;możliwości:cd81314a932bacf5bc1724e325747da2&#34;&gt;Możliwości:&lt;/h2&gt;
 
@@ -221,7 +269,7 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
       <guid>http://szymonkatra.github.io/project/sharpggbotapi/</guid>
       <description>&lt;p&gt;Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP.&lt;/p&gt;
 
-&lt;p&gt;Licencja: MIT&lt;/p&gt;
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/SharpGGBotApiExample/Program.cs&#34;&gt;Przykład użycia&lt;/a&gt;&lt;/p&gt;
 </description>

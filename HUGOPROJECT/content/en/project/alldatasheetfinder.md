@@ -27,4 +27,6 @@ AllDataSheetFinder is an utility for finding, downloading and organizing datashe
 - automatic updates
 - neat and simple interface in English or Polish
 
-License: GNU GPL v3
+Requires .NET Framework 4.5 i PDF viewer to work properly.
+
+License: [GNU GPL v3](https://github.com/SzymonKatra/AllDataSheetFinder/blob/master/LICENSE.txt)

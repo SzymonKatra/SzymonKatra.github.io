@@ -17,12 +17,12 @@ keywords:
 repository: https://github.com/SzymonKatra/GG4NET
 title: GG4NET
 description: .NET Gadu-Gadu library
-weight: 6
+weight: 7
 ---
 
 .NET Gadu-Gadu library based on libgadu specification (http://libgadu.net/protocol/).
 
-License: MIT
+License: [MIT](https://github.com/SzymonKatra/GG4NET/blob/master/license.txt)
 
 ## Features:
 

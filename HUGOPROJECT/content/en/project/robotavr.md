@@ -39,3 +39,5 @@ This robot has currently two modes - remote controlling and obstacle avoiding. C
 [Video showing the operation of robot](https://www.youtube.com/watch?v=JX7HjqfKiEM)
 
 More info in [GitHub repository](https://github.com/SzymonKatra/RobotAVR).
+
+License: [GNU GPL v3](https://github.com/SzymonKatra/RobotAVR/blob/master/LICENSE)

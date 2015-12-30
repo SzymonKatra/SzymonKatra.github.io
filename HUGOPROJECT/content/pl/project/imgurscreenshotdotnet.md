@@ -28,3 +28,5 @@ Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrz
 	- Przepisz kod z obrazka na dole
 3. Zostaniesz przekierowany na kolejną stronę gdzie otrzymasz swój numer. Skopiuj pole "Client ID" i wklej je w do aplikacji, a następnie zapisz używając przyciku "Save settings" - [Przykład](/images/project/imgurscreenshotdotnet/tutorial_2.png)
 4. Zrób zrzut ekranu używając klawisza Print Screen lub skopiuj dowolny obrazek do schowka, a następnie wciśnij ustawiony klawisz ("Send hotkey"). Po chwili obrazek zostanie wysłany i otrzymasz do niego link.
+
+Licencja: [MIT](https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE)
