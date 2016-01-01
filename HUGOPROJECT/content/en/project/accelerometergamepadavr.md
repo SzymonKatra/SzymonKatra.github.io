@@ -59,4 +59,4 @@ I kept only construction and mechanic elements (buttons, sticks, case, USB cable
 - ADXL335 accelerometer module
 - MCP23017 I/O expander
 
-License: [GNU GPL v2](https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt)
+License: [GNU GPL v3](https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt)

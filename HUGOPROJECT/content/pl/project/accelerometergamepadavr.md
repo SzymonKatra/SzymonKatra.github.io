@@ -58,4 +58,4 @@ Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obu
 - Moduł akcelerometru ADXL335
 - Ekspander we/wy MCP23017
 
-Licencja: [GNU GPL v2](https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt)
+Licencja: [GNU GPL v3](https://github.com/SzymonKatra/AccelerometerGamePadAVR/blob/master/License.txt)
