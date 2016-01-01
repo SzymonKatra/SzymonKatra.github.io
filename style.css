@@ -123,7 +123,7 @@ h6 {
       text-align: center;
       font-size: 22px;
       padding: 10px 15px 10px 15px;
-      background-color: #253259;
+      background-color: #2B3B6B;
       color: #FFFFFF;
       transition: 0.5s;
       text-decoration: none; }
@@ -131,7 +131,7 @@ h6 {
       background-color: #31447D;
       transition: 0.5s; }
     .nav ul li a.nav-selected {
-      background-color: #2B3B6B; }
+      background-color: #31447D; }
 
 .nav-category {
   text-align: center;

@@ -3,3 +3,6 @@ repository: Repository
 downloadLink: Link to download
 image: Image
 category_project: My projects
+category_project(application): Applications
+category_project(electronics): Electronics
+category_project(library): Libraries

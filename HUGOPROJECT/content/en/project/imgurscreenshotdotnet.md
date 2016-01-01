@@ -12,6 +12,7 @@ repository: https://github.com/SzymonKatra/ImgurScreenshotDotNet
 title: ImgurScreenshotDotNet
 description: Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com
 weight: 2
+project_type: application
 ---
 
 Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com.

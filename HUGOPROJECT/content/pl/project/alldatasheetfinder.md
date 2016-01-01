@@ -15,7 +15,7 @@ repository: https://github.com/SzymonKatra/AllDataSheetFinder
 images:
 - /images/project/alldatasheetfinder/screenshot_1.png
 - /images/project/alldatasheetfinder/screenshot_2.png
-
+project_type: application
 ---
 AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.
 

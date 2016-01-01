@@ -13,7 +13,7 @@ repository: https://github.com/SzymonKatra/AllDataSheetFinder
 images:
 - /images/project/alldatasheetfinder/screenshot_1.png
 - /images/project/alldatasheetfinder/screenshot_2.png
-
+project_type: application
 ---
 AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.
 

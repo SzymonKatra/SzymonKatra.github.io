@@ -19,7 +19,7 @@ images:
 - /images/project/robotavr/photo_1.JPG
 - /images/project/robotavr/photo_2.JPG
 - /images/project/robotavr/photo_3.JPG
-
+project_type: electronics
 ---
 
 Obstacle avoiding and remote controlled robot based on ATmega328P-PU. Circuit is built on prototype PCB boards.

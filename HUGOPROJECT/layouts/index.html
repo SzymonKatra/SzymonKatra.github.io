@@ -11,11 +11,18 @@
 		<hr class="hr-big"/>
 
 		<div class="page-content">
-			{{ range where .Site.Pages "Section" "project"}}
-				<p>
-					<a href="{{ .RelPermalink }}" class="page-link-main">{{ .LinkTitle }}</a> - {{ .Description }}
-				</p>
-			{{ end }}
+			{{ $.Scratch.Add "current" ""}}
+
+			{{ $.Scratch.Set "current" "application" }}
+			{{ partial "project-list.html" . }}
+
+			{{ $.Scratch.Set "current" "electronics" }}
+			{{ partial "project-list.html" . }}
+
+			{{ $.Scratch.Set "current" "library" }}
+			{{ partial "project-list.html" . }}
+
+
 		</div>
 	</div>
 </div>

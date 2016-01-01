@@ -11,6 +11,7 @@ images:
 title: Dziennik
 description: Dziennik szkolny offline
 weight: 3
+project_type: application
 ---
 
 Dziennik szkolny offline.

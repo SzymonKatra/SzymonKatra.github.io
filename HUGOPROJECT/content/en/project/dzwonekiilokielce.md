@@ -25,6 +25,7 @@ images:
 - /images/project/dzwonekiilokielce/pcb.png
 title: Dzwonek II LO Kielce
 weight: 5
+project_type: electronics
 ---
 
 Automatic school bell system for II Liceum Ogólnokształcące im. Jana Śniadeckiego in Kielce.

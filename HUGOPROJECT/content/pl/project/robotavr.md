@@ -19,7 +19,7 @@ images:
 - /images/project/robotavr/photo_1.JPG
 - /images/project/robotavr/photo_2.JPG
 - /images/project/robotavr/photo_3.JPG
-
+project_type: electronics
 ---
 
 Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU. Układ został zbudowany na prototypowych płytkach PCB.

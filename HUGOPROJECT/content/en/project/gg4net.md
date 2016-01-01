@@ -18,6 +18,7 @@ repository: https://github.com/SzymonKatra/GG4NET
 title: GG4NET
 description: .NET Gadu-Gadu library
 weight: 7
+project_type: library
 ---
 
 .NET Gadu-Gadu library based on libgadu specification (http://libgadu.net/protocol/).

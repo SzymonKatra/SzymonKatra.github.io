@@ -3,3 +3,6 @@ repository: Repozytorium
 downloadLink: Link do pobrania
 image: Obrazek
 category_project: Moje projekty
+category_project(application): Aplikacje
+category_project(electronics): Elektronika
+category_project(library): Biblioteki

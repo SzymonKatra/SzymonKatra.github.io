@@ -13,11 +13,16 @@
 		<div class="clear"></div>
 	</div>
 
-	{{ $.Scratch.Add "currentCategory" ""}}
-	{{ $.Scratch.Add "openedCategory" "project"}}
+	{{ $.Scratch.Add "current" ""}}
 
-	{{ $.Scratch.Set "currentCategory" "project" }}
-	{{ partial "nav-category.html" . }}
+	{{ $.Scratch.Set "current" "application" }}
+	{{ partial "nav-category-project.html" . }}
+
+	{{ $.Scratch.Set "current" "electronics" }}
+	{{ partial "nav-category-project.html" . }}
+
+	{{ $.Scratch.Set "current" "library" }}
+	{{ partial "nav-category-project.html" . }}
 
 	<div class="nav-copyright">
 		&copy; Szymon Katra<br/>

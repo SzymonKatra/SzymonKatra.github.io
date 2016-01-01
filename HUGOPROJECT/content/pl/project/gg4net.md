@@ -16,6 +16,7 @@ repository: https://github.com/SzymonKatra/GG4NET
 title: GG4NET
 description: Biblioteka do obsługi protokołu Gadu-Gadu w .NET.
 weight: 7
+project_type: library
 ---
 
 Biblioteka do obsługi protokołu Gadu-Gadu dla .NET bazowana na specyfikacji libgadu (http://libgadu.net/protocol/).
