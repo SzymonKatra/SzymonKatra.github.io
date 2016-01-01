@@ -25,7 +25,7 @@ keywords:
 repository: https://github.com/SzymonKatra/AccelerometerGamePadAVR
 title: AccelerometerGamePadAVR
 description: Konfigurawalny GamePad USB z wbudowanym akcelerometrem
-weight: 6
+weight: 103
 project_type: electronics
 ---
 AccelerometerGamePadAVR jest zbudowanym od podstaw GamePadem USB z wbudowanym akcelerometrem.

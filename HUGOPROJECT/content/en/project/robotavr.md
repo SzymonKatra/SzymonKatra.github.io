@@ -14,7 +14,7 @@ keywords:
 repository: https://github.com/SzymonKatra/RobotAVR
 title: RobotAVR
 description: Obstacle avoiding and remote controlled robot based on ATmega328P-PU
-weight: 4
+weight: 101
 images:
 - /images/project/robotavr/photo_1.JPG
 - /images/project/robotavr/photo_2.JPG

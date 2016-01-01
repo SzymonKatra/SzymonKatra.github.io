@@ -24,7 +24,7 @@ images:
 - /images/project/dzwonekiilokielce/schematic.png
 - /images/project/dzwonekiilokielce/pcb.png
 title: Dzwonek II LO Kielce
-weight: 5
+weight: 102
 project_type: electronics
 ---
 
