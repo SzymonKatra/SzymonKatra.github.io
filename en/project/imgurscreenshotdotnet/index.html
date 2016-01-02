@@ -133,9 +133,11 @@
 	{
 		var id = $(this).attr("id");
 		var listId = "#" + id + "-list";
-		if ($(listId).css("display") != "none") return;
 		$(".nav-category-list").slideUp(500);
-		if ($(listId).length) $(listId).slideDown(500);
+		if ($(listId).css("display") == "none")
+		{
+			if ($(listId).length) $(listId).slideDown(500);
+		}
 	});
 </script>
 
