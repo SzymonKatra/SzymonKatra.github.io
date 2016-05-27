@@ -6,8 +6,31 @@
     <description>Recent content on Szymon Katra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Mon, 22 Jun 2015 15:26:02 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 27 May 2016 17:04:22 +0200</lastBuildDate>
     <atom:link href="http://szymonkatra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rozwiązania zadań maturalnych</title>
+      <link>http://szymonkatra.github.io/matura/solutions/</link>
+      <pubDate>Fri, 27 May 2016 17:04:22 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/matura/solutions/</guid>
+      <description>&lt;p&gt;Poniżej umieszczam rozwiązania zadań maturalnych z lat ubiegłych.
+Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
+
+&lt;p&gt;W każdej paczce zip znajduje się arkusz wraz z odpowiedziami i danymi oraz rozwiązania zadań w C++, Access oraz Excel.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2015.zip&#34;&gt;2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2014.zip&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2013.zip&#34;&gt;2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2012.zip&#34;&gt;2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2011.zip&#34;&gt;2011&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2010.zip&#34;&gt;2010&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2009.zip&#34;&gt;2009&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>AllDataSheetFinder</title>

@@ -24,6 +24,11 @@
 	{{ $.Scratch.Set "current" "library" }}
 	{{ partial "nav-category-project.html" . }}
 
+	{{ if eq .Site.LanguageCode "pl-PL" }}
+		{{ $.Scratch.Set "current" "matura" }}
+		{{ partial "nav-category.html" . }}
+	{{ end }}
+
 	<div class="nav-copyright">
 		&copy; Szymon Katra<br/>
 		Powered by <a href="http://gohugo.io">Hugo</a>

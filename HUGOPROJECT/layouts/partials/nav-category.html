@@ -5,7 +5,7 @@
 <hr class="hr-normal"/>
 <ul id="nav-id-category-{{ $.Scratch.Get "current" }}-list" class="nav-category-list" {{ if not (eq .Section ($.Scratch.Get "current")) }}style="display: none;"{{ end }}>
     {{ $currentRelLink := .Permalink }}
-    {{ range where .Site.Pages "Section" ($.Scratch.Get "currentCategory") }}
+    {{ range where .Site.Pages "Section" ($.Scratch.Get "current") }}
         <li><a href="{{ .RelPermalink }}" class="{{ if eq .Permalink $currentRelLink }}nav-selected{{ end }}">{{ .LinkTitle }}</a></li>
     {{ end }}
 </ul>
