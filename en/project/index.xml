@@ -17,7 +17,7 @@
       <guid>http://szymonkatra.github.io/en/project/alldatasheetfinder/</guid>
       <description>
 
-&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
+&lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing electrical parts datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
 
 &lt;h2 id=&#34;features:9c04b578707acf47f78dfc7acc917358&#34;&gt;Features:&lt;/h2&gt;
 
@@ -28,7 +28,7 @@
 &lt;li&gt;tagging&lt;/li&gt;
 &lt;li&gt;storing manufacturer logos&lt;/li&gt;
 &lt;li&gt;automatic updates&lt;/li&gt;
-&lt;li&gt;neat and simple interface in English or Polish&lt;/li&gt;
+&lt;li&gt;neat and simple interface in several languages (English, Polish, German, Russian and French)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Requires .NET Framework 4.5 i PDF viewer to work properly.&lt;/p&gt;

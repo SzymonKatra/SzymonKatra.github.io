@@ -15,7 +15,7 @@ images:
 - /images/project/alldatasheetfinder/screenshot_2.png
 project_type: application
 ---
-AllDataSheetFinder is an utility for finding, downloading and organizing datasheets from alldatasheet.com or own, which originate from other sources.
+AllDataSheetFinder is an utility for finding, downloading and organizing electrical parts datasheets from alldatasheet.com or own, which originate from other sources.
 
 ## Features:
 
@@ -25,7 +25,7 @@ AllDataSheetFinder is an utility for finding, downloading and organizing datashe
 - tagging
 - storing manufacturer logos
 - automatic updates
-- neat and simple interface in English or Polish
+- neat and simple interface in several languages (English, Polish, German, Russian and French)
 
 Requires .NET Framework 4.5 i PDF viewer to work properly.
 

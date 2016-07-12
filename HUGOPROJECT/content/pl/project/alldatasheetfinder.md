@@ -17,7 +17,7 @@ images:
 - /images/project/alldatasheetfinder/screenshot_2.png
 project_type: application
 ---
-AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.
+AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych elementów elektronicznych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.
 
 ## Możliwości:
 
@@ -27,7 +27,7 @@ AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowan
 - tagowanie
 - przechowywanie loga producentów
 - automatyczne aktualizacje
-- schludny i prosty w obsłudze interfejs w języku polskim lub angielskim
+- schludny i prosty w obsłudze interfejs w kilku językach (polski, angielski, niemiecki, rosyjski i francuski)
 
 Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania.
 

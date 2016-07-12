@@ -17,7 +17,7 @@
       <guid>http://szymonkatra.github.io/project/alldatasheetfinder/</guid>
       <description>
 
-&lt;p&gt;AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.&lt;/p&gt;
+&lt;p&gt;AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych elementów elektronicznych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.&lt;/p&gt;
 
 &lt;h2 id=&#34;możliwości:9c04b578707acf47f78dfc7acc917358&#34;&gt;Możliwości:&lt;/h2&gt;
 
@@ -28,7 +28,7 @@
 &lt;li&gt;tagowanie&lt;/li&gt;
 &lt;li&gt;przechowywanie loga producentów&lt;/li&gt;
 &lt;li&gt;automatyczne aktualizacje&lt;/li&gt;
-&lt;li&gt;schludny i prosty w obsłudze interfejs w języku polskim lub angielskim&lt;/li&gt;
+&lt;li&gt;schludny i prosty w obsłudze interfejs w kilku językach (polski, angielski, niemiecki, rosyjski i francuski)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Wymaga .NET Framework 4.5 i przeglądarki plików PDF do poprawnego działania.&lt;/p&gt;
