@@ -1,7 +1,7 @@
 ---
 date: 2015-06-22T15:26:02+02:00
 title: AllDataSheetFinder
-description: Narzędzie do wyszukiwania, pobierania oraz organizaowania not katalogowych ze strony alldatasheet.com
+description: Narzędzie do wyszukiwania, pobierania oraz organizowania not katalogowych ze strony alldatasheet.com
 weight: 1
 keywords:
 - alldatasheet
