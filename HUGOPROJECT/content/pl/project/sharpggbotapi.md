@@ -24,7 +24,7 @@ weight: 202
 project_type: library
 ---
 
-Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP.
+Biblioteka do obsługi [platformy GG BotAPI](https://boty.gg.pl/start/) w C# poprzez zapytania HTTP.
 
 Licencja: [MIT](https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/license.txt)
 

@@ -269,7 +269,7 @@ Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obu
       <pubDate>Thu, 25 Jun 2015 15:09:30 +0200</pubDate>
       
       <guid>http://szymonkatra.github.io/project/sharpggbotapi/</guid>
-      <description>&lt;p&gt;Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP.&lt;/p&gt;
+      <description>&lt;p&gt;Biblioteka do obsługi &lt;a href=&#34;https://boty.gg.pl/start/&#34;&gt;platformy GG BotAPI&lt;/a&gt; w C# poprzez zapytania HTTP.&lt;/p&gt;
 
 &lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 
