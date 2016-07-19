@@ -22,10 +22,10 @@ weight: 203
 **Uwaga: Ten projekt nie jest już rozwijany i został udostępniony w celach poglądowych.**
 
 TKGameUtilities jest biblioteką zbudowaną na bazie [OpenTK](http://www.opentk.com/) w celu umożliwienia tworzenia wydajnych gier 2D w OpenGL poprzez łatwy w użyciu interfejs.
-Bibioteka posiada wysokopoziomowe interfejsy do rysowania, lecz jeśli one nie spełniają twoich oczekiwań możesz użyć niskopoziomowych rozwiązań i dostosować je do własnych potrzeb.
+Bibioteka posiada wysokopoziomowe interfejsy do rysowania, lecz jeśli one nie spełniają oczekiwań można użyć niskopoziomowych rozwiązań i dostosować je do własnych potrzeb.
 
 Przykładowe użycie można znaleźć [tutaj](https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs).  
-W nowym projekcie musisz dodać referencje do *TKGameUtilities.dll* i *OpenTK.dll* aby móc korzystać z biblioteki.
+W nowym projekcie należy dodać referencje do *TKGameUtilities.dll* i *OpenTK.dll* aby móc korzystać z biblioteki.
 
 ## Lista możliwości:
 
