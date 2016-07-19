@@ -322,7 +322,7 @@ W nowym projekcie musisz dodać referencje do &lt;em&gt;TKGameUtilities.dll&lt;/
 &lt;li&gt;Zarządzanie kontekstem OpenGL&lt;/li&gt;
 &lt;li&gt;Okna i wejście zrealizowane przez OpenTK&lt;/li&gt;
 &lt;li&gt;Obrazy i tekstury (*.bmp, *.emf, *.exif, *.gif, *.icon, *.jpeg, *.png, *.tiff, *wmf)&lt;/li&gt;
-&lt;li&gt;Bufory wierzchołków (&lt;em&gt;VertexBuffer&lt;/em&gt;) z kilkoma predefiniowanymi wierzchołkami with some predefined common vertices&lt;/li&gt;
+&lt;li&gt;Bufory wierzchołków (&lt;em&gt;VertexBuffer&lt;/em&gt;) z kilkoma predefiniowanymi wierzchołkami&lt;/li&gt;
 &lt;li&gt;Bufory indeksów (&lt;em&gt;IndexBuffer&lt;/em&gt;)&lt;/li&gt;
 &lt;li&gt;Shadery (proste shadery do podstawowego rysowania zaimplementowane i gotowe od razu do użycia)&lt;/li&gt;
 &lt;li&gt;Obsługa czcionek (są renderowane do tekstury poprzez GDI+ i używane później do wyświetlania tekstu)&lt;/li&gt;

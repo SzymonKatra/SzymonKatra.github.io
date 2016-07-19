@@ -32,7 +32,7 @@ W nowym projekcie musisz dodać referencje do *TKGameUtilities.dll* i *OpenTK.dl
 - Zarządzanie kontekstem OpenGL
 - Okna i wejście zrealizowane przez OpenTK
 - Obrazy i tekstury \(*.bmp, *.emf, *.exif, *.gif, *.icon, *.jpeg, *.png, *.tiff, *wmf\)
-- Bufory wierzchołków (*VertexBuffer*) z kilkoma predefiniowanymi wierzchołkami with some predefined common vertices
+- Bufory wierzchołków (*VertexBuffer*) z kilkoma predefiniowanymi wierzchołkami
 - Bufory indeksów (*IndexBuffer*)
 - Shadery (proste shadery do podstawowego rysowania zaimplementowane i gotowe od razu do użycia)
 - Obsługa czcionek (są renderowane do tekstury poprzez GDI+ i używane później do wyświetlania tekstu)
