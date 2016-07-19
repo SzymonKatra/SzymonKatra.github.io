@@ -22,6 +22,7 @@ keywords:
 - v-usb
 - hid
 - urządzenie
+- diy
 repository: https://github.com/SzymonKatra/AccelerometerGamePadAVR
 title: AccelerometerGamePadAVR
 description: Konfigurawalny GamePad USB z wbudowanym akcelerometrem

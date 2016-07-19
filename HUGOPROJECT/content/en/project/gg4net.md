@@ -2,18 +2,18 @@
 date: 2015-06-25T14:06:51+02:00
 download_link: https://github.com/SzymonKatra/GG4NET/releases/latest
 keywords:
-- "gg4net"
-- "gadu"
-- "gadu-gadu"
-- "gg"
-- ".net"
-- "dotnet"
-- "c#"
-- "csharp"
-- "c-sharp"
-- "library"
-- "instant"
-- "messenger"
+- gg4net
+- gadu
+- gadu-gadu
+- gg
+- .net
+- dotnet
+- c#
+- csharp
+- c-sharp
+- library
+- instant
+- messenger
 repository: https://github.com/SzymonKatra/GG4NET
 title: GG4NET
 description: .NET Gadu-Gadu library

@@ -15,6 +15,7 @@ keywords:
 - dcf77
 - microsd
 - sd
+- diy
 repository: https://github.com/SzymonKatra/DzwonekIILOKielce
 images:
 - /images/project/dzwonekiilokielce/photo_1.JPG

@@ -300,5 +300,43 @@ Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obu
 </description>
     </item>
     
+    <item>
+      <title>TKGameUtilities</title>
+      <link>http://szymonkatra.github.io/project/tkgameutilities/</link>
+      <pubDate>Tue, 19 Jul 2016 22:56:44 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/tkgameutilities/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Uwaga: Ten projekt nie jest już rozwijany i został udostępniony w celach poglądowych.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;TKGameUtilities jest biblioteką zbudowaną na bazie &lt;a href=&#34;http://www.opentk.com/&#34;&gt;OpenTK&lt;/a&gt; w celu umożliwienia tworzenia wydajnych gier 2D w OpenGL poprzez łatwy w użyciu interfejs.
+Bibioteka posiada wysokopoziomowe interfejsy do rysowania, lecz jeśli one nie spełniają twoich oczekiwań możesz użyć niskopoziomowych rozwiązań i dostosować je do własnych potrzeb.&lt;/p&gt;
+
+&lt;p&gt;Przykładowe użycie można znaleźć &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs&#34;&gt;tutaj&lt;/a&gt;.&lt;br /&gt;
+W nowym projekcie musisz dodać referencje do &lt;em&gt;TKGameUtilities.dll&lt;/em&gt; i &lt;em&gt;OpenTK.dll&lt;/em&gt; aby móc korzystać z biblioteki.&lt;/p&gt;
+
+&lt;h2 id=&#34;lista-możliwości:e12a71a9cd433bbd750511c88d3c0d5c&#34;&gt;Lista możliwości:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zarządzanie kontekstem OpenGL&lt;/li&gt;
+&lt;li&gt;Okna i wejście zrealizowane przez OpenTK&lt;/li&gt;
+&lt;li&gt;Obrazy i tekstury (*.bmp, *.emf, *.exif, *.gif, *.icon, *.jpeg, *.png, *.tiff, *wmf)&lt;/li&gt;
+&lt;li&gt;Bufory wierzchołków (&lt;em&gt;VertexBuffer&lt;/em&gt;) z kilkoma predefiniowanymi wierzchołkami with some predefined common vertices&lt;/li&gt;
+&lt;li&gt;Bufory indeksów (&lt;em&gt;IndexBuffer&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Shadery (proste shadery do podstawowego rysowania zaimplementowane i gotowe od razu do użycia)&lt;/li&gt;
+&lt;li&gt;Obsługa czcionek (są renderowane do tekstury poprzez GDI+ i używane później do wyświetlania tekstu)&lt;/li&gt;
+&lt;li&gt;Batching umożliwiający wydajne rysowanie (&lt;em&gt;SpriteBatch&lt;/em&gt;, &lt;em&gt;IndexedPrimitiveBatch&lt;/em&gt; i &lt;em&gt;FontBatch&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Bufor pikseli (&lt;em&gt;PixelBuffer&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Pętla gry o stałej lub zmiennej prędkości&lt;/li&gt;
+&lt;li&gt;Kolizje wielokątów (wypukłe i wklęsłe po triangulacji)&lt;/li&gt;
+&lt;li&gt;Użyteczne funkcje matematyczne i podstawowe struktury&lt;/li&gt;
+&lt;li&gt;Obsługa liczb stałoprzecinkowych dzięki &lt;a href=&#34;https://github.com/asik/FixedMath.Net&#34;&gt;FixedMath.Net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

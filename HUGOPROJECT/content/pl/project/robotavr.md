@@ -1,16 +1,16 @@
 ---
 date: 2015-06-23T16:09:43+02:00
 keywords:
-- "robot"
-- "obstacle"
-- "avr"
-- "atmega"
-- "atmega328"
-- "l293d"
-- "bluetooth"
-- "hc-05"
-- "hc-sr04"
-
+- robot
+- obstacle
+- avr
+- atmega
+- atmega328
+- l293d
+- bluetooth
+- hc-05
+- hc-sr04
+- diy
 repository: https://github.com/SzymonKatra/RobotAVR
 title: RobotAVR
 description: Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU

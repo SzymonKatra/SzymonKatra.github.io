@@ -2,16 +2,16 @@
 date: 2015-06-25T14:06:51+02:00
 download_link: https://github.com/SzymonKatra/GG4NET/releases/latest
 keywords:
-- "gg4net"
-- "gadu"
-- "gadu-gadu"
-- "gg"
-- ".net"
-- "dotnet"
-- "c#"
-- "csharp"
-- "c-sharp"
-- "biblioteka"
+- gg4net
+- gadu
+- gadu-gadu
+- gg
+- .net
+- dotnet
+- c#
+- csharp
+- c-sharp
+- biblioteka
 repository: https://github.com/SzymonKatra/GG4NET
 title: GG4NET
 description: Biblioteka do obsługi protokołu Gadu-Gadu w .NET.

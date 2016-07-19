@@ -2,8 +2,8 @@
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
-		<title>AllDataSheetFinder</title>
-		<meta name="keywords" content="alldatasheet alldatasheetfinder datasheet pdf "/>
+		<title>TKGameUtilities</title>
+		<meta name="keywords" content="opengl gl opentk high performance 2d graphics games game engine library framework "/>
 		<meta name="author" content="Szymon Katra"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="icon" type="image/png" href="/favicon.png"/>
@@ -56,11 +56,11 @@
     Applications
 </div>
 <hr class="hr-normal"/>
-<ul id="nav-id-category-project-application-list" class="nav-category-list" >
+<ul id="nav-id-category-project-application-list" class="nav-category-list" style="display: none;">
     
     
         
-            <li><a href="/en/project/alldatasheetfinder/" class="nav-selected">AllDataSheetFinder</a></li>
+            <li><a href="/en/project/alldatasheetfinder/" class="">AllDataSheetFinder</a></li>
         
     
         
@@ -118,7 +118,7 @@
     Libraries
 </div>
 <hr class="hr-normal"/>
-<ul id="nav-id-category-project-library-list" class="nav-category-list" style="display: none;">
+<ul id="nav-id-category-project-library-list" class="nav-category-list" >
     
     
         
@@ -136,7 +136,7 @@
         
     
         
-            <li><a href="/en/project/tkgameutilities/" class="">TKGameUtilities</a></li>
+            <li><a href="/en/project/tkgameutilities/" class="nav-selected">TKGameUtilities</a></li>
         
     
 </ul>
@@ -166,18 +166,11 @@
 	
 	<div class="page">
 		<div class="page-header">
-			<h1 class="page-header-title inline">AllDataSheetFinder</h1>
-			
-				<div class="action-outline">
-					<a href="https://github.com/SzymonKatra/AllDataSheetFinder/releases/latest" class="action">
-						<span class="action-text icon-download"></span>
-						<span class="action-text">Download</span>
-					</a>
-				</div>
+			<h1 class="page-header-title inline">TKGameUtilities</h1>
 			
 			
 				<div class="action-outline">
-					<a href="https://github.com/SzymonKatra/AllDataSheetFinder" target="_blank" class="action">
+					<a href="https://github.com/SzymonKatra/TKGameUtilities" target="_blank" class="action">
 						<span class="action-text icon-file-code"></span>
 						<span class="action-text">Repository</span>
 					</a>
@@ -189,39 +182,38 @@
 		<div class="page-content">
 			
 
-<p>AllDataSheetFinder is an utility for finding, downloading and organizing electrical parts datasheets from alldatasheet.com or own, which originate from other sources.</p>
+<p><strong>Note: This project is discontinued and published for illustrative purposes.</strong></p>
 
-<h2 id="features:9c04b578707acf47f78dfc7acc917358">Features:</h2>
+<p>TKGameUtilities is a library built on top of <a href="http://www.opentk.com/">OpenTK</a> to allow making high performance OpenGL 2D games in C# with easy to use object oriented interface.
+Library has high-level interfaces for drawing but if they not meet your requirements you can also use low-level and customize them.</p>
+
+<p>An example of use can be found <a href="https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs">here</a>.<br />
+In new project you must add <em>TKGameUtilities.dll</em> and <em>OpenTK.dll</em> references to work properly.</p>
+
+<h2 id="features-list:e12a71a9cd433bbd750511c88d3c0d5c">Features list:</h2>
 
 <ul>
-<li>quick finding and downloading datasheets from alldatasheet.com site</li>
-<li>storing last downloads</li>
-<li>adding to favourites (then it won&rsquo;t be removed)</li>
-<li>tagging</li>
-<li>storing manufacturer logos</li>
-<li>automatic updates</li>
-<li>neat and simple interface in several languages (English, Polish, German, Russian and French)</li>
+<li>OpenGL context management</li>
+<li>Window and input done by OpenTK</li>
+<li>Images and textures (*.bmp, *.emf, *.exif, *.gif, *.icon, *.jpeg, *.png, *.tiff, *wmf)</li>
+<li><em>VertexBuffer</em> with some predefined common vertices</li>
+<li><em>IndexBuffer</em></li>
+<li>Shaders (basic shaders for drawing are implemented out of box)</li>
+<li>Fonts (they are rendered to texture by GDI+ and used later to display text)</li>
+<li>Batching for high-performance drawing (<em>SpriteBatch</em>, <em>IndexedPrimitiveBatch</em> and <em>FontBatch</em>)</li>
+<li><em>PixelBuffer</em></li>
+<li>Fixed and variable step game loop</li>
+<li>Polygon collisions (convex and triangulated concave)</li>
+<li>Math utilities and basic structures</li>
+<li>Fixed point math done by <a href="https://github.com/asik/FixedMath.Net">FixedMath.Net</a></li>
 </ul>
 
-<p>Requires .NET Framework 4.5 i PDF viewer to work properly.</p>
-
-<p>License: <a href="https://github.com/SzymonKatra/AllDataSheetFinder/blob/master/LICENSE.txt">GNU GPL v3</a></p>
+<p>License: <a href="https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt">MIT</a></p>
 
 			
 			<br/>
 			
-				<span class="download-text"><a href="https://github.com/SzymonKatra/AllDataSheetFinder/releases/latest">Link to download</a></span><br/>
-			
 			<br/>
-			
-				<div>
-					
-						<a href="/images/project/alldatasheetfinder/screenshot_1.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/alldatasheetfinder/screenshot_1.png"/></a>
-					
-						<a href="/images/project/alldatasheetfinder/screenshot_2.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/alldatasheetfinder/screenshot_2.png"/></a>
-					
-					<div class="clear"></div>
-				</div>
 			
 		</div>
 	</div>

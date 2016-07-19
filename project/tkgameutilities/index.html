@@ -2,8 +2,8 @@
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
-		<title>RobotAVR</title>
-		<meta name="keywords" content="robot obstacle avr atmega atmega328 l293d bluetooth hc-05 hc-sr04 diy "/>
+		<title>TKGameUtilities</title>
+		<meta name="keywords" content="opengl gl opentk grafika 2d wysokiej wydajności gry gra silnik biblioteka "/>
 		<meta name="author" content="Szymon Katra"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="icon" type="image/png" href="/favicon.png"/>
@@ -92,7 +92,7 @@
     Elektronika
 </div>
 <hr class="hr-normal"/>
-<ul id="nav-id-category-project-electronics-list" class="nav-category-list" >
+<ul id="nav-id-category-project-electronics-list" class="nav-category-list" style="display: none;">
     
     
         
@@ -102,7 +102,7 @@
         
     
         
-            <li><a href="/project/robotavr/" class="nav-selected">RobotAVR</a></li>
+            <li><a href="/project/robotavr/" class="">RobotAVR</a></li>
         
     
         
@@ -128,7 +128,7 @@
     Biblioteki
 </div>
 <hr class="hr-normal"/>
-<ul id="nav-id-category-project-library-list" class="nav-category-list" style="display: none;">
+<ul id="nav-id-category-project-library-list" class="nav-category-list" >
     
     
         
@@ -152,7 +152,7 @@
         
     
         
-            <li><a href="/project/tkgameutilities/" class="">TKGameUtilities</a></li>
+            <li><a href="/project/tkgameutilities/" class="nav-selected">TKGameUtilities</a></li>
         
     
 </ul>
@@ -196,11 +196,11 @@
 	
 	<div class="page">
 		<div class="page-header">
-			<h1 class="page-header-title inline">RobotAVR</h1>
+			<h1 class="page-header-title inline">TKGameUtilities</h1>
 			
 			
 				<div class="action-outline">
-					<a href="https://github.com/SzymonKatra/RobotAVR" target="_blank" class="action">
+					<a href="https://github.com/SzymonKatra/TKGameUtilities" target="_blank" class="action">
 						<span class="action-text icon-file-code"></span>
 						<span class="action-text">Repozytorium</span>
 					</a>
@@ -212,45 +212,38 @@
 		<div class="page-content">
 			
 
-<p>Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU. Układ został zbudowany na prototypowych płytkach PCB.</p>
+<p><strong>Uwaga: Ten projekt nie jest już rozwijany i został udostępniony w celach poglądowych.</strong></p>
 
-<h2 id="główne-części:a37a351c30b81444073d1f1254811147">Główne części:</h2>
+<p>TKGameUtilities jest biblioteką zbudowaną na bazie <a href="http://www.opentk.com/">OpenTK</a> w celu umożliwienia tworzenia wydajnych gier 2D w OpenGL poprzez łatwy w użyciu interfejs.
+Bibioteka posiada wysokopoziomowe interfejsy do rysowania, lecz jeśli one nie spełniają twoich oczekiwań możesz użyć niskopoziomowych rozwiązań i dostosować je do własnych potrzeb.</p>
+
+<p>Przykładowe użycie można znaleźć <a href="https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs">tutaj</a>.<br />
+W nowym projekcie musisz dodać referencje do <em>TKGameUtilities.dll</em> i <em>OpenTK.dll</em> aby móc korzystać z biblioteki.</p>
+
+<h2 id="lista-możliwości:e12a71a9cd433bbd750511c88d3c0d5c">Lista możliwości:</h2>
 
 <ul>
-<li>ATmega328P-PU</li>
-<li>Moduł Bluetooth HC-05</li>
-<li>Moduł ultradźwiękowago pomiaru odległości HC-SR04</li>
-<li>Mostek H L293D</li>
-<li>Silniki 5V z przekładnią 1:48</li>
-<li>Koła o średnicy 65mm</li>
+<li>Zarządzanie kontekstem OpenGL</li>
+<li>Okna i wejście zrealizowane przez OpenTK</li>
+<li>Obrazy i tekstury (*.bmp, *.emf, *.exif, *.gif, *.icon, *.jpeg, *.png, *.tiff, *wmf)</li>
+<li>Bufory wierzchołków (<em>VertexBuffer</em>) z kilkoma predefiniowanymi wierzchołkami with some predefined common vertices</li>
+<li>Bufory indeksów (<em>IndexBuffer</em>)</li>
+<li>Shadery (proste shadery do podstawowego rysowania zaimplementowane i gotowe od razu do użycia)</li>
+<li>Obsługa czcionek (są renderowane do tekstury poprzez GDI+ i używane później do wyświetlania tekstu)</li>
+<li>Batching umożliwiający wydajne rysowanie (<em>SpriteBatch</em>, <em>IndexedPrimitiveBatch</em> i <em>FontBatch</em>)</li>
+<li>Bufor pikseli (<em>PixelBuffer</em>)</li>
+<li>Pętla gry o stałej lub zmiennej prędkości</li>
+<li>Kolizje wielokątów (wypukłe i wklęsłe po triangulacji)</li>
+<li>Użyteczne funkcje matematyczne i podstawowe struktury</li>
+<li>Obsługa liczb stałoprzecinkowych dzięki <a href="https://github.com/asik/FixedMath.Net">FixedMath.Net</a></li>
 </ul>
 
-<p>Robot ma obecne dwa tryby pracy - zdalnie sterowanie i automatyczne omijanie przeszkód.<br />
-Sterowanie przez bluetooth za pomocą komend &lsquo;w&rsquo;, &rsquo;s&rsquo;, &lsquo;a&rsquo;, &rsquo;d&rsquo; lub &lsquo;x&rsquo; aby przełączać tryby.</p>
-
-<p>Robot zajął I miejsce w konkursie <a href="http://informatyka.am.szczecin.pl/ipit/wyniki/194-wyniki-konkursu-ipit-2015-czwarta-edycja">Interaktywny Produkt IT 2015</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=JX7HjqfKiEM">Film przedstawiający działanie robota</a></p>
-
-<p>Więcej informacji w <a href="https://github.com/SzymonKatra/RobotAVR">repozytorium GitHub</a>.</p>
-
-<p>Licencja: <a href="https://github.com/SzymonKatra/RobotAVR/blob/master/LICENSE">GNU GPL v3</a></p>
+<p>Licencja: <a href="https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt">MIT</a></p>
 
 			
 			<br/>
 			
 			<br/>
-			
-				<div>
-					
-						<a href="/images/project/robotavr/photo_1.JPG" target="_blank"><img class="screenshot left" alt="Obrazek" src="/images/project/robotavr/photo_1.JPG"/></a>
-					
-						<a href="/images/project/robotavr/photo_2.JPG" target="_blank"><img class="screenshot left" alt="Obrazek" src="/images/project/robotavr/photo_2.JPG"/></a>
-					
-						<a href="/images/project/robotavr/photo_3.JPG" target="_blank"><img class="screenshot left" alt="Obrazek" src="/images/project/robotavr/photo_3.JPG"/></a>
-					
-					<div class="clear"></div>
-				</div>
 			
 		</div>
 	</div>

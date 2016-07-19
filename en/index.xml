@@ -220,5 +220,43 @@ I kept only construction and mechanic elements (buttons, sticks, case, USB cable
 </description>
     </item>
     
+    <item>
+      <title>TKGameUtilities</title>
+      <link>http://szymonkatra.github.io/en/project/tkgameutilities/</link>
+      <pubDate>Tue, 19 Jul 2016 22:56:44 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/tkgameutilities/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Note: This project is discontinued and published for illustrative purposes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;TKGameUtilities is a library built on top of &lt;a href=&#34;http://www.opentk.com/&#34;&gt;OpenTK&lt;/a&gt; to allow making high performance OpenGL 2D games in C# with easy to use object oriented interface.
+Library has high-level interfaces for drawing but if they not meet your requirements you can also use low-level and customize them.&lt;/p&gt;
+
+&lt;p&gt;An example of use can be found &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;
+In new project you must add &lt;em&gt;TKGameUtilities.dll&lt;/em&gt; and &lt;em&gt;OpenTK.dll&lt;/em&gt; references to work properly.&lt;/p&gt;
+
+&lt;h2 id=&#34;features-list:e12a71a9cd433bbd750511c88d3c0d5c&#34;&gt;Features list:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OpenGL context management&lt;/li&gt;
+&lt;li&gt;Window and input done by OpenTK&lt;/li&gt;
+&lt;li&gt;Images and textures (*.bmp, *.emf, *.exif, *.gif, *.icon, *.jpeg, *.png, *.tiff, *wmf)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;VertexBuffer&lt;/em&gt; with some predefined common vertices&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IndexBuffer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shaders (basic shaders for drawing are implemented out of box)&lt;/li&gt;
+&lt;li&gt;Fonts (they are rendered to texture by GDI+ and used later to display text)&lt;/li&gt;
+&lt;li&gt;Batching for high-performance drawing (&lt;em&gt;SpriteBatch&lt;/em&gt;, &lt;em&gt;IndexedPrimitiveBatch&lt;/em&gt; and &lt;em&gt;FontBatch&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;PixelBuffer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fixed and variable step game loop&lt;/li&gt;
+&lt;li&gt;Polygon collisions (convex and triangulated concave)&lt;/li&gt;
+&lt;li&gt;Math utilities and basic structures&lt;/li&gt;
+&lt;li&gt;Fixed point math done by &lt;a href=&#34;https://github.com/asik/FixedMath.Net&#34;&gt;FixedMath.Net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
