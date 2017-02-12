@@ -61,37 +61,6 @@ Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
     </item>
     
     <item>
-      <title>ImgurScreenshotDotNet</title>
-      <link>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</link>
-      <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
-      
-      <guid>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</guid>
-      <description>
-
-&lt;p&gt;Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com&lt;/p&gt;
-
-&lt;h2 id=&#34;konfiguracja:7f43207cc2ba7be049c0cb0329e9fe87&#34;&gt;Konfiguracja:&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Utwórz konto w serwisie &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; i zaloguj się&lt;/li&gt;
-&lt;li&gt;Wejdź na stronę &lt;a href=&#34;https://api.imgur.com/oauth2/addclient&#34;&gt;rejestracji aplikacji&lt;/a&gt;, wypełnij formularz w następujący sposób a następnie kliknij przycisk &amp;ldquo;submit&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_1.png&#34;&gt;Przykład&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Application name: ImgurScreenshotDotNet&lt;/li&gt;
-&lt;li&gt;Authorization type: Anonymous usage without user authorization&lt;/li&gt;
-&lt;li&gt;Email: TWÓJ_EMAIL&lt;/li&gt;
-&lt;li&gt;Description: ImgurScreenshotDotNet&lt;/li&gt;
-&lt;li&gt;Przepisz kod z obrazka na dole&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Zostaniesz przekierowany na kolejną stronę gdzie otrzymasz swój numer. Skopiuj pole &amp;ldquo;Client ID&amp;rdquo; i wklej je w do aplikacji, a następnie zapisz używając przyciku &amp;ldquo;Save settings&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Przykład&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Zrób zrzut ekranu używając klawisza Print Screen lub skopiuj dowolny obrazek do schowka, a następnie wciśnij ustawiony klawisz (&amp;ldquo;Send hotkey&amp;rdquo;). Po chwili obrazek zostanie wysłany i otrzymasz do niego link.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Dziennik</title>
       <link>http://szymonkatra.github.io/project/dziennik/</link>
       <pubDate>Tue, 23 Jun 2015 16:40:43 +0200</pubDate>
@@ -130,6 +99,37 @@ Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
 &lt;li&gt;Zabezpieczenie przed uruchomieniem dwóch instancji programu&lt;/li&gt;
 &lt;li&gt;inne&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ImgurScreenshotDotNet</title>
+      <link>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</link>
+      <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</guid>
+      <description>
+
+&lt;p&gt;Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com&lt;/p&gt;
+
+&lt;h2 id=&#34;konfiguracja:7f43207cc2ba7be049c0cb0329e9fe87&#34;&gt;Konfiguracja:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Utwórz konto w serwisie &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; i zaloguj się&lt;/li&gt;
+&lt;li&gt;Wejdź na stronę &lt;a href=&#34;https://api.imgur.com/oauth2/addclient&#34;&gt;rejestracji aplikacji&lt;/a&gt;, wypełnij formularz w następujący sposób a następnie kliknij przycisk &amp;ldquo;submit&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_1.png&#34;&gt;Przykład&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Application name: ImgurScreenshotDotNet&lt;/li&gt;
+&lt;li&gt;Authorization type: Anonymous usage without user authorization&lt;/li&gt;
+&lt;li&gt;Email: TWÓJ_EMAIL&lt;/li&gt;
+&lt;li&gt;Description: ImgurScreenshotDotNet&lt;/li&gt;
+&lt;li&gt;Przepisz kod z obrazka na dole&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Zostaniesz przekierowany na kolejną stronę gdzie otrzymasz swój numer. Skopiuj pole &amp;ldquo;Client ID&amp;rdquo; i wklej je w do aplikacji, a następnie zapisz używając przyciku &amp;ldquo;Save settings&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Przykład&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Zrób zrzut ekranu używając klawisza Print Screen lub skopiuj dowolny obrazek do schowka, a następnie wciśnij ustawiony klawisz (&amp;ldquo;Send hotkey&amp;rdquo;). Po chwili obrazek zostanie wysłany i otrzymasz do niego link.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
