@@ -24,13 +24,13 @@
 	{{ $.Scratch.Set "current" "library" }}
 	{{ partial "nav-category-project.html" . }}
 
+	{{ $.Scratch.Set "current" "other" }}
+	{{ partial "nav-category.html" . }}
+
 	{{ if eq .Site.LanguageCode "pl-PL" }}
 		{{ $.Scratch.Set "current" "matura" }}
 		{{ partial "nav-category.html" . }}
 	{{ end }}
-
-	{{ $.Scratch.Set "current" "other" }}
-	{{ partial "nav-category.html" . }}
 
 	<div class="nav-donate">
 		{{ index (index $.Site.Data.strings $.Site.LanguageCode) "donate_text" }}
