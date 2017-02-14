@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maturas on Szymon Katra</title>
-    <link>http://szymonkatra.github.io/matura/</link>
+    <link>http://szymonkatra.github.io/matura/index.xml</link>
     <description>Recent content in Maturas on Szymon Katra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>

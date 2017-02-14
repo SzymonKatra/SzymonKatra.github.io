@@ -2,35 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Szymon Katra</title>
-    <link>http://szymonkatra.github.io/</link>
+    <link>http://szymonkatra.github.io/index.xml</link>
     <description>Recent content on Szymon Katra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Fri, 27 May 2016 17:04:22 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2015 15:26:02 +0200</lastBuildDate>
     <atom:link href="http://szymonkatra.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Rozwiązania zadań maturalnych</title>
-      <link>http://szymonkatra.github.io/matura/solutions/</link>
-      <pubDate>Fri, 27 May 2016 17:04:22 +0200</pubDate>
-      
-      <guid>http://szymonkatra.github.io/matura/solutions/</guid>
-      <description>&lt;p&gt;Poniżej umieszczam rozwiązania zadań maturalnych z lat ubiegłych.
-Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
-
-&lt;p&gt;W każdej paczce zip znajduje się arkusz wraz z odpowiedziami i danymi oraz rozwiązania zadań w C++, Access oraz Excel.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2015.zip&#34;&gt;2015&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2014.zip&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2013.zip&#34;&gt;2013&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2012.zip&#34;&gt;2012&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2011.zip&#34;&gt;2011&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2010.zip&#34;&gt;2010&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2009.zip&#34;&gt;2009&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>AllDataSheetFinder</title>
@@ -42,7 +19,7 @@ Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
 
 &lt;p&gt;AllDataSheetFinder jest narzędziem do wyszukiwania, pobierania oraz organizowania not katalogowych elementów elektronicznych ze strony alldatasheet.com i własnych, które pochodzą z innych źródeł.&lt;/p&gt;
 
-&lt;h2 id=&#34;możliwości:9c04b578707acf47f78dfc7acc917358&#34;&gt;Możliwości:&lt;/h2&gt;
+&lt;h2 id=&#34;możliwości&#34;&gt;Możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;szybkie wyszukiwanie oraz pobieranie not katalogowych ze strony alldatasheet.com&lt;/li&gt;
@@ -74,7 +51,7 @@ Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
 
 &lt;p&gt;Pełna instrukcja dostępna w paczce z programem.&lt;/p&gt;
 
-&lt;h2 id=&#34;możliwości:dfe7f5907ad770ac9947cab352db7e4d&#34;&gt;Możliwości:&lt;/h2&gt;
+&lt;h2 id=&#34;możliwości&#34;&gt;Możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Kalendarze roku szkolnego&lt;/li&gt;
@@ -112,7 +89,7 @@ Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
 
 &lt;p&gt;Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com&lt;/p&gt;
 
-&lt;h2 id=&#34;konfiguracja:7f43207cc2ba7be049c0cb0329e9fe87&#34;&gt;Konfiguracja:&lt;/h2&gt;
+&lt;h2 id=&#34;konfiguracja&#34;&gt;Konfiguracja:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Utwórz konto w serwisie &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; i zaloguj się&lt;/li&gt;
@@ -143,7 +120,7 @@ Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
 
 &lt;p&gt;Robot omijający przeszkody i zdalnie sterowany bazowany na mikrokontrolerze ATmega328P-PU. Układ został zbudowany na prototypowych płytkach PCB.&lt;/p&gt;
 
-&lt;h2 id=&#34;główne-części:a37a351c30b81444073d1f1254811147&#34;&gt;Główne części:&lt;/h2&gt;
+&lt;h2 id=&#34;główne-części&#34;&gt;Główne części:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
@@ -179,7 +156,7 @@ Sterowanie przez bluetooth za pomocą komend &amp;lsquo;w&amp;rsquo;, &amp;rsquo
 
 &lt;p&gt;W projekcie został użyty mikrokontroler AVR ATmega328P-PU. Schemat oraz płytka PCB zostały wykonane w programach ExpressSCH oraz ExpressPCB.&lt;/p&gt;
 
-&lt;h2 id=&#34;funkcjonalność:cc0f80b2a4f5b8faa557a0fc7dab3ed4&#34;&gt;Funkcjonalność:&lt;/h2&gt;
+&lt;h2 id=&#34;funkcjonalność&#34;&gt;Funkcjonalność:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sterowanie instalacją dzwonka w szkole poprzez przekaźnik 6A/250VAC lub 6A/28VDC&lt;/li&gt;
@@ -218,7 +195,7 @@ Gamepad pozwala na zapisanie 16 różnych konfiguracji (profili) i ich szybką z
 &lt;p&gt;Obsługa USB w mikrokontrolerze AVR jest zapewniona przez bibliotekę &lt;a href=&#34;https://www.obdev.at/products/vusb/index.html&#34;&gt;V-USB&lt;/a&gt; która jest programową implementacją USB 1.1.
 Aplikacja do konfiguracji wymaga .NET Framework 4.0.&lt;/p&gt;
 
-&lt;h2 id=&#34;funkcjonalność:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Funkcjonalność:&lt;/h2&gt;
+&lt;h2 id=&#34;funkcjonalność&#34;&gt;Funkcjonalność:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Dwie gałki analogowe oraz dwuosiowy akcelerometr do obsługi 6 osi wyjściowych (Oś X, Oś Y, Oś Z, Obrót X, Obrót Y, Obrót Z)&lt;/li&gt;
@@ -236,7 +213,7 @@ Po wciśnięciu i przytrzymaniu dodatkowego przycisku, dioda na padzie zgaśnie.
 &lt;p&gt;Do zbudowania mojego prototypu użyłem standardowego pada z którego wyciągnąłem elektronikę i zastąpiłem swoim układem.
 Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obudowa, przewód USB).&lt;/p&gt;
 
-&lt;h2 id=&#34;główne-części:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Główne części:&lt;/h2&gt;
+&lt;h2 id=&#34;główne-części&#34;&gt;Główne części:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mikrokontroler ATmega328P-PU&lt;/li&gt;
@@ -260,7 +237,7 @@ Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obu
 
 &lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/GG4NET/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;możliwości:cd81314a932bacf5bc1724e325747da2&#34;&gt;Możliwości:&lt;/h2&gt;
+&lt;h2 id=&#34;możliwości&#34;&gt;Możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;logowanie&lt;/li&gt;
@@ -316,7 +293,7 @@ Bibioteka posiada wysokopoziomowe interfejsy do rysowania, lecz jeśli one nie s
 &lt;p&gt;Przykładowe użycie można znaleźć &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs&#34;&gt;tutaj&lt;/a&gt;.&lt;br /&gt;
 W nowym projekcie należy dodać referencje do &lt;em&gt;TKGameUtilities.dll&lt;/em&gt; i &lt;em&gt;OpenTK.dll&lt;/em&gt; aby móc korzystać z biblioteki.&lt;/p&gt;
 
-&lt;h2 id=&#34;lista-możliwości:e12a71a9cd433bbd750511c88d3c0d5c&#34;&gt;Lista możliwości:&lt;/h2&gt;
+&lt;h2 id=&#34;lista-możliwości&#34;&gt;Lista możliwości:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Zarządzanie kontekstem OpenGL&lt;/li&gt;
@@ -335,6 +312,29 @@ W nowym projekcie należy dodać referencje do &lt;em&gt;TKGameUtilities.dll&lt;
 &lt;/ul&gt;
 
 &lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rozwiązania zadań maturalnych</title>
+      <link>http://szymonkatra.github.io/matura/solutions/</link>
+      <pubDate>Fri, 27 May 2016 17:04:22 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/matura/solutions/</guid>
+      <description>&lt;p&gt;Poniżej umieszczam rozwiązania zadań maturalnych z lat ubiegłych.
+Poziom rozszerzony, część 2 - praktycznia.&lt;/p&gt;
+
+&lt;p&gt;W każdej paczce zip znajduje się arkusz wraz z odpowiedziami i danymi oraz rozwiązania zadań w C++, Access oraz Excel.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2015.zip&#34;&gt;2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2014.zip&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2013.zip&#34;&gt;2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2012.zip&#34;&gt;2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2011.zip&#34;&gt;2011&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2010.zip&#34;&gt;2010&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://szymonkatra.github.io/data/matura/Matura_informatyka_2009.zip&#34;&gt;2009&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

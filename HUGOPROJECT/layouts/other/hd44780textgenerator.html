@@ -1,0 +1,48 @@
+<div>
+    Szerokość: <input type="text" id="width" value="16" size="1"/>
+</div>
+<div>
+    Wysokość: <input type="text" id="height" value="2" size="1"/>
+</div>
+<div>
+    Rozmiar komórki: <input type="text" id="cellSize" value="4" size="1"/>
+</div>
+<div>
+    Rozmiar znaku:
+    <select id="charSize">
+        <option value="0">5x8</option>
+        <option value="1">5x7</option>
+    </select>
+</div>
+<div>
+    Odstęp pomiędzy znakami: <input type="text" id="charSpacing" value="3" size="1"/>
+</div>
+<div>
+    Odstęp pomiędzy komórkami: <input type="text" id="cellSpacing" value="1" size="1"/>
+</div>
+<div>
+    Tekst: <textarea id="text" cols="50" rows="6"></textarea>
+</div>
+<div>
+    <button onclick="buttonClick()">Generuj</button>
+</div>
+<div>
+    <canvas id="output" width="0" height="0"></canvas>
+</div>
+
+<script type="text/javascript" src="/data/other/hd44780textgenerator/main.js"></script>
+<script type="text/javascript" src="/data/other/hd44780textgenerator/patterns.js"></script>
+<script type="text/javascript">
+init(document.getElementById('output'));
+
+    function buttonClick()
+    {
+        setWidth(parseInt(document.getElementById("width").value));
+        setHeight(parseInt(document.getElementById("height").value));
+        setCellSize(parseInt(document.getElementById("cellSize").value));
+        setCharSpacing(parseInt(document.getElementById("charSpacing").value));
+        setCellSpacing(parseInt(document.getElementById("cellSpacing").value));
+        generate();
+        writeText(document.getElementById("text").value);
+    }
+</script>

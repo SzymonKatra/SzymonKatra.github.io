@@ -29,6 +29,9 @@
 		{{ partial "nav-category.html" . }}
 	{{ end }}
 
+	{{/* $.Scratch.Set "current" "other" */}}
+	{{/* partial "nav-category.html" . */}}
+
 	<div class="nav-donate">
 		{{ index (index $.Site.Data.strings $.Site.LanguageCode) "donate_text" }}
 		<div style="margin-top:10px"></div>

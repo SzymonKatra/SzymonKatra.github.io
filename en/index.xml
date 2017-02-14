@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Szymon Katra</title>
-    <link>http://szymonkatra.github.io/en/</link>
+    <link>http://szymonkatra.github.io/en/index.xml</link>
     <description>Recent content on Szymon Katra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;AllDataSheetFinder is an utility for finding, downloading and organizing electrical parts datasheets from alldatasheet.com or own, which originate from other sources.&lt;/p&gt;
 
-&lt;h2 id=&#34;features:9c04b578707acf47f78dfc7acc917358&#34;&gt;Features:&lt;/h2&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;quick finding and downloading datasheets from alldatasheet.com site&lt;/li&gt;
@@ -47,7 +47,7 @@
 
 &lt;p&gt;Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com.&lt;/p&gt;
 
-&lt;h2 id=&#34;configuration:7f43207cc2ba7be049c0cb0329e9fe87&#34;&gt;Configuration:&lt;/h2&gt;
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Create an account on &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; and sign in&lt;/li&gt;
@@ -78,7 +78,7 @@
 
 &lt;p&gt;Obstacle avoiding and remote controlled robot based on ATmega328P-PU. Circuit is built on prototype PCB boards.&lt;/p&gt;
 
-&lt;h2 id=&#34;main-parts:a37a351c30b81444073d1f1254811147&#34;&gt;Main parts:&lt;/h2&gt;
+&lt;h2 id=&#34;main-parts&#34;&gt;Main parts:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU&lt;/li&gt;
@@ -111,7 +111,7 @@
 
 &lt;p&gt;AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB was made respectively in ExpressSCH and ExpressPCB.&lt;/p&gt;
 
-&lt;h2 id=&#34;features:cc0f80b2a4f5b8faa557a0fc7dab3ed4&#34;&gt;Features:&lt;/h2&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Controlling school bell system by relay 6A/250VAC or 6A/28VDC&lt;/li&gt;
@@ -152,7 +152,7 @@ Gamepad can store 16 diffrent configurations (profiles) and can change it while 
 &lt;p&gt;USB handling is provided by &lt;a href=&#34;https://www.obdev.at/products/vusb/index.html&#34;&gt;V-USB&lt;/a&gt; library which is software implementation of USB 1.1.
 Configuration application requires .NET Framework 4.0.&lt;/p&gt;
 
-&lt;h2 id=&#34;features:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Features:&lt;/h2&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Two analog sticks and 2-axis accelerometer to handle 6 output axes (X Axis, Y Axis, Z Axis, X Rotation, Y Rotation, Z Rotation)&lt;/li&gt;
@@ -170,7 +170,7 @@ When addition button is pressed and hold, diode will turn off. After selection w
 &lt;p&gt;To build my prototype I&amp;rsquo;ve used a standard gamepad from which I removed electronics and replaced with my own circuit.
 I kept only construction and mechanic elements (buttons, sticks, case, USB cable)&lt;/p&gt;
 
-&lt;h2 id=&#34;main-parts:7189afe6fb44e207dbe1d20d5fad0805&#34;&gt;Main parts:&lt;/h2&gt;
+&lt;h2 id=&#34;main-parts&#34;&gt;Main parts:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ATmega328P-PU microcontroller&lt;/li&gt;
@@ -194,7 +194,7 @@ I kept only construction and mechanic elements (buttons, sticks, case, USB cable
 
 &lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/GG4NET/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;features:cd81314a932bacf5bc1724e325747da2&#34;&gt;Features:&lt;/h2&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;logging in&lt;/li&gt;
@@ -236,7 +236,7 @@ Library has high-level interfaces for drawing but if they not meet your requirem
 &lt;p&gt;An example of use can be found &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/tree/master/TKGameUtilities/Example/Program.cs&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;
 In new project you must add &lt;em&gt;TKGameUtilities.dll&lt;/em&gt; and &lt;em&gt;OpenTK.dll&lt;/em&gt; references to work properly.&lt;/p&gt;
 
-&lt;h2 id=&#34;features-list:e12a71a9cd433bbd750511c88d3c0d5c&#34;&gt;Features list:&lt;/h2&gt;
+&lt;h2 id=&#34;features-list&#34;&gt;Features list:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenGL context management&lt;/li&gt;
