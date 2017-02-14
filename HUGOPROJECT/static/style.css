@@ -9,6 +9,8 @@
   .page-content, .page-header {
     font-size: 16px;
     margin: 16px; }
+    .page-content input, .page-content textarea, .page-header input, .page-header textarea {
+      font-size: 14px; }
 
   .action-outline {
     display: block;
@@ -40,6 +42,8 @@
   .page-content, .page-header {
     font-size: 20px;
     margin: 26px; }
+    .page-content input, .page-content textarea, .page-header input, .page-header textarea {
+      font-size: 16px; }
 
   .action-outline {
     display: inline;
@@ -312,6 +316,24 @@ h6 {
   .page-content pre {
     background-color: #D3D9EB;
     padding: 10px; }
+  .page-content input, .page-content textarea {
+    background-color: #F0F1F5;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 5px; }
+  .page-content .button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #253259;
+    transition: 0.5s;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer; }
+  .page-content .button:hover {
+    background-color: #31447D;
+    transition: 0.5s; }
 
 .page-header-title {
   font-weight: bold;

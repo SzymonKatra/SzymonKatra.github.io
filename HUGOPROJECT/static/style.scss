@@ -9,7 +9,7 @@ $navTitleColor: #161E36;
 $navColor: #1F2B4D;
 $navTextColor: #FFFFFF;
 
-$navItemColor: #2B3B6B;//#253259;
+$navItemColor: #2B3B6B;
 $navItemSelectedColor: #31447D;
 $navItemHoverColor: #31447D;
 
@@ -30,6 +30,12 @@ $downloadColor: #253259;
 $downloadTextColor: #FFFFFF;
 $downloadTextHoverColor: #31447D;
 
+$inputColor: #F0F1F5;
+$inputTextColor: #000000;
+$buttonColor: #253259;
+$buttonHoverColor: #31447D;
+$buttonTextColor: #FFFFFF;
+
 @media all
 {
 	.nav
@@ -45,6 +51,10 @@ $downloadTextHoverColor: #31447D;
 	{
 		font-size: 16px;
 		margin: 16px;
+		input, textarea
+		{
+			font-size: 14px;
+		}
 	}
 	.action-outline
 	{
@@ -91,6 +101,10 @@ $downloadTextHoverColor: #31447D;
 	{
 		font-size: 20px;
 		margin: 26px;
+		input, textarea
+		{
+			font-size: 16px;
+		}
 	}
 	.action-outline
 	{
@@ -482,6 +496,32 @@ h6
 	{
 		background-color: $pageInnerColor;
 		padding: 10px;
+	}
+
+	input, textarea
+	{
+		background-color: $inputColor;
+		color: $inputTextColor;
+		border: 1px solid $pageTextColor;
+		padding: 5px;
+	}
+
+	.button
+	{
+		padding: 5px 10px 5px 10px;
+		border-radius: 15px;
+		font-size: 20px;
+		text-align: center;
+		background-color: $buttonColor;
+		transition: 0.5s;
+		color: $buttonTextColor;
+		border: none;
+		cursor: pointer;
+	}
+	.button:hover
+	{
+		background-color: $buttonHoverColor;
+		transition: 0.5s;
 	}
 }
 

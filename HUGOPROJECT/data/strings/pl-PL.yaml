@@ -9,3 +9,11 @@ category_project(library): Biblioteki
 category_matura: Matura
 category_other: Inne
 donate_text: Jeśli podoba Ci się moja praca i chcesz mnie wesprzeć, kliknij poniższy przycisk
+
+hd44780textgenerator_width: Szerokość (znaków w poziomie)
+hd44780textgenerator_height: Wysokość (znaków w pionie)
+hd44780textgenerator_cellSize: Rozmiar komórki
+hd44780textgenerator_charSpacing: Odstęp pomiędzy znakami (px)
+hd44780textgenerator_cellSpacing: Odstęp pomiędzy komórkami (px)
+hd44780textgenerator_text: Wyświetlany tekst
+hd44780textgenerator_generate: Generuj

@@ -316,6 +316,16 @@ W nowym projekcie należy dodać referencje do &lt;em&gt;TKGameUtilities.dll&lt;
     </item>
     
     <item>
+      <title>Generator tekstu HD44780</title>
+      <link>http://szymonkatra.github.io/other/hd44780textgenerator/</link>
+      <pubDate>Tue, 14 Feb 2017 00:31:00 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/other/hd44780textgenerator/</guid>
+      <description>&lt;p&gt;Narzędzie służy do generowania tekstu w stylu wyświetlacza HD44780.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Rozwiązania zadań maturalnych</title>
       <link>http://szymonkatra.github.io/matura/solutions/</link>
       <pubDate>Fri, 27 May 2016 17:04:22 +0200</pubDate>

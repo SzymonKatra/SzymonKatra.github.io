@@ -8,3 +8,11 @@ category_project(electronics): Electronics
 category_project(library): Libraries
 category_other: Other
 donate_text: If you like my work and want to support me, click the button below
+
+hd44780textgenerator_width: Width (chars horizontally)
+hd44780textgenerator_height: Height (chars vertically)
+hd44780textgenerator_cellSize: Cell size
+hd44780textgenerator_charSpacing: Char spacing (px)
+hd44780textgenerator_cellSpacing: Cell spacing (px)
+hd44780textgenerator_text: Displayed text
+hd44780textgenerator_generate: Generate

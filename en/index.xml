@@ -258,5 +258,15 @@ In new project you must add &lt;em&gt;TKGameUtilities.dll&lt;/em&gt; and &lt;em&
 </description>
     </item>
     
+    <item>
+      <title>HD44780 text generator</title>
+      <link>http://szymonkatra.github.io/en/other/hd44780textgenerator/</link>
+      <pubDate>Tue, 14 Feb 2017 00:31:00 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/other/hd44780textgenerator/</guid>
+      <description>&lt;p&gt;This tool is used to generate text in HD44780 display style.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
