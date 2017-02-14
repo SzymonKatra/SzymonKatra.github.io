@@ -1,4 +1,4 @@
-@echo off
+
 IF [%1] == [] GOTO nomessage
 
 git add .
