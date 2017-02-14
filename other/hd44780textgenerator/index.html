@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Generator tekstu HD44780</title>
+		<meta name="keywords" content="hd44780 generator tekstu wyświetlacz lcd obrazek "/>
+		<meta name="author" content="Szymon Katra"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="icon" type="image/png" href="/favicon.png"/>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+		<link rel="stylesheet" type="text/css" href="/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/fontello/css/fontello.css"/>
+		<link rel="stylesheet" type="text/css" href="/fontello/css/fontello-embedded.css"/>
+		<link href='//fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="/scripts.js"></script>
+		<script type="text/javascript" src="/jquery-1.11.3.min.js"></script>
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65699059-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</head>
+
+	<body>
+
+
+<div id="container">
+	<div class="nav">
+	<a href="/" class="title-link"><div class="title">Szymon<br/>Katra</div></a>
+	<hr class="hr-big"/>
+	<div class="flag-container">
+		<a href="/"><img class="left flag" src="/images/pl.png" alt="pl"/></a>
+		<a href="/en"><img class="left flag flag-unselected" src="/images/en.png" alt="en"/></a>
+		<div class="clear"></div>
+	</div>
+	<div class="social-container">
+		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left social social-mail\">");</script>
+		<i class="icon-mail"></i></a>
+		<a href="https://github.com/SzymonKatra" target="_blank" class="left social social-github"><i class="icon-github-circled"></i></a>
+		<div class="clear"></div>
+	</div>
+
+	
+
+	
+	<div id="nav-id-category-project-application" class="nav-category">
+    
+    Aplikacje
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-project-application-list" class="nav-category-list" style="display: none;">
+    
+    
+        
+            <li><a href="/project/alldatasheetfinder/" class="">AllDataSheetFinder</a></li>
+        
+    
+        
+            <li><a href="/project/dziennik/" class="">Dziennik</a></li>
+        
+    
+        
+            <li><a href="/project/imgurscreenshotdotnet/" class="">ImgurScreenshotDotNet</a></li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>
+
+
+	
+	<div id="nav-id-category-project-electronics" class="nav-category">
+    
+    Elektronika
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-project-electronics-list" class="nav-category-list" style="display: none;">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            <li><a href="/project/robotavr/" class="">RobotAVR</a></li>
+        
+    
+        
+            <li><a href="/project/dzwonekiilokielce/" class="">Dzwonek II LO Kielce</a></li>
+        
+    
+        
+            <li><a href="/project/accelerometergamepadavr/" class="">AccelerometerGamePadAVR</a></li>
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>
+
+
+	
+	<div id="nav-id-category-project-library" class="nav-category">
+    
+    Biblioteki
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-project-library-list" class="nav-category-list" style="display: none;">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li><a href="/project/gg4net/" class="">GG4NET</a></li>
+        
+    
+        
+            <li><a href="/project/sharpggbotapi/" class="">SharpGGBotAPI</a></li>
+        
+    
+        
+            <li><a href="/project/tkgameutilities/" class="">TKGameUtilities</a></li>
+        
+    
+</ul>
+
+
+	
+		
+		<div id="nav-id-category-matura" class="nav-category">
+    
+    Matura
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-matura-list" class="nav-category-list" style="display: none;">
+    
+    
+        <li><a href="/matura/solutions/" class="">Rozwiązania zadań maturalnych</a></li>
+    
+</ul>
+
+	
+
+	
+	<div id="nav-id-category-other" class="nav-category">
+    
+    Inne
+</div>
+<hr class="hr-normal"/>
+<ul id="nav-id-category-other-list" class="nav-category-list" >
+    
+    
+        <li><a href="/other/hd44780textgenerator/" class="nav-selected">Generator tekstu HD44780</a></li>
+    
+</ul>
+
+
+	<div class="nav-donate">
+		Jeśli podoba Ci się moja praca i chcesz mnie wesprzeć, kliknij poniższy przycisk
+		<div style="margin-top:10px"></div>
+		 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="XRCGXW8B24QUJ">
+    <input type="image" src="https://www.paypalobjects.com/pl_PL/PL/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – Płać wygodnie i bezpiecznie">
+    <img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
+</form> 
+		
+	</div>
+
+	<div class="nav-copyright">
+		&copy; Szymon Katra<br/>
+		Powered by <a href="http://gohugo.io">Hugo</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(".nav-category").click(function()
+	{
+		var id = $(this).attr("id");
+		var listId = "#" + id + "-list";
+		$(".nav-category-list").slideUp(500);
+		if ($(listId).css("display") == "none")
+		{
+			if ($(listId).length) $(listId).slideDown(500);
+		}
+	});
+</script>
+
+	<div class="page">
+		<div class="page-header">
+			<h1 class="page-header-title inline">Generator tekstu HD44780</h1>
+		</div>
+
+		<hr class="hr-big"/>
+		<div class="page-content">
+            
+
+			<p>Narzędzie służy do generowania tekstu w stylu wyświetlacza HD44780.</p>
+
+
+            
+                <table style="border: none;">
+    <tr>
+        <td style="border: none;">Szerokość (znaków w poziomie):</td>
+        <td style="border: none;"><input type="text" id="width" value="16" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">Wysokość (znaków w pionie):</td>
+        <td style="border: none;"><input type="text" id="height" value="2" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">Rozmiar komórki:</td>
+        <td style="border: none;"><input type="text" id="cellSize" value="4" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">Odstęp pomiędzy komórkami (px):</td>
+        <td style="border: none;"><input type="text" id="cellSpacing" value="1" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">Odstęp pomiędzy znakami (px):</td>
+        <td style="border: none;"><input type="text" id="charSpacing" value="3" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">Wyświetlany tekst:</td>
+        <td style="border: none;"><textarea id="text" cols="50" rows="6"></textarea></td>
+    </tr>
+    <tr>
+        <td style="border: none;" colspan="2"><button class="button" onclick="buttonClick()">Generuj</button></td>
+    </tr>
+</table>
+<div style="margin-top: 20px;">
+    <canvas id="output" width="0" height="0"></canvas>
+</div>
+
+<script type="text/javascript" src="/data/other/hd44780textgenerator/main.js"></script>
+<script type="text/javascript" src="/data/other/hd44780textgenerator/patterns.js"></script>
+<script type="text/javascript">
+    init(document.getElementById('output'));
+
+    function buttonClick()
+    {
+        setWidth(parseInt(document.getElementById("width").value));
+        setHeight(parseInt(document.getElementById("height").value));
+        setCellSize(parseInt(document.getElementById("cellSize").value));
+        setCharSpacing(parseInt(document.getElementById("charSpacing").value));
+        setCellSpacing(parseInt(document.getElementById("cellSpacing").value));
+        generate();
+        writeText(document.getElementById("text").value);
+    }
+</script>
+            
+		</div>
+	</div>
+
+</div>
+
+	</body>
+</html>

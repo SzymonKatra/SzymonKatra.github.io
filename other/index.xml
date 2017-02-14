@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Szymon Katra</title>
+    <link>http://szymonkatra.github.io/other/index.xml</link>
+    <description>Recent content in Others on Szymon Katra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <lastBuildDate>Tue, 14 Feb 2017 00:31:00 +0200</lastBuildDate>
+    <atom:link href="http://szymonkatra.github.io/other/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Generator tekstu HD44780</title>
+      <link>http://szymonkatra.github.io/other/hd44780textgenerator/</link>
+      <pubDate>Tue, 14 Feb 2017 00:31:00 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/other/hd44780textgenerator/</guid>
+      <description>&lt;p&gt;Narzędzie służy do generowania tekstu w stylu wyświetlacza HD44780.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
-
+@echo off
 IF [%1] == [] GOTO nomessage
 
-git add .
+git add --all
 git commit -a -m %1%
 git push
 
