@@ -44,10 +44,12 @@
       
       <guid>http://szymonkatra.github.io/project/directorycleaner/</guid>
       <description>&lt;p&gt;DirectoryCleaner jest narzędziem do automatycznego przenoszenie lub usuwania starych plików i folderów z podanego katalogu (np. z pulpitu).&lt;br /&gt;
-Pozwala na ustalenie jak stare pliki mają zostać poddane przetworzeniu na podstawie ich daty utworzenia.&lt;br /&gt;
-Po uruchomieniu program pozwala na ustalenie parametrów. Włączenie usługi powoduje rozpakowanie programu pomocniczego do ścieżki AppData\Local\DirectoryCleaner.&lt;br /&gt;
-Następnie zostaje utworzone zadanie w systemowym Harmonogramie zadań, a sam program konfiguracyjny można przenieść w dowolne miejsce lub usunąć.&lt;br /&gt;
-Aby wyłączyć usługę należy zrobić to poprzez program konfiguracyjny lub ręcznie poprzez wyłączenie zadania &amp;ldquo;DirectoryCleanerTask&amp;rdquo; w Harmonogramie zadań.&lt;/p&gt;
+Pozwala na ustalenie jak stare pliki mają zostać poddane przetworzeniu na podstawie ich daty utworzenia.&lt;/p&gt;
+
+&lt;p&gt;Po uruchomieniu program pozwala na ustalenie parametrów. Włączenie usługi powoduje rozpakowanie programu pomocniczego do ścieżki AppData\Local\DirectoryCleaner.&lt;br /&gt;
+Następnie zostaje utworzone zadanie w systemowym Harmonogramie zadań, a sam program konfiguracyjny można przenieść w dowolne miejsce lub usunąć.&lt;/p&gt;
+
+&lt;p&gt;Aby wyłączyć usługę należy zrobić to poprzez program konfiguracyjny lub ręcznie poprzez wyłączenie zadania &amp;ldquo;DirectoryCleanerTask&amp;rdquo; w Harmonogramie zadań.&lt;/p&gt;
 </description>
     </item>
     

@@ -19,7 +19,9 @@ weight: 2
 ---
 
 DirectoryCleaner jest narzędziem do automatycznego przenoszenie lub usuwania starych plików i folderów z podanego katalogu (np. z pulpitu).  
-Pozwala na ustalenie jak stare pliki mają zostać poddane przetworzeniu na podstawie ich daty utworzenia.  
+Pozwala na ustalenie jak stare pliki mają zostać poddane przetworzeniu na podstawie ich daty utworzenia.
+
 Po uruchomieniu program pozwala na ustalenie parametrów. Włączenie usługi powoduje rozpakowanie programu pomocniczego do ścieżki AppData\Local\DirectoryCleaner.  
-Następnie zostaje utworzone zadanie w systemowym Harmonogramie zadań, a sam program konfiguracyjny można przenieść w dowolne miejsce lub usunąć.  
+Następnie zostaje utworzone zadanie w systemowym Harmonogramie zadań, a sam program konfiguracyjny można przenieść w dowolne miejsce lub usunąć.
+
 Aby wyłączyć usługę należy zrobić to poprzez program konfiguracyjny lub ręcznie poprzez wyłączenie zadania "DirectoryCleanerTask" w Harmonogramie zadań.  
