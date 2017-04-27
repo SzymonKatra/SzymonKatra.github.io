@@ -43,10 +43,10 @@
       <pubDate>Mon, 13 Feb 2017 00:03:02 +0100</pubDate>
       
       <guid>http://szymonkatra.github.io/en/project/directorycleaner/</guid>
-      <description>&lt;p&gt;DirectoryCleaner is an utility for automatic moving or removing old files and directories from specified directory (ex. from Desktop).
-Allows to set how old files should be processed based on their creation date.
-After launch program allow to set parameters. Enabling service causes unpack of daemon program to AppData\Local\DirectoryCleaner directory.
-Next, in system Task scheduler task is created and configuration program can be moved in any place or removed.
+      <description>&lt;p&gt;DirectoryCleaner is an utility for automatic moving or removing old files and directories from specified directory (ex. from Desktop).&lt;br /&gt;
+Allows to set how old files should be processed based on their creation date.&lt;br /&gt;
+After launch program allow to set parameters. Enabling service causes unpack of daemon program to AppData\Local\DirectoryCleaner directory.&lt;br /&gt;
+Next, in system Task scheduler task is created and configuration program can be moved in any place or removed.&lt;br /&gt;
 To disable service you need to do it by configuration program or manually disabling service called &amp;ldquo;DirectoryCleanerTask&amp;rdquo; in Task scheduler.&lt;/p&gt;
 </description>
     </item>
