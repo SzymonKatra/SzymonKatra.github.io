@@ -1,7 +1,7 @@
 ---
 date: 2017-02-13T00:03:02+01:00
 description: Application which automatically moves or removes old files from directory
-download_link: null
+download_link: https://github.com/SzymonKatra/DirectoryCleaner/releases/latest
 images: null
 keywords:
 - directorycleaner
@@ -16,7 +16,6 @@ project_type: application
 repository: https://github.com/SzymonKatra/DirectoryCleaner
 title: DirectoryCleaner
 weight: 2
-draft: true
 ---
 
 DirectoryCleaner is an utility for automatic moving or removing old files and directories from specified directory (ex. from Desktop).
