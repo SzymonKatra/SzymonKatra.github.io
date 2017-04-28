@@ -2,7 +2,8 @@
 date: 2017-02-13T00:03:02+01:00
 description: Aplikacja automatycznie przenosząca lub usuwająca stare pliki z katalogu
 download_link: https://github.com/SzymonKatra/DirectoryCleaner/releases/latest
-images: null
+images:
+- /images/project/directorycleaner/screenshot_1.png
 keywords:
 - directorycleaner
 - directory
