@@ -32,13 +32,6 @@
 		{{ partial "nav-category.html" . }}
 	{{ end }}
 
-	<div class="nav-donate">
-		{{ index (index $.Site.Data.strings $.Site.LanguageCode) "donate_text" }}
-		<div style="margin-top:10px"></div>
-		{{ if eq .Site.LanguageCode "pl-PL" }} {{ partial "paypaldonate-pl.html" . }} {{ end }}
-		{{ if eq .Site.LanguageCode "en-US" }} {{ partial "paypaldonate-en.html" . }} {{ end }}
-	</div>
-
 	<div class="nav-copyright">
 		&copy; Szymon Katra<br/>
 		Powered by <a href="http://gohugo.io">Hugo</a>
