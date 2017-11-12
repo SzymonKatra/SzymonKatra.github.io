@@ -49,6 +49,7 @@ $buttonTextColor: #FFFFFF;
 	}
 	.page-content, .page-header
 	{
+		margin-top: 5px;
 		font-size: 16px;
 		margin: 16px;
 		input, textarea
@@ -88,34 +89,36 @@ $buttonTextColor: #FFFFFF;
 	.nav
 	{
 		display: table-cell;
-		min-width: 350px;
+		min-width: 300px;
 	}
 	.page
 	{
-		padding: 20px;
+		padding: 10px;
 		display: table-cell;
-		box-shadow: -10px 0px 100px $navColor;
 		width: 100%;
 	}
 	.page-content, .page-header
 	{
-		font-size: 20px;
-		margin: 26px;
+		font-size: 16px;
+		margin: 10px 18px 10px 18px;
 		input, textarea
 		{
-			font-size: 16px;
+			font-size: 12px;
 		}
 	}
 	.action-outline
 	{
 		display: inline;
-		margin-left: 10px;
 		margin-right: 10px;
 	}
 	.screenshot
 	{
 		max-width: 400px;
 		max-height: 400px;
+	}
+	.page-header
+	{
+		margin-top: 40px;
 	}
 	#container
 	{
@@ -151,19 +154,19 @@ hr
 
 h1
 {
-	font-size: 42px;
+	font-size: 30px;
 }
 h2
 {
-	font-size: 36px;
+	font-size: 26px;
 }
 h3
 {
-	font-size: 30px;
+	font-size: 22px;
 }
 h4
 {
-	font-size: 24px;
+	font-size: 20px;
 }
 h5
 {
@@ -171,7 +174,7 @@ h5
 }
 h6
 {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .hr-normal
@@ -226,8 +229,8 @@ h6
 		{
 			display: block;
 			text-align: center;
-			font-size: 22px;
-			padding: 10px 15px 10px 15px;
+			font-size: 18px;
+			padding: 5px 10px 5px 10px;
 			background-color: $navItemColor;
 			color: $navTextColor;
 			transition: 0.5s;
@@ -250,7 +253,7 @@ h6
 .nav-category
 {
 	text-align: center;
-	font-size: 28px;
+	font-size: 24px;
 	padding: 10px 15px 10px 15px;
 	margin-top: 0px;
 	cursor: pointer;
@@ -285,7 +288,7 @@ h6
 
 .title
 {
-	font-size: 48px;
+	font-size: 36px;
 	padding: 10px;
 	padding-top: 40px;
 	text-align: center;
@@ -353,20 +356,20 @@ h6
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 220px;
+	width: 160px;
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
 
 .social
 {
-	width: 80px;
-	height: 80px;
-	line-height: 80px; /* to center icon */
+	width: 50px;
+	height: 50px;
+	line-height: 50px; /* to center icon */
 	margin: 0px 10px 0px 10px;
 	padding: 5px;
-	border-radius: 60px;
-	font-size: 56px;
+	border-radius: 50px;
+	font-size: 36px;
 	text-align: center;
 	color: $socialTextColor;
 	text-decoration: none;
@@ -401,12 +404,12 @@ h6
 .action
 {
 	min-width: 45px;
-	height: 45px;
-	line-height: 45px;
+	height: 35px;
+	line-height: 35px;
 	padding: 5px;
 	padding-left: 10px;
 	border-radius: 35px;
-	font-size: 32px;
+	font-size: 24px;
 	text-align: center;
 	background-color: $actionColor;
 	transition: 0.5s;
@@ -421,11 +424,11 @@ h6
 
 .action-text
 {
-	font-size: 20px;
-	margin-left: 5px;
+	font-size: 16px;
+	margin-left: 0px;
 	margin-right: 10px;
 	position: relative;
-	top: -6px;
+	top: -4px;
 	text-align: center;
 	color: $actionTextColor;
 	display: inline;
@@ -446,9 +449,8 @@ h6
 
 .page-header
 {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	min-height: 60px;
+	margin-bottom: 5px;
+	min-height: 30px;
 }
 
 .page-content
