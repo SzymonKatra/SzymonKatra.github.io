@@ -2,8 +2,8 @@
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
-		<title>HD44780 text generator</title>
-		<meta name="keywords" content="hd44780 text generator display lcd image "/>
+		<title>Tappy Canoe</title>
+		<meta name="keywords" content="tappy canoe game arcade zręcznościowa canoeing canoes kayak "/>
 		<meta name="author" content="Szymon Katra"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="icon" type="image/png" href="/favicon.png"/>
@@ -84,7 +84,7 @@
     Games
 </div>
 <hr class="hr-normal"/>
-<ul id="nav-id-category-project-game-list" class="nav-category-list" style="display: none;">
+<ul id="nav-id-category-project-game-list" class="nav-category-list" >
     
     
         
@@ -100,7 +100,7 @@
         
     
         
-            <li><a href="/en/project/tappycanoe/" class="">Tappy Canoe</a></li>
+            <li><a href="/en/project/tappycanoe/" class="nav-selected">Tappy Canoe</a></li>
         
     
 </ul>
@@ -174,10 +174,10 @@
     Other
 </div>
 <hr class="hr-normal"/>
-<ul id="nav-id-category-other-list" class="nav-category-list" >
+<ul id="nav-id-category-other-list" class="nav-category-list" style="display: none;">
     
     
-        <li><a href="/en/other/hd44780textgenerator/" class="nav-selected">HD44780 text generator</a></li>
+        <li><a href="/en/other/hd44780textgenerator/" class="">HD44780 text generator</a></li>
     
 </ul>
 
@@ -202,70 +202,51 @@
 		}
 	});
 </script>
-
+	
 	<div class="page">
 		<div class="page-header">
-			<h1 class="page-header-title inline">HD44780 text generator</h1>
+			<h1 class="page-header-title inline">Tappy Canoe</h1>
+			
+				<div class="action-outline">
+					<a href="https://play.google.com/store/apps/details?id=com.katra.tappycanoe" class="action">
+						<span class="action-text icon-download"></span>
+						<span class="action-text">Download</span>
+					</a>
+				</div>
+			
+			
 		</div>
-
+		
 		<hr class="hr-big"/>
 		<div class="page-content">
-            
+			<p><strong>Tappy Canoe</strong> is an arcade game for mobile devices with Android. jest zręcznościową grą na urządzenia mobilne z systemem Android.</p>
 
-			<p>This tool is used to generate text in HD44780 display style.</p>
+<p>Your mission is to steer the canoe in such way, to keep it on the river as long as possible. There is only one important rule - in given moment your canoe can turn only in one direction. This direction is determined by shape of the river, which is generated randomly every time.</p>
 
+<p><a href="https://www.youtube.com/watch?v=DJZY21t4koA">Short gameplay video</a></p>
 
-            
-                <table style="border: none;">
-    <tr>
-        <td style="border: none;">Width (chars horizontally):</td>
-        <td style="border: none;"><input type="text" id="width" value="16" size="1"/></td>
-    </tr>
-    <tr>
-        <td style="border: none;">Height (chars vertically):</td>
-        <td style="border: none;"><input type="text" id="height" value="2" size="1"/></td>
-    </tr>
-    <tr>
-        <td style="border: none;">Cell size:</td>
-        <td style="border: none;"><input type="text" id="cellSize" value="4" size="1"/></td>
-    </tr>
-    <tr>
-        <td style="border: none;">Cell spacing (px):</td>
-        <td style="border: none;"><input type="text" id="cellSpacing" value="1" size="1"/></td>
-    </tr>
-    <tr>
-        <td style="border: none;">Char spacing (px):</td>
-        <td style="border: none;"><input type="text" id="charSpacing" value="3" size="1"/></td>
-    </tr>
-    <tr>
-        <td style="border: none;">Displayed text:</td>
-        <td style="border: none;"><textarea id="text" cols="50" rows="6"></textarea></td>
-    </tr>
-    <tr>
-        <td style="border: none;" colspan="2"><button class="button" onclick="buttonClick()">Generate</button></td>
-    </tr>
-</table>
-<div style="margin-top: 20px;">
-    <canvas id="output" width="0" height="0"></canvas>
-</div>
-
-<script type="text/javascript" src="/data/other/hd44780textgenerator/main.js"></script>
-<script type="text/javascript" src="/data/other/hd44780textgenerator/patterns.js"></script>
-<script type="text/javascript">
-    init(document.getElementById('output'));
-
-    function buttonClick()
-    {
-        setWidth(parseInt(document.getElementById("width").value));
-        setHeight(parseInt(document.getElementById("height").value));
-        setCellSize(parseInt(document.getElementById("cellSize").value));
-        setCharSpacing(parseInt(document.getElementById("charSpacing").value));
-        setCellSpacing(parseInt(document.getElementById("cellSpacing").value));
-        generate();
-        writeText(document.getElementById("text").value);
-    }
-</script>
-            
+			
+			<br/>
+			
+				<span class="download-text"><a href="https://play.google.com/store/apps/details?id=com.katra.tappycanoe">Link to download</a></span><br/>
+			
+			<br/>
+			
+				<div>
+					
+						<a href="/images/project/tappycanoe/Raw0.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/tappycanoe/Raw0.png"/></a>
+					
+						<a href="/images/project/tappycanoe/Raw1.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/tappycanoe/Raw1.png"/></a>
+					
+						<a href="/images/project/tappycanoe/Raw2.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/tappycanoe/Raw2.png"/></a>
+					
+						<a href="/images/project/tappycanoe/Raw3.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/tappycanoe/Raw3.png"/></a>
+					
+						<a href="/images/project/tappycanoe/Raw4.png" target="_blank"><img class="screenshot left" alt="Image" src="/images/project/tappycanoe/Raw4.png"/></a>
+					
+					<div class="clear"></div>
+				</div>
+			
 		</div>
 	</div>
 

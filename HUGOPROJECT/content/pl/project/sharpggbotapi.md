@@ -22,6 +22,7 @@ title: SharpGGBotAPI
 description: Biblioteka do obsługi GG Bot API w C# poprzez zapytania HTTP
 weight: 202
 project_type: library
+draft: true
 ---
 
 Biblioteka do obsługi [platformy GG BotAPI](https://boty.gg.pl/start/) w C# poprzez zapytania HTTP.

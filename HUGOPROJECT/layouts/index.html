@@ -16,6 +16,9 @@
 			{{ $.Scratch.Set "current" "application" }}
 			{{ partial "project-list.html" . }}
 
+			{{ $.Scratch.Set "current" "game" }}
+			{{ partial "project-list.html" . }}
+
 			{{ $.Scratch.Set "current" "electronics" }}
 			{{ partial "project-list.html" . }}
 

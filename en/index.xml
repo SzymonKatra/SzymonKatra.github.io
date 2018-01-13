@@ -38,53 +38,6 @@
     </item>
     
     <item>
-      <title>DirectoryCleaner</title>
-      <link>http://szymonkatra.github.io/en/project/directorycleaner/</link>
-      <pubDate>Mon, 13 Feb 2017 00:03:02 +0100</pubDate>
-      
-      <guid>http://szymonkatra.github.io/en/project/directorycleaner/</guid>
-      <description>&lt;p&gt;DirectoryCleaner is an utility for automatic moving or removing old files and directories from specified directory (ex. from Desktop).&lt;br /&gt;
-Allows to set how old files should be processed based on their creation date.&lt;/p&gt;
-
-&lt;p&gt;After launch program allow to set parameters. Enabling service causes unpack of daemon program to AppData\Local\DirectoryCleaner directory.&lt;br /&gt;
-Next, in system Task scheduler task is created and configuration program can be moved in any place or removed.&lt;/p&gt;
-
-&lt;p&gt;To disable service you need to do it by configuration program or manually disabling service called &amp;ldquo;DirectoryCleanerTask&amp;rdquo; in Task scheduler.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ImgurScreenshotDotNet</title>
-      <link>http://szymonkatra.github.io/en/project/imgurscreenshotdotnet/</link>
-      <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
-      
-      <guid>http://szymonkatra.github.io/en/project/imgurscreenshotdotnet/</guid>
-      <description>
-
-&lt;p&gt;Tiny application that quickly sends images from the clipboard(e.g. screenshot) to imgur.com.&lt;/p&gt;
-
-&lt;h2 id=&#34;configuration&#34;&gt;Configuration:&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create an account on &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; and sign in&lt;/li&gt;
-&lt;li&gt;Browse to &lt;a href=&#34;https://api.imgur.com/oauth2/addclient&#34;&gt;application registration&lt;/a&gt;, fill in the form as follows and then click &amp;ldquo;submit&amp;rdquo; button - &lt;a href=&#34;http://szymonkatra.github.io/en/images/project/imgurscreenshotdotnet/tutorial_1.png&#34;&gt;Example&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Application name: ImgurScreenshotDotNet&lt;/li&gt;
-&lt;li&gt;Authorization type: Anonymous usage without user authorization&lt;/li&gt;
-&lt;li&gt;Email: YOUR_EMAIL&lt;/li&gt;
-&lt;li&gt;Description: ImgurScreenshotDotNet&lt;/li&gt;
-&lt;li&gt;Retype code from image on the bottom&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;You will be redirected to the next page where you get your number. Copy &amp;ldquo;Client ID&amp;rdquo; field and paste it to application. Save changes using &amp;ldquo;Save settings&amp;rdquo; button - &lt;a href=&#34;http://szymonkatra.github.io/en/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Take screenshot using &amp;ldquo;Print Screen&amp;rdquo; key or copy any image to clipboard, and press choosen key (&amp;ldquo;Send hotkey&amp;rdquo;). In a few moments image will be uploaded and you get link to it.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>RobotAVR</title>
       <link>http://szymonkatra.github.io/en/project/robotavr/</link>
       <pubDate>Tue, 23 Jun 2015 16:09:43 +0200</pubDate>
@@ -271,6 +224,20 @@ In new project you must add &lt;em&gt;TKGameUtilities.dll&lt;/em&gt; and &lt;em&
 &lt;/ul&gt;
 
 &lt;p&gt;License: &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tappy Canoe</title>
+      <link>http://szymonkatra.github.io/en/project/tappycanoe/</link>
+      <pubDate>Sat, 13 Jan 2018 00:50:00 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/en/project/tappycanoe/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Tappy Canoe&lt;/strong&gt; is an arcade game for mobile devices with Android. jest zręcznościową grą na urządzenia mobilne z systemem Android.&lt;/p&gt;
+
+&lt;p&gt;Your mission is to steer the canoe in such way, to keep it on the river as long as possible. There is only one important rule - in given moment your canoe can turn only in one direction. This direction is determined by shape of the river, which is generated randomly every time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=DJZY21t4koA&#34;&gt;Short gameplay video&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

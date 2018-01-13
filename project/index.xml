@@ -38,22 +38,6 @@
     </item>
     
     <item>
-      <title>DirectoryCleaner</title>
-      <link>http://szymonkatra.github.io/project/directorycleaner/</link>
-      <pubDate>Mon, 13 Feb 2017 00:03:02 +0100</pubDate>
-      
-      <guid>http://szymonkatra.github.io/project/directorycleaner/</guid>
-      <description>&lt;p&gt;DirectoryCleaner jest narzędziem do automatycznego przenoszenie lub usuwania starych plików i folderów z podanego katalogu (np. z pulpitu).&lt;br /&gt;
-Pozwala na ustalenie jak stare pliki mają zostać poddane przetworzeniu na podstawie ich daty utworzenia.&lt;/p&gt;
-
-&lt;p&gt;Po uruchomieniu program pozwala na ustalenie parametrów. Włączenie usługi powoduje rozpakowanie programu pomocniczego do ścieżki AppData\Local\DirectoryCleaner.&lt;br /&gt;
-Następnie zostaje utworzone zadanie w systemowym Harmonogramie zadań, a sam program konfiguracyjny można przenieść w dowolne miejsce lub usunąć.&lt;/p&gt;
-
-&lt;p&gt;Aby wyłączyć usługę należy zrobić to poprzez program konfiguracyjny lub ręcznie poprzez wyłączenie zadania &amp;ldquo;DirectoryCleanerTask&amp;rdquo; w Harmonogramie zadań.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Dziennik</title>
       <link>http://szymonkatra.github.io/project/dziennik/</link>
       <pubDate>Tue, 23 Jun 2015 16:40:43 +0200</pubDate>
@@ -92,37 +76,6 @@ Następnie zostaje utworzone zadanie w systemowym Harmonogramie zadań, a sam pr
 &lt;li&gt;Zabezpieczenie przed uruchomieniem dwóch instancji programu&lt;/li&gt;
 &lt;li&gt;inne&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ImgurScreenshotDotNet</title>
-      <link>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</link>
-      <pubDate>Tue, 23 Jun 2015 16:28:17 +0200</pubDate>
-      
-      <guid>http://szymonkatra.github.io/project/imgurscreenshotdotnet/</guid>
-      <description>
-
-&lt;p&gt;Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com&lt;/p&gt;
-
-&lt;h2 id=&#34;konfiguracja&#34;&gt;Konfiguracja:&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Utwórz konto w serwisie &lt;a href=&#34;http://imgur.com/&#34;&gt;imgur.com&lt;/a&gt; i zaloguj się&lt;/li&gt;
-&lt;li&gt;Wejdź na stronę &lt;a href=&#34;https://api.imgur.com/oauth2/addclient&#34;&gt;rejestracji aplikacji&lt;/a&gt;, wypełnij formularz w następujący sposób a następnie kliknij przycisk &amp;ldquo;submit&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_1.png&#34;&gt;Przykład&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Application name: ImgurScreenshotDotNet&lt;/li&gt;
-&lt;li&gt;Authorization type: Anonymous usage without user authorization&lt;/li&gt;
-&lt;li&gt;Email: TWÓJ_EMAIL&lt;/li&gt;
-&lt;li&gt;Description: ImgurScreenshotDotNet&lt;/li&gt;
-&lt;li&gt;Przepisz kod z obrazka na dole&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Zostaniesz przekierowany na kolejną stronę gdzie otrzymasz swój numer. Skopiuj pole &amp;ldquo;Client ID&amp;rdquo; i wklej je w do aplikacji, a następnie zapisz używając przyciku &amp;ldquo;Save settings&amp;rdquo; - &lt;a href=&#34;http://szymonkatra.github.io/images/project/imgurscreenshotdotnet/tutorial_2.png&#34;&gt;Przykład&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Zrób zrzut ekranu używając klawisza Print Screen lub skopiuj dowolny obrazek do schowka, a następnie wciśnij ustawiony klawisz (&amp;ldquo;Send hotkey&amp;rdquo;). Po chwili obrazek zostanie wysłany i otrzymasz do niego link.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/ImgurScreenshotDotNet/blob/master/LICENSE&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -280,20 +233,6 @@ Zachowałem tylko konstrukcję oraz elementy mechaniczne (przyciski, gałki, obu
     </item>
     
     <item>
-      <title>SharpGGBotAPI</title>
-      <link>http://szymonkatra.github.io/project/sharpggbotapi/</link>
-      <pubDate>Thu, 25 Jun 2015 15:09:30 +0200</pubDate>
-      
-      <guid>http://szymonkatra.github.io/project/sharpggbotapi/</guid>
-      <description>&lt;p&gt;Biblioteka do obsługi &lt;a href=&#34;https://boty.gg.pl/start/&#34;&gt;platformy GG BotAPI&lt;/a&gt; w C# poprzez zapytania HTTP.&lt;/p&gt;
-
-&lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/license.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SzymonKatra/SharpGGBotAPI/blob/master/SharpGGBotApiExample/Program.cs&#34;&gt;Przykład użycia&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>TKGameUtilities</title>
       <link>http://szymonkatra.github.io/project/tkgameutilities/</link>
       <pubDate>Tue, 19 Jul 2016 22:56:44 +0200</pubDate>
@@ -328,6 +267,20 @@ W nowym projekcie należy dodać referencje do &lt;em&gt;TKGameUtilities.dll&lt;
 &lt;/ul&gt;
 
 &lt;p&gt;Licencja: &lt;a href=&#34;https://github.com/SzymonKatra/TKGameUtilities/blob/master/LICENSE.txt&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tappy Canoe</title>
+      <link>http://szymonkatra.github.io/project/tappycanoe/</link>
+      <pubDate>Sat, 13 Jan 2018 00:50:00 +0200</pubDate>
+      
+      <guid>http://szymonkatra.github.io/project/tappycanoe/</guid>
+      <description>&lt;p&gt;Tappy Canoe jest zręcznościową grą na urządzenia mobilne z systemem Android.&lt;/p&gt;
+
+&lt;p&gt;Gra polega na sterowaniu kajakiem w taki sposób, aby przepłynąć jak największą odległość. Jest tylko jedno znaczące utrudnienie - w danym momencie można skręcać kajakiem tylko w jedną stronę. Jest to podyktowane kształtem rzeki która jest za każdym razem losowo generowana. Oprócz tego, podczas rozgrywki występują różnorakie utrudnienia typu fale wodne oraz kamienie oraz można łapać kilka bonusów.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=DJZY21t4koA&#34;&gt;Krótkie wideo przedstawiąjące rozgrywkę&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

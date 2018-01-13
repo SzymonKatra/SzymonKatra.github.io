@@ -15,6 +15,7 @@ title: ImgurScreenshotDotNet
 description: Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com
 weight: 4
 project_type: application
+draft: true
 ---
 
 Mała aplikacja pozwalająca na szybkie wysyłanie obrazków ze schowka (np. zrzutów ekranu) do serwisu imgur.com
