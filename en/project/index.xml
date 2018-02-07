@@ -78,7 +78,7 @@
 
 &lt;p&gt;Automatic school bell system for II Liceum Ogólnokształcące im. Jana Śniadeckiego in Kielce.&lt;/p&gt;
 
-&lt;p&gt;AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB was made respectively in ExpressSCH and ExpressPCB.&lt;/p&gt;
+&lt;p&gt;AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB were made respectively in ExpressSCH and ExpressPCB.&lt;/p&gt;
 
 &lt;h2 id=&#34;features&#34;&gt;Features:&lt;/h2&gt;
 
@@ -98,7 +98,7 @@
 &lt;p&gt;&lt;a href=&#34;http://szymonkatra.github.io/en/data/project/dzwonekiilokielce/doc/instrukcja_uzytkowa.html&#34;&gt;Instructions of use (PL)&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://szymonkatra.github.io/en/data/project/dzwonekiilokielce/doc/dokumentacja_techniczna.html&#34;&gt;Technical documentation (PL)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Project is available only for illustrative purposes or to private use.&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Project is available only for illustrative purposes or private usage.&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;Commercial usage and redistribution without permission of the author is forbidden&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>

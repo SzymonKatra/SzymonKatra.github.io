@@ -31,7 +31,7 @@ project_type: electronics
 
 Automatic school bell system for II Liceum Ogólnokształcące im. Jana Śniadeckiego in Kielce.
 
-AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB was made respectively in ExpressSCH and ExpressPCB.
+AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB were made respectively in ExpressSCH and ExpressPCB.
 
 ## Features:
 
@@ -49,5 +49,5 @@ AVR ATmega328P-PU microcontroller was used in this project. Schematic and PCB wa
 [Instructions of use (PL)](/data/project/dzwonekiilokielce/doc/instrukcja_uzytkowa.html)  
 [Technical documentation (PL)](/data/project/dzwonekiilokielce/doc/dokumentacja_techniczna.html)
 
-**Project is available only for illustrative purposes or to private use.**  
+**Project is available only for illustrative purposes or private usage.**  
 **Commercial usage and redistribution without permission of the author is forbidden**
