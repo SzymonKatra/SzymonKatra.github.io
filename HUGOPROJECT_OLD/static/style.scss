@@ -1,0 +1,598 @@
+$pageColor: #F5F6FA;
+$pageInnerColor: #D3D9EB;
+$pageTextColor: #000000;
+$pageLinkColor: #000000;
+$pageLinkHoverColor: #31447D;
+
+$navTitleColor: #161E36;
+
+$navColor: #1F2B4D;
+$navTextColor: #FFFFFF;
+
+$navItemColor: #2B3B6B;
+$navItemSelectedColor: #31447D;
+$navItemHoverColor: #31447D;
+
+$navLinkColor: #FFFFFF;
+$navLinkHoverColor: #31447D;
+
+$actionColor: #253259;
+$actionTextColor: #FFFFFF;
+$actionHoverColor: #31447D;
+
+$socialColor: #2B3A66;
+$socialTextColor: #FFFFFF;
+$socialHoverColor: #31447D;
+$githubColor: #2B3A66;
+$githubHoverColor: #31447D;
+
+$downloadColor: #253259;
+$downloadTextColor: #FFFFFF;
+$downloadTextHoverColor: #31447D;
+
+$inputColor: #F0F1F5;
+$inputTextColor: #000000;
+$buttonColor: #253259;
+$buttonHoverColor: #31447D;
+$buttonTextColor: #FFFFFF;
+
+@media all
+{
+	.nav
+	{
+		display: block;
+	}
+	.page
+	{
+		padding: 0px;
+		display: block;
+	}
+	.page-content, .page-header
+	{
+		margin-top: 5px;
+		font-size: 16px;
+		margin: 16px;
+		input, textarea
+		{
+			font-size: 14px;
+		}
+	}
+	.action-outline
+	{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.screenshot
+	{
+		max-width: 60px;
+		max-height: 60px;
+	}
+	#container
+	{
+		display: block;
+		height: 100vh;
+	}
+}
+
+@media (min-width: 400px)
+{
+	.screenshot
+	{
+		max-width: 300px;
+		max-height: 300px;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.nav
+	{
+		display: table-cell;
+		min-width: 300px;
+	}
+	.page
+	{
+		padding: 10px;
+		display: table-cell;
+		width: 100%;
+	}
+	.page-content, .page-header
+	{
+		font-size: 16px;
+		margin: 10px 18px 10px 18px;
+		input, textarea
+		{
+			font-size: 12px;
+		}
+	}
+	.action-outline
+	{
+		display: inline;
+		margin-right: 10px;
+	}
+	.screenshot
+	{
+		max-width: 400px;
+		max-height: 400px;
+	}
+	.page-header
+	{
+		margin-top: 40px;
+	}
+	#container
+	{
+		display: table;
+	}
+}
+
+:focus
+{
+	outline: none;
+}
+::-moz-focus-inner
+{
+	border: 0;
+}
+
+body
+{
+	background-color: $pageColor;
+	margin: 0px;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+hr
+{
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-color: white;
+	border-width: 0px;
+	height: 1px;
+}
+
+h1
+{
+	font-size: 30px;
+}
+h2
+{
+	font-size: 26px;
+}
+h3
+{
+	font-size: 22px;
+}
+h4
+{
+	font-size: 20px;
+}
+h5
+{
+	font-size: 18px;
+}
+h6
+{
+	font-size: 16px;
+}
+
+.hr-normal
+{
+	height: 2px;
+}
+
+.hr-big
+{
+	height: 4px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.inline
+{
+	display: inline;
+}
+
+.nav
+{
+	vertical-align: top;
+	background-color: $navColor;
+	color: $navTextColor;
+	padding-bottom: 30px;
+
+	hr
+	{
+		background-color: $navTextColor;
+	}
+
+	ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li a
+		{
+			display: block;
+			text-align: center;
+			font-size: 18px;
+			padding: 5px 10px 5px 10px;
+			background-color: $navItemColor;
+			color: $navTextColor;
+			transition: 0.5s;
+			text-decoration: none;
+		}
+
+		li a:hover, li a.nav-selected:hover
+		{
+			background-color: $navItemHoverColor;
+			transition: 0.5s;
+		}
+
+		li a.nav-selected
+		{
+			background-color: $navItemSelectedColor;
+		}
+	}
+}
+
+.nav-category
+{
+	text-align: center;
+	font-size: 24px;
+	padding: 10px 15px 10px 15px;
+	margin-top: 0px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.nav-copyright
+{
+	margin-top: 30px;
+	text-align: center;
+
+	a
+	{
+		color: $navLinkColor;
+		text-decoration: underline;
+	}
+
+	a:hover
+	{
+		color: $navLinkHoverColor;
+		text-decoration: underline;
+	}
+}
+
+.nav-donate
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.title
+{
+	font-size: 36px;
+	padding: 10px;
+	padding-top: 40px;
+	text-align: center;
+	background-color: $navTitleColor;
+	color: $navTextColor;
+	text-decoration: none;
+}
+.title-link
+{
+	color: $socialTextColor;
+	text-decoration: none;
+}
+
+.flag
+{
+	margin: 0px 10px 0px 10px;
+	width: 30px;
+	height: 20px;
+	transition: 0.5s;
+
+	filter: contrast(1.5);
+	-webkit-filter: contrast(1.5);
+	-moz-filter: contrast(1.5);
+	-o-filter: contrast(1.5);
+	-ms-filter: contrast(1.5);
+}
+.flag:hover
+{
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+
+.flag-unselected
+{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+
+	transition: 0.5s;
+}
+.flag-unselected:hover
+{
+    filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+
+.flag-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.social-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.social
+{
+	width: 50px;
+	height: 50px;
+	line-height: 50px; /* to center icon */
+	margin: 0px 10px 0px 10px;
+	padding: 5px;
+	border-radius: 50px;
+	font-size: 36px;
+	text-align: center;
+	color: $socialTextColor;
+	text-decoration: none;
+}
+
+.social-github
+{
+	background-color: $githubColor;
+	transition: 0.5s;
+}
+
+.social-github:hover
+{
+	background-color: $githubHoverColor;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.social-mail
+{
+	background-color: $socialColor;
+	transition: 0.5s;
+}
+
+.social-mail:hover
+{
+	background-color: $socialHoverColor;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.action
+{
+	min-width: 45px;
+	height: 35px;
+	line-height: 35px;
+	padding: 5px;
+	padding-left: 10px;
+	border-radius: 35px;
+	font-size: 24px;
+	text-align: center;
+	background-color: $actionColor;
+	transition: 0.5s;
+	color: $actionTextColor;
+	text-decoration: none;
+}
+.action:hover
+{
+	background-color: $actionHoverColor;
+	transition: 0.5s;
+}
+
+.action-text
+{
+	font-size: 16px;
+	margin-left: 0px;
+	margin-right: 10px;
+	position: relative;
+	top: -4px;
+	text-align: center;
+	color: $actionTextColor;
+	display: inline;
+}
+
+.page
+{
+	vertical-align: top;
+	background-color: $pageColor;
+	color: $pageTextColor;
+	margin: 20px;
+
+	hr
+	{
+		background-color: $pageTextColor;
+	}
+}
+
+.page-header
+{
+	margin-bottom: 5px;
+	min-height: 30px;
+}
+
+.page-content
+{
+	text-align: justify;
+	text-justify: inter-word;
+	word-wrap: break-word;
+
+	a
+	{
+		color: $pageLinkColor;
+		text-decoration: underline;
+	}
+
+	a:hover
+	{
+		color: $pageLinkHoverColor;
+		text-decoration: underline;
+	}
+
+	table
+	{
+		border-collapse: collapse;
+		border: 2px solid $pageTextColor;
+	}
+
+	th
+	{
+		background-color: $pageInnerColor;
+	}
+
+	th,td
+	{
+		border: 1px solid $pageTextColor;
+		padding: 5px;
+	}
+
+	blockquote
+	{
+		padding: 20px;
+		background-color: $pageInnerColor;
+	}
+
+	pre
+	{
+		background-color: $pageInnerColor;
+		padding: 10px;
+	}
+
+	input, textarea
+	{
+		background-color: $inputColor;
+		color: $inputTextColor;
+		border: 1px solid $pageTextColor;
+		padding: 5px;
+	}
+
+	.button
+	{
+		padding: 5px 10px 5px 10px;
+		border-radius: 15px;
+		font-size: 20px;
+		text-align: center;
+		background-color: $buttonColor;
+		transition: 0.5s;
+		color: $buttonTextColor;
+		border: none;
+		cursor: pointer;
+	}
+	.button:hover
+	{
+		background-color: $buttonHoverColor;
+		transition: 0.5s;
+	}
+}
+
+.page-header-title
+{
+	font-weight: bold;
+	margin-right: 20px;
+	word-wrap: break-word;
+}
+
+.page-link-main
+{
+	font-weight: bold;
+}
+
+.download-text
+{
+	font-size: 30px;
+	color: $downloadTextColor;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: $downloadColor;
+	animation: pulse-download 1s infinite;
+	box-shadow: 0px 0px 50px $downloadColor;
+}
+
+.download-text a
+{
+	text-decoration: underline;
+	color: $downloadTextColor;
+}
+.download-text a:hover
+{
+	text-decoration: none;
+	color: $downloadTextHoverColor;
+}
+
+.screenshot
+{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#container
+{
+	min-height: 100vh;
+}
+
+#disqus_thread
+{
+	margin: 20px;
+}
+
+@keyframes pulse-download
+{
+	0%
+	{
+		transform: scale(1);
+	}
+
+	50%
+	{
+		transform: scale(1.1);
+	}
+
+	100%
+	{
+		transform: scale(1);
+	}
+}

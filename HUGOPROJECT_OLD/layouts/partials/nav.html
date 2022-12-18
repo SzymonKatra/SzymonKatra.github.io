@@ -1,0 +1,55 @@
+<div class="nav">
+	<a href="/{{ if eq .Site.LanguageCode "en-US" }}en/{{ end }}" class="title-link"><div class="title">Szymon Katra</div></a>
+	<hr class="hr-big"/>
+	<div class="flag-container">
+		<a href="/"><img class="left flag{{ if not (eq .Site.LanguageCode "pl-PL") }} flag-unselected{{ end }}" src="/images/pl.png" alt="pl"/></a>
+		<a href="/en"><img class="left flag{{ if not (eq .Site.LanguageCode "en-US") }} flag-unselected{{ end }}" src="/images/en.png" alt="en"/></a>
+		<div class="clear"></div>
+	</div>
+	<div class="social-container">
+		<script type="text/javascript">document.write("<a href=\"mailto:" + getEmail() + "\" class=\"left social social-mail\">");</script>
+		<i class="icon-mail"></i></a>
+		<a href="https://github.com/SzymonKatra" target="_blank" class="left social social-github"><i class="icon-github-circled"></i></a>
+		<div class="clear"></div>
+	</div>
+
+	{{ $.Scratch.Add "current" ""}}
+
+	{{ $.Scratch.Set "current" "application" }}
+	{{ partial "nav-category-project.html" . }}
+
+	{{ $.Scratch.Set "current" "game" }}
+	{{ partial "nav-category-project.html" . }}
+
+	{{ $.Scratch.Set "current" "electronics" }}
+	{{ partial "nav-category-project.html" . }}
+
+	{{ $.Scratch.Set "current" "library" }}
+	{{ partial "nav-category-project.html" . }}
+
+	{{ $.Scratch.Set "current" "other" }}
+	{{ partial "nav-category.html" . }}
+
+	{{ if eq .Site.LanguageCode "pl-PL" }}
+		{{ $.Scratch.Set "current" "matura" }}
+		{{ partial "nav-category.html" . }}
+	{{ end }}
+
+	<div class="nav-copyright">
+		&copy; Szymon Katra<br/>
+		Powered by <a href="http://gohugo.io">Hugo</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(".nav-category").click(function()
+	{
+		var id = $(this).attr("id");
+		var listId = "#" + id + "-list";
+		$(".nav-category-list").slideUp(500);
+		if ($(listId).css("display") == "none")
+		{
+			if ($(listId).length) $(listId).slideDown(500);
+		}
+	});
+</script>

@@ -1,0 +1,7 @@
+baseurl : http://szymonkatra.github.io/en
+languageCode: en-US
+title:  Szymon Katra
+MetaDataFormat: yaml
+contentdir: content/en
+publishdir: ../en
+staticdir: dummy # don't need to copy static because it is copied from main site (PL)

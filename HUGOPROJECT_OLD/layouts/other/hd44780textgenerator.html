@@ -1,0 +1,49 @@
+<table style="border: none;">
+    <tr>
+        <td style="border: none;">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_width" }}:</td>
+        <td style="border: none;"><input type="text" id="width" value="16" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_height" }}:</td>
+        <td style="border: none;"><input type="text" id="height" value="2" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_cellSize" }}:</td>
+        <td style="border: none;"><input type="text" id="cellSize" value="4" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_cellSpacing" }}:</td>
+        <td style="border: none;"><input type="text" id="cellSpacing" value="1" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_charSpacing" }}:</td>
+        <td style="border: none;"><input type="text" id="charSpacing" value="3" size="1"/></td>
+    </tr>
+    <tr>
+        <td style="border: none;">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_text" }}:</td>
+        <td style="border: none;"><textarea id="text" cols="50" rows="6"></textarea></td>
+    </tr>
+    <tr>
+        <td style="border: none;" colspan="2"><button class="button" onclick="buttonClick()">{{ index (index $.Site.Data.strings $.Site.LanguageCode) "hd44780textgenerator_generate" }}</button></td>
+    </tr>
+</table>
+<div style="margin-top: 20px;">
+    <canvas id="output" width="0" height="0"></canvas>
+</div>
+
+<script type="text/javascript" src="/data/other/hd44780textgenerator/main.js"></script>
+<script type="text/javascript" src="/data/other/hd44780textgenerator/patterns.js"></script>
+<script type="text/javascript">
+    init(document.getElementById('output'));
+
+    function buttonClick()
+    {
+        setWidth(parseInt(document.getElementById("width").value));
+        setHeight(parseInt(document.getElementById("height").value));
+        setCellSize(parseInt(document.getElementById("cellSize").value));
+        setCharSpacing(parseInt(document.getElementById("charSpacing").value));
+        setCellSpacing(parseInt(document.getElementById("cellSpacing").value));
+        generate();
+        writeText(document.getElementById("text").value);
+    }
+</script>

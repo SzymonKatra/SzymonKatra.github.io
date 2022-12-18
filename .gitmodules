@@ -1,0 +1,3 @@
+[submodule "hugoproject/themes/hugo-coder"]
+	path = hugoproject/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
